@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='windows-1252' standalone='yes'?>
+<MetaData>
+
+<ProjectTemplate>
+  <Title localize="yes">Module Configuration Editor</Title>
+  <Description localize="yes">Creates a sample configuration editor for modules, engines, and targets.</Description>
+  <Filters localize="yes">Templates</Filters>
+  <Keywords localize="yes">data;component;framework;mapping;access;plugin;editor;configuration</Keywords>
+  <LocationPath>Module Configurator</LocationPath>
+  <ProjectPath>Module Configuration Editor.lvproj</ProjectPath>
+  <ListboxImagePath>images/datacomp.png</ListboxImagePath>
+  <DocumentationPath>documentation/module configurator documentation.html</DocumentationPath>
+  <CustomVIMode>AfterPage2NoUI</CustomVIMode>
+  <CustomVIPath>scripting/PostCopyScripting.vi</CustomVIPath>
+  <MetaDataClass>scripting/editorscriptingobject.lvclass</MetaDataClass> 
+  <SortPriority>300</SortPriority>
+</ProjectTemplate>
+
+</MetaData>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='windows-1252' standalone='yes'?>
+<MetaData>
+
+<ProjectTemplate>
+  <Title localize="yes">Module Execution Engine Runtime</Title>
+  <Description localize="yes">Creates a project which is capable of executing tag bus modules generically, using a queued message handling architecture.</Description>
+  <Filters localize="yes">Templates</Filters>
+  <Keywords localize="yes">data;component;framework;mapping;access;plugin</Keywords>
+  <LocationPath>Module Execution</LocationPath>
+  <ProjectPath>Module Execution.lvproj</ProjectPath>
+  <ListboxImagePath>images/datacomp.png</ListboxImagePath>
+  <DocumentationPath>documentation/module execution.html</DocumentationPath>
+  <CustomVIMode>None</CustomVIMode>
+  <SortPriority>300</SortPriority>
+</ProjectTemplate>
+
+<ProjectTemplate>
+  <Title localize="yes">Single Engine System</Title>
+  <Description localize="yes">Creates a single-threaded executable which is capable of executing tag bus modules.</Description>
+  <Filters localize="yes">Sample Projects</Filters>
+  <Keywords localize="yes">data;component;framework;mapping;access;plugin</Keywords>
+  <LocationPath>Single Engine System</LocationPath>
+  <ProjectPath>Single Engine System.lvproj</ProjectPath>
+  <ListboxImagePath>images/datacomp.png</ListboxImagePath>
+  <DocumentationPath>documentation/module execution.html</DocumentationPath>
+  <CustomVIMode>None</CustomVIMode>
+  <SortPriority>300</SortPriority>
+</ProjectTemplate>
+
+</MetaData>
+

@@ -1,0 +1,421 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Actor Framework Whitepaper</title>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=Windows-1252">
+	
+<style>
+<!--
+/***************************************************/
+/* MINIMAL STYLES */
+/* The following section defines styles that every HTML Help project should need. */
+
+/* Specifies White Background color */
+body {background-color:#FFFFFF; font-family:Verdana, sans-serif; font-size:8pt; color: #000000;}
+
+/* The default style of P is red to alert you that you need to apply a style class, such as Body. */
+P { margin-top:6.00pt; margin-bottom:6.00pt;}
+
+BR { font-size:4.00pt; }
+
+/* Use H1 for all topic headings. */
+H1 { margin-top:3.00pt; margin-bottom:3.00pt; font-size:150%; font-weight:bold;  }
+
+/* Use H2 for second-level headings. */
+H2 { margin-top:9.00pt; margin-bottom:3.00pt; font-size:125%; font-weight:bold;  }
+
+/* Use H3 for third-level headings. */
+H3 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold;  }
+
+/* Use H4 for fourth-level headings. */
+H4 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold;  }
+
+/* H5 and H6 have the same definition as H4 because you should not need this level of heading in one topic. If you need to use H5 or H6, consider breaking up your topic into more than one topic. */
+H5 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold;  }
+H6 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold;  }
+
+/* Use the Body style class for normal paragraphs. */
+P.Body {  }
+
+/* Use the Anchor style class for graphic references on a line by themselves. */
+P.Anchor { font-size:125%;  }
+
+/* Use the Indent style classes to indent a paragraph. If you need to indent text below a list item, use <br><br> to start the new paragraph within the same set of <li></li> tags. If you need to indent a list within another list, nest the indented list within the first list's set of <ol></ol> or <ul></ul> tags. */
+P.Indent1 { margin-left:12.00pt; margin-bottom:3.00pt;  }
+P.Indent2 { margin-left:24.00pt; margin-bottom:3.00pt;  }
+P.Indent3 { margin-left:36.00pt; margin-bottom:3.00pt;  }
+P.Indent4 { margin-left:48.00pt; margin-bottom:3.00pt;  }
+P.Indent5 { margin-left:60.00pt; margin-bottom:3.00pt;  }
+
+/* Use the LI style for all list items. */
+LI { margin-top:3.00pt; margin-bottom:3.00pt; }
+
+/* Use the OL style for numbered lists. You do not have to type the number for each list item in a numbered list. */
+OL { margin-left:22.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; list-style-type: decimal; }
+
+/* Use the OL style for numbered lists. Nested lists will use the bullet types according to the nesting scheme below */
+ol ol {list-style-type:lower-alpha}
+ol ol ol {list-style-type:decimal}
+ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol ol ol {list-style-type:lower-alpha}
+
+
+/* Use the EquationNum style class for numbered lists of equations. You do not have to type the number for each list item in a numbered list. */
+OL.EquationNum { margin-left:36.00pt; text-indent:0pt; list-style-type: decimal; }
+
+/* Use the List-abc style class for lettered lists. You do not have to type the letter for each list item in a lettered list. */
+OL.List-abc { margin-left:22.00pt; text-indent:0pt; list-style-type:lower-alpha; }
+
+/* Use the UL style for bulleted lists. You do not have to type the bullet for each list item in a bulleted list. */
+UL { margin-left:22.00pt; text-indent:0pt; margin-top:3.00pt; margin-bottom:3.00pt; list-style-type: disc; }
+
+/* Use the UL style for bulleted lists. Nested lists will use the bullet types according to the nesting scheme below. */
+ul ul {list-style-image: none;list-style-type: circle}
+ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul {list-style-image: none;list-style-type: circle}
+ul ul ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul ul ul {list-style-image: none;list-style-type: circle}
+ul ul ul ul ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul ul ul ul ul ul{list-style-image: none;list-style-type: circle}
+
+/* Use the List-Box style class for bulleted lists with boxes instead of bullets. You do not have to type the box for each list item in a box list. */
+UL.List-Box { list-style-image: none;list-style-type: square}
+
+Table { font-size:100%; }
+
+/* Use the Borderless style class for tables that do not need borders, such as for 2-column or 3-column lists with no headings. */
+Table.Borderless { border:none; }
+
+/* Use the Bordered style class for tables that need borders. */
+Table.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; border-collapse: collapse; }
+
+/* Use the TD style for table cells in Borderless or Borderless-Wide tables. */
+TD { vertical-align:top; padding:3px; }
+
+/* Use the Bordered style class for table headings and cells in Bordered or Bordered-Wide tables. */
+.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; }
+
+/* Use the Icon style class for table cells that contain note, caution, warning, or tip icons, or LabVIEW datatype terminals. */
+TD.Icon { width:40px; }
+
+/* Use the TH style for table heading cells in Borderless or Borderless-Wide tables. */
+TH { font-weight:bold; padding:3px; }
+
+/* Use the Left-Align style class for table headings and cells that you want to left align instead of center align. */
+.Left-Align { text-align:left; }
+
+/***************************************************/
+/* CHARACTER FORMATS */
+/* The following section defines character formats that every HTML Help project should need. */
+
+/* CHARACTER FORMATS Updated to conform with the CSE HTML Validator Pro */
+/* The following section defines character formats that every HTML Help project should need. */
+
+/* Use the Dark-Red format for warnings or cautions. */
+.Dark-Red { color: #800000 }
+
+/* Use the Monospace format for code or syntax examples. */
+.Monospace { font-family: Courier New; font-size: 100%; }
+
+/* Use the Monospace-Bold format for messages and responses that the computer automatically prints to the screen. */
+.Monospace-Bold { font-family: Courier New; font-weight: bold; font-size: 100%; }
+
+/* Use the Monospace-Italic format to denote text that is a placeholder for a word or value that the user must supply. */
+.Monospace-Italic { font-family: Courier New; font-style: italic; font-size: 100%; }
+
+/* small class */
+.smallFont { font-size:87.5%; }
+
+/* Bold class */
+.Bold { font-weight: bold; }
+
+/* Italic class */
+.Italic { font-style: italic; }
+
+/* Use the Platform format to denote a specific platform. */
+.Platform { color: #0000FF; font-weight: bold; }
+
+/* Use the Symbol format for characters not in the Verdana character set. Use this format sparingly. When possible, you should use the correct ASCII code for the symbol or use a graphic to recreate the symbol. */
+.Symbol { font-family: Symbol; }
+
+/* Use the Red-text format to call attention to text that needs  information added or edited by techcomm */
+.Red-text {color: #FF0000;}
+
+/* Use the Green-Underline format for the green defintion in the conventions topic */
+.Green-Underline {color: #007700; text-decoration : underline;}
+
+/* Use the glossButton format for the glossary buttons used in the glossary topic */
+.glossButton { font-size:12px; color:black; }
+
+/* Use for text sections and hyphenated words that should not break at line wraps */
+.nobreak{white-space:nowrap}
+
+/* Use for template instructions. */
+.instructions{color:red; font-style:italic}
+
+/*Use for words and text sections that do not need to be localized */
+.DNL { }
+
+/* The following styles define the color of links. */
+a:link { color: #007700 }
+a:visited { color: #7F007F }
+a:link:hover { color: #FF0000 }
+a:link:active { color: #FF0000 }
+
+/***************************************************
+** Forms */
+
+form { margin-top:0pt; margin-bottom:3pt; color:black; }
+select { font-size:100%; color:black; }
+
+/*******************************************************
+** Margins **
+** Use these styles for block-level elements inside tables cells or list items where you do not want extra padding at the top or bottom of a cell. */
+.noTopMargin { margin-top:0pt;}
+.noBottomMargin { margin-bottom:0pt;}
+
+/***************************************************
+** CODE STYLES **
+** The following section defines styles that you need to format entire sections of code or syntax examples. If you have just a few words you need to format as a code or syntax example, use the Monospace character format. */
+ex
+P.Code { margin-top:3.00pt; margin-bottom:0.00pt; font-family:Courier New;  }
+P.Code1 { margin-left:12.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:Courier New;  }
+P.Code2 { margin-left:24.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:Courier New;  }
+P.Code3 { margin-left:36.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:Courier New;  }
+-->
+</style>
+
+<script type="text/javascript"> // define hyperlinks and function for launching a URL in a browser
+
+
+var NO_LOC_AF_Community = "http://digital.ni.com/express.nsf/bycode/exwhyc";
+var NO_LOC_Timing_Probes = "http://digital.ni.com/express.nsf/bycode/exaeby";
+var NO_LOC_VI_Tester = "http://digital.ni.com/express.nsf/bycode/ex3t7k";
+var NO_LOC_AF_Expansion = "http://digital.ni.com/express.nsf/bycode/exef8c";
+var L_trademarks = "http://digital.ni.com/express.nsf/bycode/rdtrad";
+var L_patents = "http://digital.ni.com/express.nsf/bycode/rdlv17";
+
+function WWW(url) 
+	{
+	var urlWindow;
+	urlWindow = window.open(url, "New", "directories=yes,location=yes,menubar=yes,resizable=yes,scrollbars=yes,status=yes,toolbar=yes");
+	}
+</script>
+
+</head>
+<body>
+<h1>Actor Framework Whitepaper</h1>
+
+<p>The Actor Framework is a software library that supports the writing of applications in which multiple VIs run independently while communicating with each other. In these applications, each VI represents some actor carrying out an independent task in the system. The actor maintains its internal state and sends messages out to the other actors. Many techniques exist for creating such applications in LabVIEW. The Actor Framework focuses on being easy to learn (relative to other possibly-more-powerful tools) while mitigating risk of deadlocks/race conditions and maximizing code reuse.</p>
+
+<p>National Instruments created The Actor Framework to fill a hole in the standard architectures used by LabVIEW programmers. The Actor Framework builds on the well-known queue-driven state machine<sup>1</sup> (QDSM) model, which is shown in the following figure.</p>
+
+<img src="loc_image001.png" alt="Figure 1: A Sample Queue-Driven State Machine">
+
+<p>The QDSM is one of two patterns used in the majority of LabVIEW applications (the other being the Producer/Consumer model). Individual QDSMs are well-encapsulated software modules that can combine to create large systems with rich behavior.  Many LV-written applications do this successfully but often contain two common pitfalls. First, although the QDSM is good for defining a module, the modules themselves often have limited reuse potential. In many applications, a state machine written to represent one subsystem or piece of hardware would be duplicated in its entirety to support another similar subsystem or piece of hardware. Second, every application framework had at least one potential timing-related bug in its communication scheme. When individual programmers create a messaging scheme, they often introduce subtle errors involving resource contention, excessive coupling between modules, missed messages or deadlocks. </p>
+
+<p>By applying some common object-oriented techniques and design patterns to the original queue-driven state machine, National Instruments created a framework that provides:</p>
+<ul><li>All of the benefits of QDSM design</li>
+<li>Significantly increased flexibility</li>
+<li>More reuse potential</li>
+<li>Reduced coupling between modules</li></ul>
+
+<h1>Basic Actor Framework</h1>
+<p>The Actor Framework is a set of classes that provide common state and message handling functions.  </p>
+
+<p>The model provides the following two parent classes from which you create child classes:</p>
+<ul><li><strong>Actor</strong>&#8212;State data in a module.</li>
+<li><strong>Message</strong>&#8212;Messages passed between actors to trigger state changes.</li></ul>
+
+<p>The Actor Framework includes two specific Message child classes called <strong>Stop Msg</strong> and <strong>Last Ack</strong>. These child classes are particular messages used when shutting down actors. Additional Message child classes are distributed with the framework, but are not included in the framework library itself since they are not required in all applications. These additional message classes support optional use cases. </p>
+
+<p>Under the hood, the framework makes extensive use of LabVIEW's queue functions. The public API, however, hide the raw queues using three classes: <strong>Message Queue</strong>, <strong>Message Enqueuer</strong>, and <strong>Message Dequeuer</strong>. The <strong>Message Queue</strong> is a wrapper around the basic queue API, which we created because the communications mechanism could change in the future to include network streams or other API, and we wanted users of the Actor Framework to be independent of changes made to that layer. It also adds priority transmission to the queues, maintaining the same high performance for which the LabVIEW queues are known. The other two classes wrap <strong>Message Queue</strong> and limit the operations that can be called on the queue in order to enforce the direction of message transmission. When an actor creates its message queue, it gives its caller a message enqueuer and not the whole queue. The caller thus can only enqueue messages on this queue. The caller cannot dequeue from the queue and cannot release the queue. Similarly, any VI that has a message dequeuer can only dequeue messages, never enqueue them. The <strong>Message Dequeuer</strong> class is not used within the framework; it is included because it is often useful when writing test harnesses for your actors. By limiting what can be done to the queues in various parts of the code, the framework is able to make guarantees about timing and message delivery that otherwise could not be proven.</p>
+
+<h1>Actors</h1>
+<p>In the Actor Framework, an actor is a LabVIEW object that represents the state of an independently running VI. Because the actor object is shielded inside the running VI and all outside access is done by sending messages to the VI, the term "actor" is also used for the VI itself. The flexible usage of the term becomes natural once you understand how tightly paired the actor object becomes with the VI hosting it. All actor classes inherit from <strong>Actor</strong>. An actor object is a normal by-value, dataflow object with accessors and methods. You can make any existing class into an actor simply by setting it to inherit from <strong>Actor</strong>.</p>
+
+<p><strong>Actor</strong> provides exactly one public method called <em>Launch Actor.vi</em>, shown in the following figure.</p> 
+
+<img src="loc_image003.png" alt="Launch Actor.vi">
+
+<p>This method uses VI Server to launch an independent reentrant clone of the private method, <em>Actor.vi</em>, which defines the QDSM. <em>Launch Actor.vi</em> has two required inputs: the initial actor object and a enqueuer reference object. The VI returns a new enqueuer reference object as output. The input enqueuer passes messages from the launched actor (the callee) back to the caller. The output enqueuer passes messages from the caller into the callee. Note that Launch Actor.vi does <em>not</em> return the <strong>Actor</strong> object; it is passed from <em>Launch Actor.vi</em> to <em>Actor.vi</em> and is no longer available to the caller. All further interaction with the object is done by passing messages into the message queue, through the enqueuer.</p>
+
+<p><strong>The communication lines among actors always form a tree.</strong> Generally, in Actor Framework applications, a small stub VI launches one root actor. That actor becomes the caller actor for one or more nested actors. Each of those nested actors may launch their own nested actors, and so on. These caller-to-actor relationships and the actor tree are fundamental to Actor Framework application design. In general, an actor can communicate with only its caller and its own nested actors. National Instruments recommends that you avoid establishing any direct communication across the actor tree. However, you may establish direct cross-tree communication if you have good reason.</p>
+
+<p> Refer to the <a href="#ActorTree">Considerations for Implementation</a> section of this document for more information about the actor tree.</p>
+
+<p><em>Actor.vi</em> calls <em>Actor Core.vi</em>, which is a protected scope, dynamic dispatch VI:</p>
+
+<img src="loc_image005.png" alt="Figure 2: The eldest implementation of Actor Core.vi">
+
+<p>You should recognize <em>Actor Core.vi</em> as a queue-driven state machine. As each message arrives, the message invokes methods on the actor (see "Messages," below). An error will stop the state machine, although special consideration is given to error code 43, Cancel Error, which does stop the machine but does not propagate up to callers.</p>
+
+<p>A child class can override Actor Core.vi, though the override VI must invoke the Call Parent node. Because the Call Parent node runs the state machine, it should be in parallel, not serial, with other operations you add in the override VI. The override VI can include a user interface, calls to launch nested actors, or additional control logic for the state machine. You will find more details about these overrides later in this document.</p>
+
+<h2>User Interfaces for Actors</h2>
+<p>The Actor Framework does not provide the method VIs of your actor with any directly access to controls, indicators, or parallel loops that might be part of its override of <em>Actor Core.vi</em>. You must define that access within your actor.</p>
+
+<p>Here are two easy ways to define that access within your actor:</p>
+<ol>
+<li>Include a reference in your actor's private data to either your <em>Actor Core.vi</em> or to its front panel objects. Bundle these references into the actor before invoking the Call Parent node. Your actor can then access these references from within any of its methods. This method allows your methods to control the user interface of the Actor Core.vi, although it may not be the most efficient approach. This approach works well for interfaces that are only displaying information and not reacting to users' actions.</li>
+<li>Create a set of user events to manage your front panel updates. Create these events in your <em>Actor Core.vi</em> and bundle them into the actor object prior to invoking the Call Parent node. Then create a loop in your <em>Actor Core.vi</em> that runs in parallel to the Call Parent node which is dynamically registered for the events. When the actor receives a message, the handling function for that message can generate the appropriate event and pass along any relevant data. Alternatively, you may choose to use queues, notifiers, or other mechanisms to communicate with your parallel loop rather than events. Regardless of which mechanism you prefer, National Instruments recommends that you select only one data transfer mechanism within any given actor, and keep the total number of such mechanisms to a minimum within the application as a whole. Be sure to provide a mechanism to stop your parallel loop and trigger that mechanism by overriding <em>Stop Core.vi</em> in your actor child class.</li></ol>
+
+<h1>Messages</h1>
+<p>Use message objects to modify the state of an actor object. Message objects take the place of individual cases in a traditional queue-driven state machine. Message objects inherit from <strong>Message</strong>, and must override the <em>Do.vi</em> method. Child Message classes usually include some attribute data and a <em>Send &lt;message&gt;.vi</em> method. Depending on the application, there may be additional methods for reading or writing the message data.</p>
+
+<p>The queues passed to and returned by <em>Launch Actor.vi</em> take messages as their data type. A VI that needs to interact with an actor must have access to the actor's message enqueuer. The VI creates a message of the desired type and enqueues it to the actor's queue. Typically the VI accomplishes this by invoking the relevant Send &lt;message&gt;.vi. <em>Send &lt;message&gt;.vi</em> combines creating the message, writing its data, and posting it to the queue in a single call. You can perform these tasks separately if desired.</p>
+
+<p>You must provide a message for every method of your actor that you want to access remotely. A message typically represents a call to one method of the class, and the message class' private data is the input parameters needed to invoke that method. When your actor receives a message, it invokes that message's <em>Do.vi</em> method. <em>Do.vi</em> in turn invokes the appropriate operation on the actor. Most applications have a one-to-one correspondence between a message class and an actor's method, but there are rare cases where a single message represents multiple operations on the actor. Creating these message classes may sound tedious, but the Actor Framework includes a scripting tool, discussed later, to eliminate the busy work.</p>
+
+<p>You can use messages you create for a specific actor class with any child of that actor. For example, consider a fan controller that exposes a public method <em>Toggle On.vi</em> for turning the fan on or off.  The programmer creates a corresponding message class, <strong>Toggle On Msg</strong>, that the controller's caller can use to invoke that method. The following figure shows the <em>Do.vi</em> for <strong>Toggle On Msg</strong>.</p>
+
+<img src="loc_image007.png" alt="Figure 3: Toggle On Msg.lvclass:Do.vi">
+
+<p>What about outputs from the methods? The more you work with the Actor Framework, the more you will find yourself creating many methods that have no outputs other than the actor object and error out. This is because the message passing environment encourages methods that are more about reacting to information sent by other objects and less about requesting information from other objects. Often, instead of having output parameters, the method itself will send a message to its caller or other actors as part of its execution.</p>
+
+<img src="loc_image009.png" alt="Figure 4: Do.vi method sending reply to caller">
+
+<p>Having said that, needing to pass data back to a caller after a message is finished being handled is not uncommon. If the actor method does have outputs, you can add another method to the actor to wrap the one with outputs, and within the wrapper VI, use <em>Read Caller Enqueuer.vi</em>. This assumes, of course, that the message came from the caller originally. If the original sender was not the caller, the sender may provide an instance of <strong>Self-Addressed Message</strong> in the original request to use for the reply. In either case, the caller/sender hears this reply asynchronously. In other words, the caller/sender is not waiting for a reply but is instead proceeding with its own work. The use of asynchronous messaging between actors is strongly preferred within the Actor Framework. Refer to the <strong>Synchronous Reply Messages</strong> section below for information about actor interactions requiring synchronous replies. More information about replying to messages is discussed in the <strong>Messages from Callee to Caller</strong> section, below.</p>
+
+
+<h2>Message Types</h2>
+<p>The Actor Framework ships with six message types.</p>
+<ol><li><strong>Message</strong>&#8212;The parent message class. Only messages that are children of this class are valid messages within the framework. An actor that receives an instance of <strong>Message</strong> will take no action, so this can be used as a null message. Descendants of <strong>Message</strong> must override <em>Do.vi</em>.
+</li><li><strong>Stop Msg</strong>&#8212;Tells an actor to shut down. The actor will stop handling further messages and will perform any cleanup work defined in its <em>Stop Core.vi</em>. If your actor launches any nested actors in its <em>Actor Core.vi</em> override, your actor should also override <em>Stop Core.vi</em> and pass the stop message along to those nested actors. Stop Msg has two different Send methods &#8211; one sends the message at Normal priority. The other sends the message at Emergency priority, which is even higher than the High priority. This is the only message in the framework that can ever be sent at Emergency priority. Review the Context Help for the <em>Send Emergency Stop.vi</em> for further information.
+</li><li><strong>Last Ack</strong>&#8212;Gives a caller the final state of an actor that has shut down. The Last Ack.lvclass carries the callee's final error (if any) and the final value of the actor for use by the caller.
+</li><li><strong>Batch Msg</strong>&#8212;Collects several other message objects together into one so they are sent to an actor in a single atomic burst. <em>Send Batch.vi</em> takes an array of message objects and bundles them into a single message. The <em>Do.vi</em> of <strong>Batch Msg</strong> iterates through the array in a For Loop. This guarantees that no other messages can be enqueued in between the batched messages, which can be a concern if you enqueue each message individually.
+</li><li><strong>Self-Addressed Msg</strong>&#8212;Wraps a regular message and the message enqueuer of the actor that receives the message. <em>Address Message.vi</em> creates the wrapped message and records the queue for the message to be sent back along. <em>Send Self-Addressed Msg.vi</em> sends the preconfigured message to the specified queue, making this message type completely self-contained. Use it to send messages from a source that has no knowledge about the recipient.
+</li><li><strong>Reply Msg.lvclass</strong>&#8212;Defines synchronous messages. Refer to the next section.</li></ol>
+
+<h2>Synchronous Reply Messages</h2>
+<p>When a message requires that your caller wait for a synchronous response to the message, you can create a new message class that inherits from <strong>Reply Msg</strong>. A reply message is sent using <em>Send Message and Wait for Response.vi</em>. It bundles a single-use queue into the message and then waits for a reply on that queue (with provision for timing out if desired). Usually your new message class will have its own <em>Send &lt;message&gt;.vi</em> which wraps <em>Send Message and Wait for Response.vi</em>. Your new message class will override <em>Do Core.vi</em> instead of <em>Do.vi</em> and return a message for the caller. Figure 4 shows an example of how the <strong>Reply Msg</strong> <em>Do.vi</em> passes that message back to the caller.</p>
+
+<p>Do not override <em>Do.vi</em> of the <strong>Reply Msg</strong> class.  Instead, override the protected <em>Do Core.vi</em>. Have <em>Do Core.vi</em> call the appropriate method of your actor and whatever other functionality you require, then return a suitable message to send to the caller. The default behavior returns an instance of Message. You do not have to override <em>Do Core.vi</em> if the only feedback your message requires is acknowledgement of receipt.</p>
+
+<p>Using <strong>Reply Msg</strong> creates the potential for deadlock situations. For example, if the caller sends a synchronous message to the callee at the same time that the callee sends a synchronous message back to the caller, the application will deadlock. To minimize the risk, use <strong>Reply Msg</strong> sparingly. If two actors are able to communicate with each other (as when one is the caller and the other is the callee), if one of them can send reply messages, avoid having any reply messages on the other. Also take care to avoid cascading reply messages, where the caller's reply causes the callee to send a reply message, as this "echo chamber" effect can lead to infinite message spawning.</p>
+
+
+
+
+<h2>Messages from Callee to Caller</h2>
+<p>When a caller wants to send a message to the callee, the caller knows the type of the actor that it launched, so caller can easily choose the right type of message to send. But when an actor wants to send a message to its caller, the actor does not necessarily know what type of caller it has, so it does not know what type of message to send. Ideally, actors should be usable by many different callers. That maximizes code reuse. But making the actor truly independent of the caller requires more effort than is warranted for the situation. There are three techniques for defining messages that an actor sends to its caller:</p>
+
+<ol><li><strong>The High Coupling Solution</strong>&#8212;In this solution, the callee actor is written specifically for one type of caller, and can never be used with any other type of caller. In this case, the callee knows details about the caller's interface, so it may simply call the Send Message VI of the appropriate message. The message type is thus hardcoded into the actor.
+</li><li><strong>The Low Coupling Solution</strong>&#8212;This solution works best when you have a known inheritance hierarchy of callers. In this solution, you create a matching hierarchy of callee actors. So suppose you have callers <strong>Hard Drive</strong>, <strong>Air Conditioner</strong>, and <strong>Fire Suppression</strong>, each of which needs to launch a <strong>Fan</strong> actor. You would create the <strong>Fan</strong> class, and then inherit from it <strong>Fan For Hard Drive</strong>, <strong>Fan For Air Conditioner</strong>, and <strong>Fan For Fire Suppression</strong>. Each caller launches its specific callee actor. All of the main <strong>Fan</strong> class' code is shared, but when it comes time to send messages, the <strong>Fan</strong> class has a dynamic dispatch method for doing the sending, and each of the children overrides that method to send the message appropriate for its caller. Each callee is still coupled to a specific caller, but the system as a whole is flexible to accommodate new caller types.
+</li><li><strong>The Zero Coupling Solution</strong>&#8212;In order to make the callee actor independent from the caller, the caller must tell the callee what types of messages to send so the callee avoids picking a type itself. The best implementation of this solution has the caller record a message into the callee at the time the callee is launched. The callee provides a <em>Set &lt;Type&gt; Message.vi</em> method, where &lt;Type&gt; is the particular event that will trigger the message to be sent. The caller sets the exact message it wants to receive when this event occurs. When the event happens, the callee sends the chosen message, without any knowledge of what kind of caller is receiving that message.</li></ol>
+
+<p>Often the callee defines an abstract Message class that it uses as the input type for <em>Set &lt;Type&gt; Message.vi</em>. Callers create their own specific child of this abstract class. This setup gives the callee a way to set data into the message through the API defined by the abstract class, and gives the message a way to deliver that data in a form the caller can consume through the various overload and extension VIs. </p>
+
+<h1>Considerations for Implementation</h1>
+
+<h2><a name="ActorTree"></a>The Actor Tree</h2>
+<p>Actor communications form a tree. Most module communications frameworks have more of a listener/observer pattern, where a module runs and publishes information and any other module may subscribe to hear about
+updates, forming a cross-connected graph of listeners. During the development of the Actor Framework, we looked at many of these communications frameworks. We realized that almost without exception,
+every module had one other module that was somehow responsible for it. Generally, this other module was responsible for starting the module up and telling it when to shut down. We observed that this key
+relationship was rarely formalized within these networks, and that lack of a formal relationship was often the source of bugs, particularly bugs where some module failed to shut down when the system was trying
+to exit. By formalizing the actor tree, it is clear which other actor is responsible for shutting this actor down and, if this actor has an error, which other actor needs to hear about that error.</p>
+
+<p>We also noted that the graph of listeners lead to variations on the echo chamber problem: when one module published a message, the listeners would hear that message in a somewhat random order. Sometimes this was 
+related to the order of registration, but it could just as easily be related to some arbitrary sort order among the modules. The two specific bugs that came from this were:</p>
+<ol>
+	<li>A module would hear a message about some system change and would start acting differently, but a module that is listening to it might not have heard about the system change yet, and until the system change message 
+	had echoed through the entire graph, the behavior of the modules was undefined.</li>
+	<li>A module would announce some message. Another module would hear that message and repeat it. And then others would repeat it. Eventually the module would hear its own message repeated, but it had no idea if that 
+	was its own message or an original message from someone else, so it would repeat it again.</li>
+</ol>
+
+<p>There are multiple solutions to both of these problems, but they all required extensive coding on the part of users of these communications frameworks. The Actor Framework takes the approach of formalizing the 
+caller-to-actor relationships into a tree and encouraging messages to propagate through the tree. The timing of messages disseminating through the tree becomes deterministic, and message propagation has a general 
+direction to flow, dodging most forms of the echo chamber problem.</p>
+
+<p>When a caller launches an actor, the queue to talk to that actor is returned to the caller. No other code module has any way of requesting or looking that queue up by name. Thus the actor tree is preserved by default. 
+When one actor wants to talk to a sibling actor, it passes a message up to the common caller, and the common caller passes a message down to the other actor. In general, actors are constructed to not even know about
+siblings -- it is the caller that knows about the siblings and makes decisions about which messages need to be passed along. You can bypass the actor tree by creating messages that pass one actor's queue to another actor. 
+You may choose to do this when those two sibling actors have such a strong interaction that you want them to talk directly rather than passing messages through the common caller actor. The caller actor is still in charge 
+of lifetime issues. Short circuiting the actor is something you should do rarely and consciously. Creating any sort of general repository of names mapping to queue references is ill-advised as it reintroduces the issues 
+described above.</p>
+
+<h2>Debugging Actors</h2>
+<p>Every actor runs on its own. Stopping one actor won't stop the others unless you have set up messages to go through the tree and shut everyone down. If you work with the framework for any time at all, you will at some point accidentally leave an actor running without its panel open. Your VI Hierarchy will be locked because it is running, but you won't have any way to open the panel of <em>Actor Core.vi</em> so you can click the Abort button. Try the following techniques to resolve this frustrating situation. </p>
+
+<p>The first quick workaround is to close your project and re-open it. You do not have to restart LabVIEW as long as you're working inside a project. Closing the project will abort all the running VIs in that project.</p>
+
+<p>A better solution is to use the optional input on <em>Launch Actor.vi</em> for <strong>Open Actor Core front panel? (F)</strong>. Wiring True to this input will make the front panel pop open when the actor is launched, giving you access to that actor's own Abort button. Using this terminal in release code is not recommended (for reasons explained in the Context Help of <em>Launch Actor.vi</em>), but while debugging, this can be a major headache saver.</p>
+
+<p>As far as debugging the actual logic of your applications, figuring out where a given message came from and whether or not Message A on Actor X was handled before or after Message B on Actor Y can be tricky. Before you try building some sort of event logging system, please check out the Desktop Execution Trace Toolkit or the Real-Time Execution Trace Toolkit from National Instruments. This tool has deep knowledge of LabVIEW and its APIs, giving you insight into execution ordering, memory allocation and error propagation. If you do not have access to these toolkits, you may find these <a href="javascript:WWW(NO_LOC_Timing_Probes)">&quot;timing probes&quot;</a> useful.</p>
+
+<h2>Actors in Libraries</h2>
+<p>Use libraries to manage and distribute your Actor classes. In addition to the child actor class, the library should contain most messages that target that actor and any additional tightly coupled classes, such a configuration object for the actor (refer to the <strong>Configuring Actors</strong> section, below), or the component objects of a composition. </p>
+
+<p>You may opt to bundle a family of Actors in a single library, especially where that family shares a single set of messages. Bundling messages in the library gives you the option to mark some messages as private; this should be done for any messages that are used exclusively by classes in your library, such as messages that the actor sends to itself from its own <em>Actor Core.vi</em>.</p>
+
+<p>Because a library in LabVIEW always loads all of its contained libraries into memory, you should package into your library only those message classes that are necessary for the actor itself to operate or are so commonly used as to warrant including. The Actor Framework library itself does not include the <strong>Batch</strong>, <strong>Reply</strong>, and <strong>Self-Addressed Msg</strong> because they are optional components of the framework and you can write many applications that use no such messages.</p>
+
+<h2>Configuring Actors</h2>
+<p>Often, you want to configure an actor with data from elsewhere in the system, such as in a configuration file. Before calling <em>Launch Actor.vi</em>, you can use the methods of the actor class to directly set values into the actor object. After calling <em>Launch Actor.vi</em>, you can give data to the actor object through its message queues. Although you could create multiple messages to set individual fields of the actor, consider creating a single Configuration class that encapsulates the configuration information. You can set the configuration object through normal method calls, then pass a single configure message to the Actor. These "large blocks of data" messages should be reserved one-time initialization of the object, not for updating the object while your application is running. While running, you should use messages that update only the fields that have changed rather than rebroadcast the entire object.</p>
+
+<p>Generally, the Actor should never provide its Configuration as returned data, as this can lead to race conditions. Refer to the <strong>Avoid Get and Set Messages</strong> section, below for more information. If you want to cache configuration data from a shut down actor, obtain that data from the final value the actor returned in the Last Ack message. The actor may have a <em>Get Configuration.vi</em> which is simply not exposed as a message.</p>
+
+<h2>Implementing Actors Composed of Multiple Actors<br>
+(Composition and Aggregation)</h2>
+<p>In LabVIEW, a data object can be described composed of other data objects when those other objects are part of its private data. Actor objects are generally only accessible through their message queues; in this case, an object is composed of other actors when it has the actors' message queues as part of its private data. Generally, the composed object will itself be an actor, hereafter called the caller actor. The components are callee actors. There are two styles of caller actors: compositions and aggregations.</p>
+
+<p>In compositions, the caller actor is responsible for creating and destroying its callee actors. The standard implementation is to create, configure and launch the callees in the <em>Actor Core.vi</em>, prior to starting any While Loops or invoking the Call Parent node. The caller actor stores the <strong>Message Enqueuer</strong> returned by <em>Launch Actor.vi</em> for each component as part of its private data. You will need to override <em>Stop Core.vi</em> in the caller to send stop messages to each callee so they all shut down together. A slight variation on this style has the caller actor create its callees dynamically in response to a message received. </p>
+
+<p>In aggregations, the callee actors are created separately from the caller actor. The callees' queues will be given to the caller rather than the caller creating them. If your callees are created prior to calling Launch Actor for your caller, you can store the queues through a direct method call on the caller actor.  If callees are created independently, use a message to pass them to the caller actor. There are no fixed rules in an aggregation for how to handle Stop. Sometimes the aggregator is considered the owner for the callees and when it gets the Stop message, it passes it to the callees. Sometimes the aggregator is merely an interface that the callees talk through, and the caller can stop but the callees go on. Choose the approach that matches your application's needs.</p>
+
+Avoid Get and Set Messages
+<p>Avoid creating messages or message pairs that retrieve an attribute from an Actor, modify it, and return it to the Actor. These types of operations can introduce the same kind of resource contention issues as seen with Data Value References (DVR) or functional globals. Worse, they open the door to race conditions.</p>
+
+<p>An actor runs a parallel task. If your Get/Set operation consists of two messages, then the Actor continues to run between your Get and Set messages. Another task could access and modify the same attribute concurrently causing a race condition.</p>
+
+<p>If your Get/Set operation consists of a single (probably <strong>Reply Msg</strong>-type) message, then you have locked the Actor for the duration of your operation. If your caller attempts to access your Actor as part of your modify operation, your application will deadlock. It is appropriate, of course, for a caller to send a message requesting an update (or regular series of updates) from a nested actor. It is also appropriate for a caller to push an update to the nested actor. Issues only arise when you logically link the get and set operations; that is, when you get attributes for the purpose of modifying and returning them.</p>
+
+<h1>Benefits of the Actor Framework</h1>
+<p>The Actor Framework provides numerous tangible benefits. It is significantly more flexible and extensible than traditional state machine architectures, and is safer and more efficient than by-reference class hierarchies.</p>
+
+<p>The pattern is similar to the functionality provided by a by-reference class because the design permits us to treat an Actor's Receive Queue as a handle to the Actor. Other by-reference designs rely on some container type, like data value references (DVRs) or single-element queues (SEQs) to create data that is shared between two independent VIs. While effective, this approach has the potential for race conditions and deadlocks, especially if there are multiple by-reference objects instantiated in the system. Furthermore, certain operations that are routine in languages with native by-reference support are cumbersome or even prohibited in the LabVIEW environment. The Actor Framework avoids many of these shortcomings by focusing on an asynchronous infrastructure instead of trying to replicate the by-reference patterns of other languages.</p>
+
+<h2>More Extensible and Reusable Code</h2>
+<p>The Actor Framework creates more potential for code extension and reuse than traditional state machines. A child Actor can reuse its parent's functionality in three ways:</p>
+<ol><li>To change a parent's behavior, use a child with an <strong>override</strong> method.
+</li><li>To add behavior to a parent, <strong>extend</strong> the parent by adding new methods to a child. 
+</li><li>To give the parent's control logic additional control logic, <strong>decorate</strong><sup>2</sup> the <em>Actor Core.vi</em> with an added control loop.</li></ol>
+<p>Messages are reusable within a class hierarchy, so a message that works on a parent still works on a child. In addition, messages themselves are inheritable, which can significantly simplify message senders. Finally, since messages are strongly typed, they reduce the risks associated with the untyped messages typically used in queue driven state machines.</p>
+
+<h2>Actors Objects Are Testable</h2>
+<p>You can test many actors without launching the Actor Core. Any of the member VIs of the actor class can be run directly. Those that do not attempt to send replies to other actors can be tested in isolation just like any other VI, without having to create the Self and Caller queues. You can verify the resulting state of an actor object by comparing it to another instance of a known value, just as you can check the contents of a LabVIEW cluster. This greatly facilitates automated testing. </p>
+
+<p>If a method does communicate with another actor, you will need to initialize to initialize the Self and Caller queues. You can use a VI found on disk called:<span class="Monospace">&lt;vilib&gt;\ActorFramework\Actor\Init Actor Queues FOR TESTING ONLY.vi</span></p>
+
+<p>This function provides a backdoor for setting the queues inside the actor, which are normally private, so you can mock up an actor and test whether, given a particular input message, it returns the expected result messages.</p>
+
+<p>You can fit the Actor to a test harness or perhaps a TestStand sequence. The harness can invoke the Actor's various methods, and you can compare the results to expected values in the form of Actor instances of known states. If the Actor incorporates a user interface into its Actor Core, you can pass the reference to the harness into the Actor instead of the reference to the Actor Core, and verify results by checking the values of updated controls and indicators. Note this is harder to do if you have opted to employ user events for front panel updates, which argues against that method. If the user interface associated with the Actor is a separate VI, you can test the Actor and user interface in different harnesses.</p>
+
+<p>The VI Tester from JKI is a system that is particularly good at providing testing for all object-oriented applications, including the Actor Framework. You can investigate that tool <a href="javascript:WWW(NO_LOC_VI_Tester)">here</a>.</p>
+
+<h2>Guaranteed Delivery of Stop Message</h2>
+<p>A common problem in other messaging frameworks occurs during shutdown. One component sends the stop message to another component and then quits. Because a refnum in LabVIEW has the same lifetime as the VI that created it, many frameworks have a problem that the queue can be destroyed before the other component receives the message. Many go to elaborate extremes to ensure message delivery before the first component exits. With the Actor Framework, each component creates its own receive queue, so that queue has the same lifetime as the receiver, not the sender. That means that any component &#8211; caller or callee &#8211; can send the stop message and then shut itself down without worrying about the message not being delivered. </p>
+
+<h1>Questions?</h1>
+<p><a href="javascript:WWW(NO_LOC_AF_Community)">The Actor Framework community forum</a></p>
+<p><a href="javascript:WWW(NO_LOC_AF_Expansion)">Download expansions and variations of the framework</a></p>
+
+<h1>Footnotes</h1>
+<ol><li>Also known as a Queue-Driven Message Handler.
+</li><li>&quot;Decorate&quot; is not an industry standard term in this context. It describes this third aspect of reuse that is unique to task frameworks.</li></ol>
+
+<hr>
+<p class="Body"><strong>Copyright</strong></p>
+<p class="Body">&#0169; 2013 National Instruments. All rights reserved.</p>
+<p class="Body">For copyright notices, conditions, and disclaimers, including information regarding certain third-party components used in LabVIEW, refer to the <em>Copyright</em> topic of the <em>LabVIEW Help</em>.</p>
+<p class="Body"><strong>Trademarks</strong></p>
+<p class="Body">LabVIEW, National Instruments, NI, <span id="Monospace">ni.com</span>, LabVIEW, the National Instruments corporate logo, and the Eagle logo are trademarks of National Instruments Corporation. Refer to the <em>Trademark Information</em> at <span id="Monospace">ni.com/trademarks</span> for other <a href="javascript:WWW(L_trademarks)"><span class="DNL">National Instruments</span> trademarks</a>.</p>
+<p class="Body"><strong>Patents</strong></p>
+<p class="Body">For patents covering the National Instruments products/technology, refer to the appropriate location: <strong>Help&#0187;Patents</strong> in your software, the <span id="Monospace">patents.txt</span> file on your media, or the <a href="javascript:WWW(L_patents)">National Instruments Patent Notice</a> at <span id="Monospace">ni.com/patents</span>.</p>
+</body>
+</html>
