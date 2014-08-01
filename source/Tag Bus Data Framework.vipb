@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-08-01 11:28:55" Creator="Daniel" Comments="" ID="f1e71d9066ffaa1a831862f714ec640b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-08-01 11:49:37" Creator="Daniel" Comments="" ID="e703dc2c2d0e16fecb1eacc8c4c7a696">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
     <Library_Version>1.0.2.77</Library_Version>
@@ -35,7 +35,7 @@
       <Description/>
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
-      <URL/>
+      <URL>https://github.com/TBDFramework/TBDCore</URL>
       <Release_Notes/>
     </Description>
     <Destinations>
@@ -386,7 +386,7 @@
         <Path>Framework Configuration Classes\platypus configuration\string to system.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7ECBA29FA71B0C7B54A94543BAF7C091</GUID>
+      <GUID>316AC210F18B7C8121C1C8586AD177F1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
