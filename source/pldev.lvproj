@@ -73,8 +73,6 @@
 					<Item Name="testing" Type="Folder">
 						<Item Name="io plugin tests.lvlib" Type="Library" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/testing/io plugin tests.lvlib"/>
 					</Item>
-					<Item Name="tag bus io plugin.aliases" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/tag bus io plugin.aliases"/>
-					<Item Name="tag bus io plugin.lvlps" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/tag bus io plugin.lvlps"/>
 					<Item Name="tag bus io plugin.lvproj" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/tag bus io plugin.lvproj"/>
 				</Item>
 				<Item Name="processing plugin" Type="Folder">
@@ -101,8 +99,6 @@
 					<Item Name="testing" Type="Folder">
 						<Item Name="processing plugin tests.lvlib" Type="Library" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/testing/processing plugin tests.lvlib"/>
 					</Item>
-					<Item Name="tag bus processing plugin.aliases" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/tag bus processing plugin.aliases"/>
-					<Item Name="tag bus processing plugin.lvlps" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/tag bus processing plugin.lvlps"/>
 					<Item Name="tag bus processing plugin.lvproj" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/tag bus processing plugin.lvproj"/>
 				</Item>
 				<Item Name="user code module" Type="Folder">
@@ -129,9 +125,31 @@
 					<Item Name="testing" Type="Folder">
 						<Item Name="user code tests.lvlib" Type="Library" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/testing/user code tests.lvlib"/>
 					</Item>
-					<Item Name="user code module.aliases" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/user code module.aliases"/>
-					<Item Name="user code module.lvlps" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/user code module.lvlps"/>
 					<Item Name="user code module.lvproj" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/user code module.lvproj"/>
+				</Item>
+				<Item Name="fixed channel module" Type="Folder">
+					<Item Name="documentation" Type="Folder">
+						<Item Name="component editor documentation.html" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/documentation/component editor documentation.html"/>
+					</Item>
+					<Item Name="editor node" Type="Folder">
+						<Item Name="fixed channel tag bus module editor node.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/editor node/fixed channel tag bus module editor node.lvclass"/>
+						<Item Name="Channel Mapping Runtime menu.rtm" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/editor node/Channel Mapping Runtime menu.rtm"/>
+					</Item>
+					<Item Name="images" Type="Folder">
+						<Item Name="datacomp.png" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/images/datacomp.png"/>
+					</Item>
+					<Item Name="module" Type="Folder">
+						<Item Name="configuration" Type="Folder">
+							<Item Name="fixed channel tag bus module configuration.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/module/configuration/fixed channel tag bus module configuration.lvclass"/>
+						</Item>
+						<Item Name="execution" Type="Folder">
+							<Item Name="fixed channel tag bus module.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/module/execution/fixed channel tag bus module.lvclass"/>
+						</Item>
+					</Item>
+					<Item Name="scripting" Type="Folder">
+						<Item Name="FixedChannelTBModuleDecideFeatures.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/scripting/FixedChannelTBModuleDecideFeatures.lvclass"/>
+					</Item>
+					<Item Name="fixed channel code module.lvproj" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/fixed channel code module.lvproj"/>
 				</Item>
 			</Item>
 			<Item Name="RT Executable Template" Type="Folder">
@@ -338,6 +356,8 @@
 				<Item Name="TRef Traverse for References.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse for References.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 			</Item>
 			<Item Name="Iterate Save Progress.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Iterate Save Progress.vi"/>
 			<Item Name="BuildNewProjectPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/BuildNewProjectPath.vi"/>
