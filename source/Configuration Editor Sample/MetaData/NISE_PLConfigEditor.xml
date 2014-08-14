@@ -4,7 +4,7 @@
 <ProjectTemplate>
   <Title localize="yes">Module Configuration Editor</Title>
   <Description localize="yes">Creates a sample configuration editor for modules, engines, and targets.</Description>
-  <Filters localize="yes">Templates</Filters>
+  <Filters localize="yes">TBDF:Editor</Filters>
   <Keywords localize="yes">data;component;framework;mapping;access;plugin;editor;configuration</Keywords>
   <LocationPath>Module Configurator</LocationPath>
   <ProjectPath>Module Configuration Editor.lvproj</ProjectPath>
