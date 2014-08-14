@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-08-01 11:49:37" Creator="Daniel" Comments="" ID="e703dc2c2d0e16fecb1eacc8c4c7a696">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-08-14 17:49:20" Creator="Daniel" Comments="" ID="5b3181fb6722b308dea38fb6da127174">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.0.2.77</Library_Version>
+    <Library_Version>1.0.2.78</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\Releases</Library_Output_Folder>
+    <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
     <Company_Name>National Instruments</Company_Name>
     <Library_Summary/>
     <Library_License>BSD 2-clause</Library_License>
@@ -386,7 +386,7 @@
         <Path>Framework Configuration Classes\platypus configuration\string to system.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>316AC210F18B7C8121C1C8586AD177F1</GUID>
+      <GUID>DA82925DE94896932B60719BD47DA2A6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

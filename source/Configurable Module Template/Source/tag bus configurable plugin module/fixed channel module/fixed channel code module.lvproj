@@ -24,10 +24,6 @@
 		<Item Name="fixed channel tag bus module configuration.lvclass" Type="LVClass" URL="../module/configuration/fixed channel tag bus module configuration.lvclass"/>
 		<Item Name="fixed channel tag bus module editor node.lvclass" Type="LVClass" URL="../editor node/fixed channel tag bus module editor node.lvclass"/>
 		<Item Name="fixed channel tag bus module.lvclass" Type="LVClass" URL="../module/execution/fixed channel tag bus module.lvclass"/>
-		<Item Name="input.vi" Type="VI" URL="../module/execution/input.vi"/>
-		<Item Name="output.vi" Type="VI" URL="../module/execution/output.vi"/>
-		<Item Name="process safe state.vi" Type="VI" URL="../module/execution/process safe state.vi"/>
-		<Item Name="process.vi" Type="VI" URL="../module/execution/process.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
