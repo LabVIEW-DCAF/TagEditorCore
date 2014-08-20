@@ -211,8 +211,6 @@
 				<Item Name="images" Type="Folder">
 					<Item Name="datacomp.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/images/datacomp.png"/>
 				</Item>
-				<Item Name="Module Configuration Editor.aliases" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Module Configuration Editor.aliases"/>
-				<Item Name="Module Configuration Editor.lvlps" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Module Configuration Editor.lvlps"/>
 				<Item Name="Module Configuration Editor.lvproj" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Module Configuration Editor.lvproj"/>
 				<Item Name="configuration library.lvlib" Type="Library" URL="../Configuration Editor Sample/Source/Module Configurator/configuration library.lvlib"/>
 			</Item>
