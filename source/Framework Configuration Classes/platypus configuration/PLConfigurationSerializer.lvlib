@@ -11,13 +11,7 @@
 		<Item Name="read full file.vi" Type="VI" URL="../read full file.vi"/>
 		<Item Name="write full file.vi" Type="VI" URL="../write full file.vi"/>
 	</Item>
-	<Item Name="plugin discovery" Type="Folder">
-		<Item Name="class discovery singleton methods.ctl" Type="VI" URL="../class discovery singleton methods.ctl"/>
-		<Item Name="class discovery singleton.vi" Type="VI" URL="../class discovery singleton.vi"/>
-		<Item Name="load class.vi" Type="VI" URL="../load class.vi"/>
-		<Item Name="remove duplicate classes.vi" Type="VI" URL="../remove duplicate classes.vi"/>
-		<Item Name="search for available lvclass files.vi" Type="VI" URL="../search for available lvclass files.vi"/>
-	</Item>
+	<Item Name="plugin discovery" Type="Folder"/>
 	<Item Name="serializing" Type="Folder">
 		<Item Name="filter targets.vi" Type="VI" URL="../filter targets.vi"/>
 		<Item Name="load runtime from configuration.vi" Type="VI" URL="../load runtime from configuration.vi"/>
