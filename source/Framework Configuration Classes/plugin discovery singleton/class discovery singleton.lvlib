@@ -4,9 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="class discovery singleton methods.ctl" Type="VI" URL="../../platypus configuration/class discovery singleton methods.ctl"/>
-	<Item Name="class discovery singleton.vi" Type="VI" URL="../../platypus configuration/class discovery singleton.vi"/>
-	<Item Name="load class.vi" Type="VI" URL="../../platypus configuration/load class.vi"/>
-	<Item Name="remove duplicate classes.vi" Type="VI" URL="../../platypus configuration/remove duplicate classes.vi"/>
-	<Item Name="search for available lvclass files.vi" Type="VI" URL="../../platypus configuration/search for available lvclass files.vi"/>
+	<Item Name="class discovery singleton methods.ctl" Type="VI" URL="../class discovery singleton methods.ctl"/>
+	<Item Name="class discovery singleton.vi" Type="VI" URL="../class discovery singleton.vi"/>
+	<Item Name="load class.vi" Type="VI" URL="../load class.vi"/>
+	<Item Name="remove duplicate classes.vi" Type="VI" URL="../remove duplicate classes.vi"/>
+	<Item Name="search for available lvclass files.vi" Type="VI" URL="../search for available lvclass files.vi"/>
 </Library>
