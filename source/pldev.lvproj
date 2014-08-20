@@ -41,13 +41,6 @@
 			<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
 			<Item Name="PLTarget PC.lvclass" Type="LVClass" URL="../core targets/PC/PLTarget PC.lvclass"/>
 		</Item>
-		<Item Name="other" Type="Folder">
-			<Item Name="CEF" Type="Folder">
-				<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CEF_TreeControl/Node/NISE_CEF_Node.lvclass"/>
-				<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CEF_TreeControl/Repository/NISE_CEF_Repository.lvclass"/>
-				<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="/&lt;vilib&gt;/CEF_TreeControl/NISE_CEF_TreeControl.lvlib"/>
-			</Item>
-		</Item>
 		<Item Name="Templates" Type="Folder">
 			<Item Name="Configurable Module Template" Type="Folder">
 				<Item Name="io plugin" Type="Folder">
@@ -359,6 +352,9 @@
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CEF_TreeControl/Node/NISE_CEF_Node.lvclass"/>
+				<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CEF_TreeControl/Repository/NISE_CEF_Repository.lvclass"/>
+				<Item Name="NISE_CEF_TreeControl.lvlib" Type="Library" URL="/&lt;vilib&gt;/CEF_TreeControl/NISE_CEF_TreeControl.lvlib"/>
 			</Item>
 			<Item Name="Iterate Save Progress.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Iterate Save Progress.vi"/>
 			<Item Name="BuildNewProjectPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/BuildNewProjectPath.vi"/>
@@ -484,7 +480,7 @@
 				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/other/CEF</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
