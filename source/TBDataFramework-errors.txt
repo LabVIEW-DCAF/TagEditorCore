@@ -19,26 +19,37 @@ A channel was not found
 </nierror>
 <nierror code="538254">
 Duplicated Class detected
+</nierror>
 <nierror code="538255">
 Timeout waiting for engine state to transition
+</nierror>
 <nierror code="538256">
 No mappings were found for the specified module.
+</nierror>
 <nierror code="538257">
 The specified tag does not list the specified channel as a reader.
+</nierror>
 <nierror code="538258">
 The specified tag does not list the specified channel as a writer.
+</nierror>
 <nierror code="538259">
 The specified channel is not mapped to anything.
+</nierror>
 <nierror code="538260">
 The specified channel is already mapped to a tag.
+</nierror>
 <nierror code="538261">
 The specified tag already has a writer.
+</nierror>
 <nierror code="538262">
 The specified channel is already set as a reader for this tag.
+</nierror>
 <nierror code="538263">
 An owning GUID was not specified.
+</nierror>
 <nierror code="538264">
 The requested tag-channel mapping is invalid because they do not share a data type.
+</nierror>
 <nierror code="538265">
 The specified owner does not have permission to modify this tag.
 </nierror>
