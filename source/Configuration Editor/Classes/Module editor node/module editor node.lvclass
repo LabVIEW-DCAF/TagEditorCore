@@ -239,6 +239,20 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
 			</Item>
 		</Item>
+		<Item Name="abstract" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">abstract</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">abstract</Property>
+			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+			<Item Name="is abstract node.vi" Type="VI" URL="../is abstract node.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'(!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1BB9H.U=G&amp;D&gt;!!!:%"Q!"Y!!%)F5%QA2H*B&lt;76X&lt;X*L)%.P&lt;G:J:X6S982J&lt;WYA6'^P&lt;#ZM&gt;GRJ9BJN&lt;W2V&lt;'5A:72J&gt;'^S)'ZP:'5O&lt;(:D&lt;'&amp;T=Q!!&amp;GVP:(6M:3"F:'FU&lt;X)A&lt;G^E:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"C1(!!(A!!1C614#"'=G&amp;N:8&gt;P=GMA1W^O:GFH&gt;8*B&gt;'FP&lt;C"5&lt;W^M,GRW&lt;'FC'GVP:(6M:3"F:'FU&lt;X)A&lt;G^E:3ZM&gt;G.M98.T!!!6&lt;7^E&gt;7RF)'6E;82P=C"O&lt;W2F)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+			</Item>
+		</Item>
 	</Item>
 	<Item Name="Core Overides" Type="Folder">
 		<Item Name="FromRepo.vi" Type="VI" URL="../FromRepo.vi">

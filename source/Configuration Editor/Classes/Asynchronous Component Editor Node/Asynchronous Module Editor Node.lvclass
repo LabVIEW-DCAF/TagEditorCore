@@ -22,6 +22,36 @@
 	<Item Name="Asynchronous Module Editor Node.ctl" Type="Class Private Data" URL="Asynchronous Module Editor Node.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Properties" Type="Folder">
+		<Item Name="abstract" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">abstract</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">abstract</Property>
+			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+			<Item Name="is abstract node.vi" Type="VI" URL="../is abstract node.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'Z!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1BB9H.U=G&amp;D&gt;!!!@%"Q!"Y!!%]F5%QA2H*B&lt;76X&lt;X*L)%.P&lt;G:J:X6S982J&lt;WYA6'^P&lt;#ZM&gt;GRJ9C&gt;"=XFO9WBS&lt;WZP&gt;8-A47^E&gt;7RF)%6E;82P=C"/&lt;W2F,GRW9WRB=X-!)U&amp;T?7ZD;(*P&lt;G^V=S".&lt;W2V&lt;'5A272J&gt;'^S)%ZP:'5A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!"]1(!!(A!!4S614#"'=G&amp;N:8&gt;P=GMA1W^O:GFH&gt;8*B&gt;'FP&lt;C"5&lt;W^M,GRW&lt;'FC*U&amp;T?7ZD;(*P&lt;G^V=S".&lt;W2V&lt;'5A272J&gt;'^S)%ZP:'5O&lt;(:D&lt;'&amp;T=Q!C18.Z&lt;G.I=G^O&lt;X6T)%VP:(6M:3"&amp;:'FU&lt;X)A4G^E:3"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+			</Item>
+		</Item>
+		<Item Name="visible" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">visible</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">visible</Property>
+			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+			<Item Name="is visible to load.vi" Type="VI" URL="../is visible to load.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1&gt;W;8.J9GRF!(R!=!!?!!"0*6"-)%:S97VF&gt;W^S;S"$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;2P&lt;WQO&lt;(:M;7)H18.Z&lt;G.I=G^O&lt;X6T)%VP:(6M:3"&amp;:'FU&lt;X)A4G^E:3ZM&gt;G.M98.T!#."=XFO9WBS&lt;WZP&gt;8-A47^E&gt;7RF)%6E;82P=C"/&lt;W2F)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!@%"Q!"Y!!%]F5%QA2H*B&lt;76X&lt;X*L)%.P&lt;G:J:X6S982J&lt;WYA6'^P&lt;#ZM&gt;GRJ9C&gt;"=XFO9WBS&lt;WZP&gt;8-A47^E&gt;7RF)%6E;82P=C"/&lt;W2F,GRW9WRB=X-!)E&amp;T?7ZD;(*P&lt;G^V=S".&lt;W2V&lt;'5A272J&gt;'^S)%ZP:'5A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+			</Item>
+		</Item>
+	</Item>
 	<Item Name="TBM Configuration" Type="Property Definition">
 		<Property Name="NI.ClassItem.Property.LongName" Type="Str">TBM Configuration</Property>
 		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">TBM Configuration</Property>
