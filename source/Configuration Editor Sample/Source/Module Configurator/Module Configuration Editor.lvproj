@@ -32,6 +32,7 @@
 			<Item Name="ChnWave.png" Type="Document" URL="../Glyphs/ChnWave.png"/>
 			<Item Name="choice.png" Type="Document" URL="../Glyphs/choice.png"/>
 			<Item Name="Confine_Window.png" Type="Document" URL="../Glyphs/Confine_Window.png"/>
+			<Item Name="cRIO.png" Type="Document" URL="../Glyphs/cRIO.png"/>
 			<Item Name="cRIO_Controller.png" Type="Document" URL="../Glyphs/cRIO_Controller.png"/>
 			<Item Name="cRIO_Network_Controller.png" Type="Document" URL="../Glyphs/cRIO_Network_Controller.png"/>
 			<Item Name="cRIOEmbeddedChassis.png" Type="Document" URL="../Glyphs/cRIOEmbeddedChassis.png"/>
@@ -141,6 +142,8 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../../../../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
+			<Item Name="class discovery singleton.lvlib" Type="Library" URL="../../../../Framework Configuration Classes/plugin discovery singleton/class discovery singleton.lvlib"/>
+			<Item Name="module information.ctl" Type="VI" URL="../../../../Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
 			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../../../../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 			<Item Name="PL_class cache.lvlib" Type="Library" URL="../../../../Framework Configuration Classes/class cache/PL_class cache.lvlib"/>
 			<Item Name="PL_System Configuration.lvclass" Type="LVClass" URL="../../../../Framework Configuration Classes/system configuration/PL_System Configuration.lvclass"/>
