@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-08-21 14:40:02" Creator="Daniel" Comments="" ID="5642e3b47513a10ecc3cf5f87aa7bca3">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-08-21 16:20:32" Creator="Daniel" Comments="" ID="73fdebd520fb8e8a7b801c13fc380a0a">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.0.2.80</Library_Version>
+    <Library_Version>1.0.2.81</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -386,7 +386,7 @@
         <Path>Framework Configuration Classes\platypus configuration\string to system.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B9BB9443F912ECC1103E3739E06CB5BC</GUID>
+      <GUID>88EE043C3F57425B82610F846732F33F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
