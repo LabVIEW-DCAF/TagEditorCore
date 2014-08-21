@@ -156,8 +156,6 @@
 					</Item>
 					<Item Name="SubVIs" Type="Folder"/>
 					<Item Name="module execution process.lvlib" Type="Library" URL="../RT Executable Template/Source/Module Execution/module execution process.lvlib"/>
-					<Item Name="Module Execution.aliases" Type="Document" URL="../RT Executable Template/Source/Module Execution/Module Execution.aliases"/>
-					<Item Name="Module Execution.lvlps" Type="Document" URL="../RT Executable Template/Source/Module Execution/Module Execution.lvlps"/>
 					<Item Name="Module Execution.lvproj" Type="Document" URL="../RT Executable Template/Source/Module Execution/Module Execution.lvproj"/>
 				</Item>
 				<Item Name="Single Engine System" Type="Folder">
@@ -168,8 +166,6 @@
 						<Item Name="datacomp.png" Type="Document" URL="../RT Executable Template/Source/Single Engine System/images/datacomp.png"/>
 					</Item>
 					<Item Name="Single Engine Main.vi" Type="VI" URL="../RT Executable Template/Source/Single Engine System/Single Engine Main.vi"/>
-					<Item Name="Single Engine System.aliases" Type="Document" URL="../RT Executable Template/Source/Single Engine System/Single Engine System.aliases"/>
-					<Item Name="Single Engine System.lvlps" Type="Document" URL="../RT Executable Template/Source/Single Engine System/Single Engine System.lvlps"/>
 					<Item Name="Single Engine System.lvproj" Type="Document" URL="../RT Executable Template/Source/Single Engine System/Single Engine System.lvproj"/>
 				</Item>
 			</Item>
