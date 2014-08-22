@@ -170,43 +170,6 @@
 				</Item>
 			</Item>
 			<Item Name="Configuration Editor Sample" Type="Folder">
-				<Item Name="documentation" Type="Folder">
-					<Item Name="module configurator documentation.html" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/documentation/module configurator documentation.html"/>
-				</Item>
-				<Item Name="Glyphs" Type="Folder">
-					<Item Name="AC_Volts.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/AC_Volts.png"/>
-					<Item Name="analog.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/analog.png"/>
-					<Item Name="ApplicationIcon.ico" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/ApplicationIcon.ico"/>
-					<Item Name="applications-system-3.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/applications-system-3.png"/>
-					<Item Name="Async.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/Async.png"/>
-					<Item Name="Axis.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/Axis.png"/>
-					<Item Name="ChnGroup.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/ChnGroup.png"/>
-					<Item Name="ChnTime.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/ChnTime.png"/>
-					<Item Name="ChnWave.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/ChnWave.png"/>
-					<Item Name="choice.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/choice.png"/>
-					<Item Name="Confine_Window.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/Confine_Window.png"/>
-					<Item Name="cRIO_Controller.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/cRIO_Controller.png"/>
-					<Item Name="cRIO_Network_Controller.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/cRIO_Network_Controller.png"/>
-					<Item Name="cRIOEmbeddedChassis.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/cRIOEmbeddedChassis.png"/>
-					<Item Name="Current.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/Current.png"/>
-					<Item Name="DC_Volts.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/DC_Volts.png"/>
-					<Item Name="ethernet.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/ethernet.png"/>
-					<Item Name="Folder.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/Folder.png"/>
-					<Item Name="Gear.ico" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/Gear.ico"/>
-					<Item Name="Gear.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/Gear.png"/>
-					<Item Name="PC.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/PC.png"/>
-					<Item Name="Resource.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/Resource.png"/>
-					<Item Name="rotation2.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/rotation2.png"/>
-					<Item Name="steps.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/steps.png"/>
-					<Item Name="System.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/System.png"/>
-					<Item Name="task.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/task.png"/>
-					<Item Name="temp.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/temp.png"/>
-					<Item Name="velocity.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/velocity.png"/>
-					<Item Name="X.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Glyphs/X.png"/>
-				</Item>
-				<Item Name="images" Type="Folder">
-					<Item Name="datacomp.png" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/images/datacomp.png"/>
-				</Item>
 				<Item Name="Module Configuration Editor.lvproj" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Module Configuration Editor.lvproj"/>
 				<Item Name="configuration library.lvlib" Type="Library" URL="../Configuration Editor Sample/Source/Module Configurator/configuration library.lvlib"/>
 			</Item>
