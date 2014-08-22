@@ -21,4 +21,5 @@
 		<Item Name="TEST RUNTIME.lvclass" Type="LVClass" URL="../test module/module/execution/TEST RUNTIME.lvclass"/>
 	</Item>
 	<Item Name="loader.vi" Type="VI" URL="../loader.vi"/>
+	<Item Name="manual test deploy tool.vi" Type="VI" URL="../manual test deploy tool.vi"/>
 </Library>

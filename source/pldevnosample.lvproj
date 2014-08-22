@@ -27,9 +27,6 @@
 			<Item Name="runtime" Type="Folder">
 				<Item Name="asynchronous execution module runtime.lvclass" Type="LVClass" URL="../asynchronous execution module/runtime/asynchronous execution module runtime.lvclass"/>
 			</Item>
-			<Item Name="tests" Type="Folder">
-				<Item Name="async tests.lvlib" Type="Library" URL="../asynchronous execution module/tests/async tests.lvlib"/>
-			</Item>
 		</Item>
 		<Item Name="Configuration Editor" Type="Folder">
 			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
@@ -57,6 +54,7 @@
 			</Item>
 		</Item>
 		<Item Name="tests" Type="Folder">
+			<Item Name="async tests.lvlib" Type="Library" URL="../asynchronous execution module/tests/async tests.lvlib"/>
 			<Item Name="configuration tests.lvlib" Type="Library" URL="../tests/configuration tests.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
