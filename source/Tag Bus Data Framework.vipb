@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-08-22 12:47:43" Creator="Daniel" Comments="" ID="329f24e2cb841e9d6ef7958f4f0763cd">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-08-22 13:50:10" Creator="Daniel" Comments="" ID="a91680091dcfe8da4a4b29e1256c9c87">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.0.2.83</Library_Version>
+    <Library_Version>1.0.2.84</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -344,7 +344,7 @@
         <Path>Framework Configuration Classes\plugin discovery singleton\class discovery singleton.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E2DBF5E8D6C8A902E60590B0135E1AB</GUID>
+      <GUID>6349870AE9802BCBACC30C1FA00C3037</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
