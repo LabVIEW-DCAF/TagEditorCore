@@ -24,7 +24,6 @@
 	<Item Name="serializing" Type="Folder">
 		<Item Name="configuration object to database element.vi" Type="VI" URL="../configuration object to database element.vi"/>
 		<Item Name="database element to configuration object.vi" Type="VI" URL="../database element to configuration object.vi"/>
-		<Item Name="filter targets.vi" Type="VI" URL="../filter targets.vi"/>
 		<Item Name="generate file data from system.vi" Type="VI" URL="../generate file data from system.vi"/>
 		<Item Name="load runtime from configuration.vi" Type="VI" URL="../load runtime from configuration.vi"/>
 		<Item Name="load system from file data.vi" Type="VI" URL="../load system from file data.vi"/>
@@ -32,13 +31,10 @@
 	<Item Name="type definitions" Type="Folder">
 		<Item Name="configuration database.ctl" Type="VI" URL="../configuration database.ctl"/>
 		<Item Name="engine hierarchy.ctl" Type="VI" URL="../engine hierarchy.ctl"/>
-		<Item Name="enginelist.ctl" Type="VI" URL="../enginelist.ctl"/>
 		<Item Name="engines cluster.ctl" Type="VI" URL="../engines cluster.ctl"/>
-		<Item Name="modulelist.ctl" Type="VI" URL="../modulelist.ctl"/>
 		<Item Name="system hierarchy.ctl" Type="VI" URL="../system hierarchy.ctl"/>
 		<Item Name="systems cluster.ctl" Type="VI" URL="../systems cluster.ctl"/>
 		<Item Name="target hierarchy.ctl" Type="VI" URL="../target hierarchy.ctl"/>
-		<Item Name="targetlist.ctl" Type="VI" URL="../targetlist.ctl"/>
 		<Item Name="targets cluster.ctl" Type="VI" URL="../targets cluster.ctl"/>
 	</Item>
 	<Item Name="load configuration from database by ID.vi" Type="VI" URL="../load configuration from database by ID.vi"/>
