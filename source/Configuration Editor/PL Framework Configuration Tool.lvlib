@@ -32,4 +32,5 @@
 		<Item Name="Glyphs Status.ctl" Type="VI" URL="../subVIs/Glyphs Status.ctl"/>
 		<Item Name="view deploy screen.vi" Type="VI" URL="../subVIs/view deploy screen.vi"/>
 	</Item>
+	<Item Name="tokens to path.vi" Type="VI" URL="../tokens to path.vi"/>
 </Library>
