@@ -30,7 +30,7 @@
 		<Item Name="deployment configuration.ctl" Type="VI" URL="../subVIs/deployment configuration.ctl"/>
 		<Item Name="deployment tool.vi" Type="VI" URL="../subVIs/deployment tool.vi"/>
 		<Item Name="Glyphs Status.ctl" Type="VI" URL="../subVIs/Glyphs Status.ctl"/>
+		<Item Name="tokens to path.vi" Type="VI" URL="../tokens to path.vi"/>
 		<Item Name="view deploy screen.vi" Type="VI" URL="../subVIs/view deploy screen.vi"/>
 	</Item>
-	<Item Name="tokens to path.vi" Type="VI" URL="../tokens to path.vi"/>
 </Library>
