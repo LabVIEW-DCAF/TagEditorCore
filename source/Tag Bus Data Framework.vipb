@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-08-25 15:50:52" Creator="Daniel" Comments="" ID="4d68064e731361ffa13ae208e890ac7e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-09-02 15:16:42" Creator="Daniel" Comments="" ID="6ac4566e31eccfaf9c85084c5daa31dc">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.0.3.86</Library_Version>
+    <Library_Version>1.0.4.87</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes/>
+      <Release_Notes>Fixed issues with fixed channel template</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -344,7 +344,7 @@
         <Path>Framework Configuration Classes\plugin discovery singleton\class discovery singleton.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E40075B8714CC01D66E3A0C9BBE28C7</GUID>
+      <GUID>F4295B1A3E2A4D71A8C44BE593F96C98</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
