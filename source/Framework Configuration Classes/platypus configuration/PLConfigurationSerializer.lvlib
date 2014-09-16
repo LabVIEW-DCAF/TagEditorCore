@@ -38,4 +38,5 @@
 		<Item Name="targets cluster.ctl" Type="VI" URL="../targets cluster.ctl"/>
 	</Item>
 	<Item Name="load configuration from database by ID.vi" Type="VI" URL="../load configuration from database by ID.vi"/>
+	<Item Name="load single target.vi" Type="VI" URL="../load single target.vi"/>
 </Library>
