@@ -33,6 +33,7 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="class discovery singleton.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/plugin discovery singleton/class discovery singleton.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
@@ -128,7 +129,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../../../../../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
-			<Item Name="class discovery singleton.lvlib" Type="Library" URL="../../../../../Framework Configuration Classes/plugin discovery singleton/class discovery singleton.lvlib"/>
 			<Item Name="module information.ctl" Type="VI" URL="../../../../../Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
 			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../../../../../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 			<Item Name="PL_class cache.lvlib" Type="Library" URL="../../../../../Framework Configuration Classes/class cache/PL_class cache.lvlib"/>

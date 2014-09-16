@@ -31,7 +31,6 @@
 			<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
 			<Item Name="asynchronous execution module runtime.lvclass" Type="LVClass" URL="../asynchronous execution module/runtime/asynchronous execution module runtime.lvclass"/>
 			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
-			<Item Name="class discovery singleton.lvlib" Type="Library" URL="../Framework Configuration Classes/plugin discovery singleton/class discovery singleton.lvlib"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="configuration tests.lvlib" Type="Library" URL="../tests/configuration tests.lvlib"/>
@@ -336,6 +335,7 @@
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="Get Semaphore Status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Get Semaphore Status.vi"/>
 				<Item Name="Create Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Create Semaphore.vi"/>
+				<Item Name="class discovery singleton.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/plugin discovery singleton/class discovery singleton.lvlib"/>
 			</Item>
 			<Item Name="Iterate Save Progress.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Iterate Save Progress.vi"/>
 			<Item Name="BuildNewProjectPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/BuildNewProjectPath.vi"/>
@@ -350,6 +350,8 @@
 			<Item Name="Close Create Project Progress Bar.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Close Create Project Progress Bar.vi"/>
 			<Item Name="Delete Project Destination on Error.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Delete Project Destination on Error.vi"/>
 			<Item Name="module information.ctl" Type="VI" URL="../Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
+			<Item Name="class discovery singleton.vi" Type="VI" URL="../Framework Configuration Classes/plugin discovery singleton/class discovery singleton.vi"/>
+			<Item Name="class discovery singleton methods.ctl" Type="VI" URL="../Framework Configuration Classes/plugin discovery singleton/class discovery singleton methods.ctl"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
