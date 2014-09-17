@@ -20,26 +20,37 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controls" Type="Folder">
+			<Item Name="ControlsProperties.ctl" Type="VI" URL="../Controls/ControlsProperties.ctl"/>
 			<Item Name="IndexCluster.ctl" Type="VI" URL="../Controls/IndexCluster.ctl"/>
+			<Item Name="PathsCluster.ctl" Type="VI" URL="../Controls/PathsCluster.ctl"/>
 			<Item Name="SampleControl.ctl" Type="VI" URL="../Controls/SampleControl.ctl"/>
+			<Item Name="StateCluster.ctl" Type="VI" URL="../Controls/StateCluster.ctl"/>
 			<Item Name="TerminalReferences.ctl" Type="VI" URL="../Controls/TerminalReferences.ctl"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
+			<Item Name="AddBunlderWithName.vi" Type="VI" URL="../subVIs/AddBunlderWithName.vi"/>
 			<Item Name="AddFrontPanelControls.vi" Type="VI" URL="../subVIs/AddFrontPanelControls.vi"/>
+			<Item Name="AddUnbunlderwithname.vi" Type="VI" URL="../subVIs/AddUnbunlderwithname.vi"/>
 			<Item Name="ClearBD.vi" Type="VI" URL="../subVIs/ClearBD.vi"/>
 			<Item Name="ClearFP.vi" Type="VI" URL="../subVIs/ClearFP.vi"/>
 			<Item Name="ClusterElementNames.vi" Type="VI" URL="../subVIs/ClusterElementNames.vi"/>
 			<Item Name="ControlFileToVariant.vi" Type="VI" URL="../subVIs/ControlFileToVariant.vi"/>
 			<Item Name="CreateIndexCluster.vi" Type="VI" URL="../subVIs/CreateIndexCluster.vi"/>
 			<Item Name="GetVIReference.vi" Type="VI" URL="../subVIs/GetVIReference.vi"/>
+			<Item Name="OpenCreateVI.vi" Type="VI" URL="../subVIs/OpenCreateVI.vi"/>
+			<Item Name="SaveVi.vi" Type="VI" URL="../subVIs/SaveVi.vi"/>
+			<Item Name="WireReadBlockDiagram.vi" Type="VI" URL="../subVIs/WireReadBlockDiagram.vi"/>
+			<Item Name="WireReadTagbusVIs.vi" Type="VI" URL="../subVIs/WireReadTagbusVIs.vi"/>
+			<Item Name="WireWriteBlockDiagram.vi" Type="VI" URL="../subVIs/WireWriteBlockDiagram.vi"/>
+			<Item Name="WireWriteTagbusVIs.vi" Type="VI" URL="../subVIs/WireWriteTagbusVIs.vi"/>
 		</Item>
+		<Item Name="ClusterDataTypeToTagBusDataType.vi" Type="VI" URL="../subVIs/ClusterDataTypeToTagBusDataType.vi"/>
 		<Item Name="FromClusterToTagBusScript.vi" Type="VI" URL="../FromClusterToTagBusScript.vi"/>
-		<Item Name="PathsCluster.ctl" Type="VI" URL="../Controls/PathsCluster.ctl"/>
-		<Item Name="WireBlockDiagram.vi" Type="VI" URL="../subVIs/WireBlockDiagram.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
