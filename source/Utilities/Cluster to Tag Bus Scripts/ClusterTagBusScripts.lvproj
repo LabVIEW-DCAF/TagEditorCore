@@ -33,6 +33,7 @@
 			<Item Name="AddUnbunlderwithname.vi" Type="VI" URL="../subVIs/AddUnbunlderwithname.vi"/>
 			<Item Name="ClearBD.vi" Type="VI" URL="../subVIs/ClearBD.vi"/>
 			<Item Name="ClearFP.vi" Type="VI" URL="../subVIs/ClearFP.vi"/>
+			<Item Name="ClusterDataTypeToTagBusDataType.vi" Type="VI" URL="../subVIs/ClusterDataTypeToTagBusDataType.vi"/>
 			<Item Name="ClusterElementNames.vi" Type="VI" URL="../subVIs/ClusterElementNames.vi"/>
 			<Item Name="ControlFileToVariant.vi" Type="VI" URL="../subVIs/ControlFileToVariant.vi"/>
 			<Item Name="CreateIndexCluster.vi" Type="VI" URL="../subVIs/CreateIndexCluster.vi"/>
@@ -44,7 +45,6 @@
 			<Item Name="WireWriteBlockDiagram.vi" Type="VI" URL="../subVIs/WireWriteBlockDiagram.vi"/>
 			<Item Name="WireWriteTagbusVIs.vi" Type="VI" URL="../subVIs/WireWriteTagbusVIs.vi"/>
 		</Item>
-		<Item Name="ClusterDataTypeToTagBusDataType.vi" Type="VI" URL="../subVIs/ClusterDataTypeToTagBusDataType.vi"/>
 		<Item Name="FromClusterToTagBusScript.vi" Type="VI" URL="../FromClusterToTagBusScript.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
