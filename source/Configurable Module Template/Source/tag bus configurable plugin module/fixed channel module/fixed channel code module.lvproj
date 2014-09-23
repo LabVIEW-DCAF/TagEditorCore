@@ -129,6 +129,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../../../../../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
+			<Item Name="Index to cluster.vi" Type="VI" URL="../../../../../Utilities/Cluster to Tag Bus Scripts/Index to cluster.vi"/>
 			<Item Name="module information.ctl" Type="VI" URL="../../../../../Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
 			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../../../../../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 			<Item Name="PL_class cache.lvlib" Type="Library" URL="../../../../../Framework Configuration Classes/class cache/PL_class cache.lvlib"/>
