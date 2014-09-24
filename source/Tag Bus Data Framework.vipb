@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-09-16 17:39:39" Creator="Daniel" Comments="" ID="b775955ca05eccb29ff55758468ad92c">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-09-24 11:18:55" Creator="Daniel" Comments="" ID="5e12e722b90aa44fc05ebf54694eb0b9">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.0.5.88</Library_Version>
+    <Library_Version>1.1.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>Add target concept for loading bitfiles</Release_Notes>
+      <Release_Notes>Added target support for bitfiles, cleaned out unused files, fixed numerous bugs, updated sample projects to perform locking operations on the dvrs rather than check in-check out</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -470,7 +470,7 @@
         <Path>Framework Configuration Classes\platypus configuration\load runtime from configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A9E0C758388EB405D71F788FF63EEAA6</GUID>
+      <GUID>BF2386B7FBBFC11124CE4FBAC4DE1DF1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
