@@ -1,0 +1,1262 @@
+<Cluster>
+<Name>cache</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>Search Paths</Name>
+<Dimsize>3</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\blueuser\Documents\LabVIEW Data\Runtime Test Module</Val>
+</Path>
+</Array>
+<Array>
+<Name>Folders to Exclude</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>classes</Name>
+<Dimsize>41</Dimsize>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Program Files\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines\Standard Engine\Configuration\Standard Engine Configuration.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Standard Engine Configuration</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Program Files\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines\Standard Engine\Editor Node\Standard Engine Editor Node.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Standard Engine Editor Node</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>4</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val>Standard Engine</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>Standard Engine Configuration.lvclass</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Program Files\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines\Standard Engine\Runtime\Standard Engine Runtime.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Standard Engine Runtime</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\asynchronous execution module\configuration\asynchronous execution module configuration.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>asynchronous execution module configuration</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\asynchronous execution module\runtime\asynchronous execution module runtime.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>asynchronous execution module runtime</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\fixed channel module\editor node\fixed channel tag bus module editor node.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>fixed channel tag bus module editor node</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>5</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val>user template</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>fixed channel tag bus module configuration.lvclass</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\fixed channel module\module\configuration\fixed channel tag bus module configuration.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>fixed channel tag bus module configuration</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\fixed channel module\module\execution\fixed channel tag bus module.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>fixed channel tag bus module</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\fixed channel module\scripting\FixedChannelTBModuleDecideFeatures.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>FixedChannelTBModuleDecideFeatures</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\io plugin\editor node\tag bus configurable plugin editor node.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>tag bus configurable plugin editor node</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>5</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val>configurable template</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>tag bus configurable plugin module configuration.lvclass</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\io plugin\module\configuration\tag bus configurable plugin module configuration.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>tag bus configurable plugin module configuration</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\io plugin\module\execution\tag bus configurable plugin module.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>tag bus configurable plugin module</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\io plugin\scripting\TagBusConfigurablePluginDecideFeatures.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>TagBusConfigurablePluginDecideFeatures</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\processing plugin\editor node\tag bus processing plugin editor node.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>tag bus processing plugin editor node</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>5</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val>configurable template</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>tag bus processing plugin module configuration.lvclass</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\processing plugin\module\configuration\tag bus processing plugin module configuration.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>tag bus processing plugin module configuration</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\processing plugin\module\execution\tag bus processing plugin module.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>tag bus processing plugin module</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\processing plugin\scripting\TagBusProcessingPluginFeatureDecider.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>TagBusProcessingPluginFeatureDecider</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\user code module\editor node\user tag bus module editor node.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>user tag bus module editor node</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>5</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val>user template</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>user tag bus module configuration.lvclass</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\user code module\module\configuration\user tag bus module configuration.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>user tag bus module configuration</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\user code module\module\execution\user tag bus module.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>user tag bus module</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configurable Module Template\Source\tag bus configurable plugin module\user code module\scripting\UserTBModuleDecideFeatures.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>UserTBModuleDecideFeatures</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configuration Editor\Classes\Asynchronous Component Editor Node\Asynchronous Module Editor Node.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Asynchronous Module Editor Node</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val>Module</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>asynchronous execution module configuration.lvclass</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Engine Mappings</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Engine Parent Editor Node</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>EngineTags</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>module editor node</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>SystemConfigRepo</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Systems</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Targets</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>TBM Configuration Node</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Configuration Editor Sample\Source\Module Configurator\scripting\editorscriptingobject.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>editorscriptingobject</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\core targets\cRIO\PLTarget cRIO.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>PLTarget cRIO</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>3</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val>cRIO</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>PL_Target Configuration.lvclass</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\core targets\PC\PLTarget PC.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>PLTarget PC</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>3</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val>PC</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>PL_Target Configuration.lvclass</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>PL_System Configuration</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>TEST EDITOR</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>5</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val>user template</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>configuration tests.lvlib:TEST CONFIGURATION.lvclass</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>TEST CONFIGURATION</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\TBDCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>TEST RUNTIME</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\LabVIEW Data\Runtime Test Module\editor node\Runtime Test Module editor node.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Runtime Test Module editor node</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>5</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val>Runtime Test Module</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>Runtime Test Module configuration.lvclass</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\LabVIEW Data\Runtime Test Module\module\configuration\Runtime Test Module configuration.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Runtime Test Module configuration</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>path</Name>
+<Val>C:\Users\blueuser\Documents\LabVIEW Data\Runtime Test Module\module\execution\Runtime Test Module runtime.lvclass</Val>
+</Path>
+<String>
+<Name>name</Name>
+<Val>Runtime Test Module runtime</Val>
+</String>
+<EW>
+<Name>class type</Name>
+<Choice>unused</Choice>
+<Choice>other pl</Choice>
+<Choice>system</Choice>
+<Choice>target</Choice>
+<Choice>engine</Choice>
+<Choice>module</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>menu name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+</Cluster>
