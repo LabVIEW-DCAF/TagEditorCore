@@ -19,7 +19,6 @@
 		<Item Name="EngineTags.lvclass" Type="LVClass" URL="../Classes/EngineTags/EngineTags.lvclass"/>
 	</Item>
 	<Item Name="Module Editor Nodes" Type="Folder">
-		<Item Name="Asynchronous Module Editor Node.lvclass" Type="LVClass" URL="../Classes/Asynchronous Component Editor Node/Asynchronous Module Editor Node.lvclass"/>
 		<Item Name="module editor node.lvclass" Type="LVClass" URL="../Classes/Module editor node/module editor node.lvclass"/>
 	</Item>
 	<Item Name="Parent Node" Type="Folder">

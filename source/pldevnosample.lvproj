@@ -27,6 +27,7 @@
 			<Item Name="runtime" Type="Folder">
 				<Item Name="asynchronous execution module runtime.lvclass" Type="LVClass" URL="../asynchronous execution module/runtime/asynchronous execution module runtime.lvclass"/>
 			</Item>
+			<Item Name="Asynchronous Module Editor Node.lvclass" Type="LVClass" URL="../asynchronous execution module/editor/Asynchronous Module Editor Node.lvclass"/>
 		</Item>
 		<Item Name="Configuration Editor" Type="Folder">
 			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
