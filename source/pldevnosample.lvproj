@@ -46,7 +46,6 @@
 			</Item>
 		</Item>
 		<Item Name="tests" Type="Folder">
-			<Item Name="async tests.lvlib" Type="Library" URL="../asynchronous execution module/tests/async tests.lvlib"/>
 			<Item Name="configuration tests.lvlib" Type="Library" URL="../tests/configuration tests.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -146,7 +145,6 @@
 			<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
 			<Item Name="Asynchronous Module Editor Node.lvclass" Type="LVClass" URL="../asynchronous execution module/editor/Asynchronous Module Editor Node.lvclass"/>
 			<Item Name="module information.ctl" Type="VI" URL="../Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
-			<Item Name="Write async.vi" Type="VI" URL="../Configuration Editor/Classes/Module editor node/Write async.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
