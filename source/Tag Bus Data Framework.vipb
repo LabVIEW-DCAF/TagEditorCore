@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-10-07 14:16:12" Creator="Daniel" Comments="" ID="96ab4d1c776ac901028348d3f9db53c9">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-10-08 10:24:52" Creator="Daniel" Comments="" ID="b4de13ff272e3f333f4dfe96b0d4a965">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.1.1.4</Library_Version>
+    <Library_Version>1.2.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>minor bug fixes to fixed channel template, merge to/from string fixes with removal of unnecessary script functionality</Release_Notes>
+      <Release_Notes>Remove async features from core editor</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -164,11 +164,6 @@
         <Locked_Only>true</Locked_Only>
       </Password_Overrides>
       <Password_Overrides>
-        <Path>asynchronous execution module</Path>
-        <Password/>
-        <Locked_Only>true</Locked_Only>
-      </Password_Overrides>
-      <Password_Overrides>
         <Path>Configuration Editor</Path>
         <Password/>
         <Locked_Only>true</Locked_Only>
@@ -180,9 +175,6 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>pldev.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>asynchronous execution module/tests</Path>
       </Exclusions>
       <Exclusions>
         <Path>pldevnosample.lvproj</Path>
@@ -470,7 +462,7 @@
         <Path>Framework Configuration Classes\platypus configuration\load runtime from configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0374ED5D452EE8B782B9DDF80D0DF6EF</GUID>
+      <GUID>3418896A3C57C4A1D41187F2A2DB8A21</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
