@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-10-10 11:28:03" Creator="Daniel" Comments="" ID="f6d182ce7f2e776cd4fbb139c85bb92e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-10-10 15:56:33" Creator="Daniel" Comments="" ID="20f6f49fa69c3686e520a228e5a70bb2">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.2.2.9</Library_Version>
+    <Library_Version>1.2.3.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>bugfixes to sample projects</Release_Notes>
+      <Release_Notes>improvements to script tool</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -462,7 +462,7 @@
         <Path>Framework Configuration Classes\platypus configuration\load runtime from configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F3008A8CE0F75098427B88C9F472464</GUID>
+      <GUID>BAA9413A51B08322EF829DAD0278D808</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
