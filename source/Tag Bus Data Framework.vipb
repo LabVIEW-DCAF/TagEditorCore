@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-09-24 11:18:55" Creator="Daniel" Comments="" ID="5e12e722b90aa44fc05ebf54694eb0b9">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-10-10 18:08:53" Creator="Daniel" Comments="" ID="ae0dca18ed466e1c6c7ddc25c80ac80f">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.1.0.2</Library_Version>
+    <Library_Version>1.2.3.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_config_editor &gt;=1.2.0.29</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_config_editor &gt;=1.2.1.31</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_execsys &gt;=1.0.0.20</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_tbm &gt;=1.0.4.48</Additional_External_Dependencies>
     </Package_Dependencies>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>Added target support for bitfiles, cleaned out unused files, fixed numerous bugs, updated sample projects to perform locking operations on the dvrs rather than check in-check out</Release_Notes>
+      <Release_Notes>improvements to script tool</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -164,11 +164,6 @@
         <Locked_Only>true</Locked_Only>
       </Password_Overrides>
       <Password_Overrides>
-        <Path>asynchronous execution module</Path>
-        <Password/>
-        <Locked_Only>true</Locked_Only>
-      </Password_Overrides>
-      <Password_Overrides>
         <Path>Configuration Editor</Path>
         <Password/>
         <Locked_Only>true</Locked_Only>
@@ -180,9 +175,6 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>pldev.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>asynchronous execution module/tests</Path>
       </Exclusions>
       <Exclusions>
         <Path>pldevnosample.lvproj</Path>
@@ -470,7 +462,7 @@
         <Path>Framework Configuration Classes\platypus configuration\load runtime from configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BF2386B7FBBFC11124CE4FBAC4DE1DF1</GUID>
+      <GUID>8D754D93BB344D146D953452B052B8F5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
