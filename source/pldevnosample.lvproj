@@ -20,14 +20,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="asynchronous execution module" Type="Folder">
-			<Item Name="configuration" Type="Folder">
-				<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
-			</Item>
-			<Item Name="runtime" Type="Folder">
-				<Item Name="asynchronous execution module runtime.lvclass" Type="LVClass" URL="../asynchronous execution module/runtime/asynchronous execution module runtime.lvclass"/>
-			</Item>
-		</Item>
 		<Item Name="Configuration Editor" Type="Folder">
 			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 		</Item>
@@ -54,7 +46,6 @@
 			</Item>
 		</Item>
 		<Item Name="tests" Type="Folder">
-			<Item Name="async tests.lvlib" Type="Library" URL="../asynchronous execution module/tests/async tests.lvlib"/>
 			<Item Name="configuration tests.lvlib" Type="Library" URL="../tests/configuration tests.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -151,6 +142,8 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
+			<Item Name="Asynchronous Module Editor Node.lvclass" Type="LVClass" URL="../asynchronous execution module/editor/Asynchronous Module Editor Node.lvclass"/>
 			<Item Name="module information.ctl" Type="VI" URL="../Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

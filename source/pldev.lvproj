@@ -28,14 +28,11 @@
 			<Item Name="PL_Target Configuration.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target configuration/PL_Target Configuration.lvclass"/>
 			<Item Name="PLConfigurationSerializer.lvlib" Type="Library" URL="../Framework Configuration Classes/platypus configuration/PLConfigurationSerializer.lvlib"/>
 			<Item Name="PL_class cache.lvlib" Type="Library" URL="../Framework Configuration Classes/class cache/PL_class cache.lvlib"/>
-			<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
-			<Item Name="asynchronous execution module runtime.lvclass" Type="LVClass" URL="../asynchronous execution module/runtime/asynchronous execution module runtime.lvclass"/>
 			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 			<Item Name="PL_Target Runtime.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target runtime/PL_Target Runtime.lvclass"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="configuration tests.lvlib" Type="Library" URL="../tests/configuration tests.lvlib"/>
-			<Item Name="async tests.lvlib" Type="Library" URL="../asynchronous execution module/tests/async tests.lvlib"/>
 		</Item>
 		<Item Name="Core Targets" Type="Folder">
 			<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
@@ -241,16 +238,7 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
-				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
-				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
-				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -352,10 +340,14 @@
 			<Item Name="Close Create Project Progress Bar.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Close Create Project Progress Bar.vi"/>
 			<Item Name="Delete Project Destination on Error.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Delete Project Destination on Error.vi"/>
 			<Item Name="module information.ctl" Type="VI" URL="../Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
-			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
+			<Item Name="Channel Run Time Mapping Info.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Channel Run Time Mapping Info.ctl"/>
+			<Item Name="Index to cluster.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Index to cluster.vi"/>
+			<Item Name="Asynchronous Module Editor Node.lvclass" Type="LVClass" URL="../Configuration Editor/Classes/Asynchronous Component Editor Node/Asynchronous Module Editor Node.lvclass"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
+			<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="configurator" Type="EXE">
@@ -399,7 +391,7 @@
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">Library</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Config Classes/asynchronous execution module runtime.lvclass</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
@@ -473,7 +465,7 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Config Classes/asynchronous execution module configuration.lvclass</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">17</Property>

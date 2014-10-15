@@ -122,7 +122,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../../../../../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
 			<Item Name="Channel Run Time Mapping Info.ctl" Type="VI" URL="../../../../../Utilities/Cluster to Tag Bus Scripts/Channel Run Time Mapping Info.ctl"/>
 			<Item Name="Index to cluster.vi" Type="VI" URL="../../../../../Utilities/Cluster to Tag Bus Scripts/Index to cluster.vi"/>
 			<Item Name="module information.ctl" Type="VI" URL="../../../../../Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
