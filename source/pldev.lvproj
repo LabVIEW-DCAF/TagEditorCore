@@ -171,6 +171,58 @@
 				<Item Name="configuration library.lvlib" Type="Library" URL="../Configuration Editor Sample/Source/Module Configurator/configuration library.lvlib"/>
 			</Item>
 		</Item>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Cluster to Tag Bus Scripts" Type="Folder">
+				<Item Name="Controls" Type="Folder">
+					<Item Name="ControlsProperties.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/ControlsProperties.ctl"/>
+					<Item Name="IndexCluster.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/IndexCluster.ctl"/>
+					<Item Name="initialized references.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/initialized references.ctl"/>
+					<Item Name="input script control.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/input script control.ctl"/>
+					<Item Name="interface VI type.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/interface VI type.ctl"/>
+					<Item Name="output script control.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/output script control.ctl"/>
+					<Item Name="PathsCluster.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/PathsCluster.ctl"/>
+					<Item Name="processing script control.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/processing script control.ctl"/>
+					<Item Name="SampleControl.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/SampleControl.ctl"/>
+					<Item Name="StateCluster.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/StateCluster.ctl"/>
+					<Item Name="TerminalReferences.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Controls/TerminalReferences.ctl"/>
+				</Item>
+				<Item Name="subVIs" Type="Folder">
+					<Item Name="AddBunlderWithName.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/AddBunlderWithName.vi"/>
+					<Item Name="AddFrontPanelControls.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/AddFrontPanelControls.vi"/>
+					<Item Name="AddUnbunlderwithname.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/AddUnbunlderwithname.vi"/>
+					<Item Name="check type and blank string.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/check type and blank string.vi"/>
+					<Item Name="ClearBD.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/ClearBD.vi"/>
+					<Item Name="ClearFP.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/ClearFP.vi"/>
+					<Item Name="close references.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/close references.vi"/>
+					<Item Name="ClusterDataTypeToTagBusDataType.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/ClusterDataTypeToTagBusDataType.vi"/>
+					<Item Name="ClusterElementNames.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/ClusterElementNames.vi"/>
+					<Item Name="ControlFileToVariant.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/ControlFileToVariant.vi"/>
+					<Item Name="CreateIndexCluster.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/CreateIndexCluster.vi"/>
+					<Item Name="find or create references.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/find or create references.vi"/>
+					<Item Name="get full path of target vi.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/get full path of target vi.vi"/>
+					<Item Name="GetVIReference.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/GetVIReference.vi"/>
+					<Item Name="IndexCluster" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/IndexCluster"/>
+					<Item Name="initialize vi references.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/initialize vi references.vi"/>
+					<Item Name="OpenCreateVI.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/OpenCreateVI.vi"/>
+					<Item Name="SaveVi.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/SaveVi.vi"/>
+					<Item Name="template interface cluster.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/template interface cluster.ctl"/>
+					<Item Name="validate inputs.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/validate inputs.vi"/>
+					<Item Name="WireReadBlockDiagram.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/WireReadBlockDiagram.vi"/>
+					<Item Name="WireReadTagbusVIs.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/WireReadTagbusVIs.vi"/>
+					<Item Name="WireWriteBlockDiagram.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/WireWriteBlockDiagram.vi"/>
+					<Item Name="WireWriteTagbusVIs.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/subVIs/WireWriteTagbusVIs.vi"/>
+				</Item>
+				<Item Name="Channel Run Time Mapping Info.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Channel Run Time Mapping Info.ctl"/>
+				<Item Name="ClusterTagBusScripts.aliases" Type="Document" URL="../Utilities/Cluster to Tag Bus Scripts/ClusterTagBusScripts.aliases"/>
+				<Item Name="ClusterTagBusScripts.lvlps" Type="Document" URL="../Utilities/Cluster to Tag Bus Scripts/ClusterTagBusScripts.lvlps"/>
+				<Item Name="ClusterTagBusScripts.lvproj" Type="Document" URL="../Utilities/Cluster to Tag Bus Scripts/ClusterTagBusScripts.lvproj"/>
+				<Item Name="ClustertoTagbus.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/ClustertoTagbus.vi"/>
+				<Item Name="FromClusterToTagBusScript.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/FromClusterToTagBusScript.vi"/>
+				<Item Name="Index to cluster.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Index to cluster.vi"/>
+				<Item Name="TagbusToCluster.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/TagbusToCluster.vi"/>
+			</Item>
+			<Item Name="find channel tag indicies.vi" Type="VI" URL="../Utilities/find channel tag indicies.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -326,6 +378,7 @@
 				<Item Name="Create Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Create Semaphore.vi"/>
 				<Item Name="class discovery singleton.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/plugin discovery singleton/class discovery singleton.lvlib"/>
 				<Item Name="FPGA manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/FPGA manager/FPGA manager.lvlib"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 			</Item>
 			<Item Name="Iterate Save Progress.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Iterate Save Progress.vi"/>
 			<Item Name="BuildNewProjectPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/BuildNewProjectPath.vi"/>
@@ -340,14 +393,10 @@
 			<Item Name="Close Create Project Progress Bar.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Close Create Project Progress Bar.vi"/>
 			<Item Name="Delete Project Destination on Error.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Delete Project Destination on Error.vi"/>
 			<Item Name="module information.ctl" Type="VI" URL="../Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
-			<Item Name="Channel Run Time Mapping Info.ctl" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Channel Run Time Mapping Info.ctl"/>
-			<Item Name="Index to cluster.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Index to cluster.vi"/>
-			<Item Name="Asynchronous Module Editor Node.lvclass" Type="LVClass" URL="../Configuration Editor/Classes/Asynchronous Component Editor Node/Asynchronous Module Editor Node.lvclass"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
-			<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="../asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="configurator" Type="EXE">
