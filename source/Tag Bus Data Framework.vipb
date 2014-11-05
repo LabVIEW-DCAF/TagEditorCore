@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-04 10:32:25" Creator="Daniel" Comments="" ID="37fe8d1ef2be70effaef7f35ca6e8e92">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-04 21:05:46" Creator="Daniel" Comments="" ID="484d017be3195f9630f21c4a7ea0f30c">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.2.3.10</Library_Version>
+    <Library_Version>1.2.4.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>improvements to script tool to include reversing the data set interface.</Release_Notes>
+      <Release_Notes>Improvements to deploy tool UI, addition of deploy callback to framework, moved fixed channel template functionality into framework.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -462,7 +462,7 @@
         <Path>Framework Configuration Classes\platypus configuration\load runtime from configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0213238A7C2BCD51206B41994AFE10D4</GUID>
+      <GUID>EF7B81215BB4E9DC5D0B4A0C9F5E9B6A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
