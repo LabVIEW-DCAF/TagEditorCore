@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-04 21:05:46" Creator="Daniel" Comments="" ID="484d017be3195f9630f21c4a7ea0f30c">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-04 22:04:22" Creator="Daniel" Comments="" ID="a1cdd6deeebfc84ec4f854e2576ce18b">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.2.4.10</Library_Version>
+    <Library_Version>1.2.4.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>Improvements to deploy tool UI, addition of deploy callback to framework, moved fixed channel template functionality into framework.</Release_Notes>
+      <Release_Notes>Improvements to deploy tool UI, addition of deploy callback to framework, moved fixed channel template functionality into framework. Added button to automap fixed channels</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
