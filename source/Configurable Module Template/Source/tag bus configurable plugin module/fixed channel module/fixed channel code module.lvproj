@@ -22,7 +22,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
-			<Item Name="Test Channel Configuration.vi" Type="VI" URL="../module/configuration/Test Channel Configuration.vi"/>
+			<Item Name="Test Channel Configuration.vi" Type="VI" URL="../tests/Test Channel Configuration.vi"/>
 		</Item>
 		<Item Name="fixed channel tag bus module configuration.lvclass" Type="LVClass" URL="../module/configuration/fixed channel tag bus module configuration.lvclass"/>
 		<Item Name="fixed channel tag bus module editor node.lvclass" Type="LVClass" URL="../editor node/fixed channel tag bus module editor node.lvclass"/>
