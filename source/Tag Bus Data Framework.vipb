@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-04 22:04:22" Creator="Daniel" Comments="" ID="a1cdd6deeebfc84ec4f854e2576ce18b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-04 23:29:26" Creator="Daniel" Comments="" ID="5466f1ade190e90577d1e2606650c319">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.2.4.11</Library_Version>
+    <Library_Version>1.2.5.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>Improvements to deploy tool UI, addition of deploy callback to framework, moved fixed channel template functionality into framework. Added button to automap fixed channels</Release_Notes>
+      <Release_Notes>Improvements to deploy tool UI, addition of deploy callback to framework, moved fixed channel template functionality into framework. Added button to automap fixed channels.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -462,7 +462,7 @@
         <Path>Framework Configuration Classes\platypus configuration\load runtime from configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF7B81215BB4E9DC5D0B4A0C9F5E9B6A</GUID>
+      <GUID>A73A1B0665A74BC3BC98F48C734E6C28</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
