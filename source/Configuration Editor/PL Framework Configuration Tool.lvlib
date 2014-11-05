@@ -25,6 +25,7 @@
 		<Item Name="TBM Configuration Node.lvclass" Type="LVClass" URL="../Classes/TBM Configuration Node/TBM Configuration Node.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="add filename if missing.vi" Type="VI" URL="../subVIs/add filename if missing.vi"/>
 		<Item Name="Add status to name.vi" Type="VI" URL="../subVIs/Add status to name.vi"/>
 		<Item Name="deployment configuration.ctl" Type="VI" URL="../subVIs/deployment configuration.ctl"/>
 		<Item Name="deployment tool.vi" Type="VI" URL="../subVIs/deployment tool.vi"/>
