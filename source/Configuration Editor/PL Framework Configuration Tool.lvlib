@@ -28,8 +28,9 @@
 		<Item Name="Add status to name.vi" Type="VI" URL="../subVIs/Add status to name.vi"/>
 		<Item Name="deployment configuration.ctl" Type="VI" URL="../subVIs/deployment configuration.ctl"/>
 		<Item Name="deployment tool.vi" Type="VI" URL="../subVIs/deployment tool.vi"/>
+		<Item Name="find channel tag indicies.vi" Type="VI" URL="../subVIs/find channel tag indicies.vi"/>
 		<Item Name="Glyphs Status.ctl" Type="VI" URL="../subVIs/Glyphs Status.ctl"/>
-		<Item Name="tokens to path.vi" Type="VI" URL="../tokens to path.vi"/>
+		<Item Name="tokens to path.vi" Type="VI" URL="../subVIs/tokens to path.vi"/>
 		<Item Name="view deploy screen.vi" Type="VI" URL="../subVIs/view deploy screen.vi"/>
 	</Item>
 </Library>

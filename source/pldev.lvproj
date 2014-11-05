@@ -221,7 +221,6 @@
 				<Item Name="Index to cluster.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Index to cluster.vi"/>
 				<Item Name="TagbusToCluster.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/TagbusToCluster.vi"/>
 			</Item>
-			<Item Name="find channel tag indicies.vi" Type="VI" URL="../Utilities/find channel tag indicies.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
