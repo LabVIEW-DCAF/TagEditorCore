@@ -23,153 +23,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Config Classes" Type="Folder">
-			<Item Name="PL_System Configuration.lvclass" Type="LVClass" URL="../Framework Configuration Classes/system configuration/PL_System Configuration.lvclass"/>
-			<Item Name="PL_Target Configuration.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target configuration/PL_Target Configuration.lvclass"/>
-			<Item Name="PLConfigurationSerializer.lvlib" Type="Library" URL="../Framework Configuration Classes/platypus configuration/PLConfigurationSerializer.lvlib"/>
-			<Item Name="PL_class cache.lvlib" Type="Library" URL="../Framework Configuration Classes/class cache/PL_class cache.lvlib"/>
-			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
-			<Item Name="PL_Target Runtime.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target runtime/PL_Target Runtime.lvclass"/>
-		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="configuration tests.lvlib" Type="Library" URL="../tests/configuration tests.lvlib"/>
-		</Item>
-		<Item Name="Core Targets" Type="Folder">
-			<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
-			<Item Name="PLTarget PC.lvclass" Type="LVClass" URL="../core targets/PC/PLTarget PC.lvclass"/>
-		</Item>
-		<Item Name="Templates" Type="Folder">
-			<Item Name="Configurable Module Template" Type="Folder">
-				<Item Name="io plugin" Type="Folder">
-					<Item Name="documentation" Type="Folder">
-						<Item Name="component editor documentation.html" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/documentation/component editor documentation.html"/>
-					</Item>
-					<Item Name="editor node" Type="Folder">
-						<Item Name="tag bus configurable plugin editor node.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/editor node/tag bus configurable plugin editor node.lvclass"/>
-					</Item>
-					<Item Name="images" Type="Folder">
-						<Item Name="datacomp.png" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/images/datacomp.png"/>
-					</Item>
-					<Item Name="module" Type="Folder">
-						<Item Name="configuration" Type="Folder">
-							<Item Name="tag bus configurable plugin module configuration.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/module/configuration/tag bus configurable plugin module configuration.lvclass"/>
-						</Item>
-						<Item Name="execution" Type="Folder">
-							<Item Name="tag bus configurable plugin module.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/module/execution/tag bus configurable plugin module.lvclass"/>
-						</Item>
-					</Item>
-					<Item Name="scripting" Type="Folder">
-						<Item Name="TagBusConfigurablePluginDecideFeatures.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/scripting/TagBusConfigurablePluginDecideFeatures.lvclass"/>
-					</Item>
-					<Item Name="testing" Type="Folder">
-						<Item Name="io plugin tests.lvlib" Type="Library" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/testing/io plugin tests.lvlib"/>
-					</Item>
-					<Item Name="tag bus io plugin.lvproj" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/io plugin/tag bus io plugin.lvproj"/>
-				</Item>
-				<Item Name="processing plugin" Type="Folder">
-					<Item Name="documentation" Type="Folder">
-						<Item Name="component editor documentation.html" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/documentation/component editor documentation.html"/>
-					</Item>
-					<Item Name="editor node" Type="Folder">
-						<Item Name="tag bus processing plugin editor node.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/editor node/tag bus processing plugin editor node.lvclass"/>
-					</Item>
-					<Item Name="images" Type="Folder">
-						<Item Name="datacomp.png" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/images/datacomp.png"/>
-					</Item>
-					<Item Name="module" Type="Folder">
-						<Item Name="configuration" Type="Folder">
-							<Item Name="tag bus processing plugin module configuration.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/module/configuration/tag bus processing plugin module configuration.lvclass"/>
-						</Item>
-						<Item Name="execution" Type="Folder">
-							<Item Name="tag bus processing plugin module.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/module/execution/tag bus processing plugin module.lvclass"/>
-						</Item>
-					</Item>
-					<Item Name="scripting" Type="Folder">
-						<Item Name="TagBusProcessingPluginFeatureDecider.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/scripting/TagBusProcessingPluginFeatureDecider.lvclass"/>
-					</Item>
-					<Item Name="testing" Type="Folder">
-						<Item Name="processing plugin tests.lvlib" Type="Library" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/testing/processing plugin tests.lvlib"/>
-					</Item>
-					<Item Name="tag bus processing plugin.lvproj" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/processing plugin/tag bus processing plugin.lvproj"/>
-				</Item>
-				<Item Name="user code module" Type="Folder">
-					<Item Name="documentation" Type="Folder">
-						<Item Name="component editor documentation.html" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/documentation/component editor documentation.html"/>
-					</Item>
-					<Item Name="editor node" Type="Folder">
-						<Item Name="user tag bus module editor node.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/editor node/user tag bus module editor node.lvclass"/>
-					</Item>
-					<Item Name="images" Type="Folder">
-						<Item Name="datacomp.png" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/images/datacomp.png"/>
-					</Item>
-					<Item Name="module" Type="Folder">
-						<Item Name="configuration" Type="Folder">
-							<Item Name="user tag bus module configuration.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/module/configuration/user tag bus module configuration.lvclass"/>
-						</Item>
-						<Item Name="execution" Type="Folder">
-							<Item Name="user tag bus module.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/module/execution/user tag bus module.lvclass"/>
-						</Item>
-					</Item>
-					<Item Name="scripting" Type="Folder">
-						<Item Name="UserTBModuleDecideFeatures.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/scripting/UserTBModuleDecideFeatures.lvclass"/>
-					</Item>
-					<Item Name="testing" Type="Folder">
-						<Item Name="user code tests.lvlib" Type="Library" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/testing/user code tests.lvlib"/>
-					</Item>
-					<Item Name="user code module.lvproj" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/user code module/user code module.lvproj"/>
-				</Item>
-				<Item Name="fixed channel module" Type="Folder">
-					<Item Name="documentation" Type="Folder">
-						<Item Name="component editor documentation.html" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/documentation/component editor documentation.html"/>
-					</Item>
-					<Item Name="editor node" Type="Folder">
-						<Item Name="fixed channel tag bus module editor node.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/editor node/fixed channel tag bus module editor node.lvclass"/>
-						<Item Name="Channel Mapping Runtime menu.rtm" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/editor node/Channel Mapping Runtime menu.rtm"/>
-					</Item>
-					<Item Name="images" Type="Folder">
-						<Item Name="datacomp.png" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/images/datacomp.png"/>
-					</Item>
-					<Item Name="module" Type="Folder">
-						<Item Name="configuration" Type="Folder">
-							<Item Name="fixed channel tag bus module configuration.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/module/configuration/fixed channel tag bus module configuration.lvclass"/>
-						</Item>
-						<Item Name="execution" Type="Folder">
-							<Item Name="fixed channel tag bus module.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/module/execution/fixed channel tag bus module.lvclass"/>
-						</Item>
-					</Item>
-					<Item Name="scripting" Type="Folder">
-						<Item Name="FixedChannelTBModuleDecideFeatures.lvclass" Type="LVClass" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/scripting/FixedChannelTBModuleDecideFeatures.lvclass"/>
-					</Item>
-					<Item Name="fixed channel code module.lvproj" Type="Document" URL="../Configurable Module Template/Source/tag bus configurable plugin module/fixed channel module/fixed channel code module.lvproj"/>
-				</Item>
-			</Item>
-			<Item Name="RT Executable Template" Type="Folder">
-				<Item Name="Module Execution" Type="Folder">
-					<Item Name="documentation" Type="Folder">
-						<Item Name="module execution.html" Type="Document" URL="../RT Executable Template/Source/Module Execution/documentation/module execution.html"/>
-					</Item>
-					<Item Name="images" Type="Folder">
-						<Item Name="datacomp.png" Type="Document" URL="../RT Executable Template/Source/Module Execution/images/datacomp.png"/>
-					</Item>
-					<Item Name="SubVIs" Type="Folder"/>
-					<Item Name="module execution process.lvlib" Type="Library" URL="../RT Executable Template/Source/Module Execution/module execution process.lvlib"/>
-					<Item Name="Module Execution.lvproj" Type="Document" URL="../RT Executable Template/Source/Module Execution/Module Execution.lvproj"/>
-				</Item>
-				<Item Name="Single Engine System" Type="Folder">
-					<Item Name="documentation" Type="Folder">
-						<Item Name="module execution.html" Type="Document" URL="../RT Executable Template/Source/Single Engine System/documentation/module execution.html"/>
-					</Item>
-					<Item Name="images" Type="Folder">
-						<Item Name="datacomp.png" Type="Document" URL="../RT Executable Template/Source/Single Engine System/images/datacomp.png"/>
-					</Item>
-					<Item Name="Single Engine Main.vi" Type="VI" URL="../RT Executable Template/Source/Single Engine System/Single Engine Main.vi"/>
-					<Item Name="Single Engine System.lvproj" Type="Document" URL="../RT Executable Template/Source/Single Engine System/Single Engine System.lvproj"/>
-				</Item>
-			</Item>
-			<Item Name="Configuration Editor Sample" Type="Folder">
-				<Item Name="Module Configuration Editor.lvproj" Type="Document" URL="../Configuration Editor Sample/Source/Module Configurator/Module Configuration Editor.lvproj"/>
-				<Item Name="configuration library.lvlib" Type="Library" URL="../Configuration Editor Sample/Source/Module Configurator/configuration library.lvlib"/>
-			</Item>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Cluster to Tag Bus Scripts" Type="Folder">
@@ -221,24 +76,27 @@
 				<Item Name="Index to cluster.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/Index to cluster.vi"/>
 				<Item Name="TagbusToCluster.vi" Type="VI" URL="../Utilities/Cluster to Tag Bus Scripts/TagbusToCluster.vi"/>
 			</Item>
+			<Item Name="script includes loader.vi" Type="VI" URL="../Utilities/script includes loader.vi"/>
+			<Item Name="script includes VI.vi" Type="VI" URL="../Utilities/script includes VI.vi"/>
 		</Item>
+		<Item Name="PL_System Configuration.lvclass" Type="LVClass" URL="../Framework Configuration Classes/system configuration/PL_System Configuration.lvclass"/>
+		<Item Name="PL_Target Configuration.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target configuration/PL_Target Configuration.lvclass"/>
+		<Item Name="PLConfigurationSerializer.lvlib" Type="Library" URL="../Framework Configuration Classes/platypus configuration/PLConfigurationSerializer.lvlib"/>
+		<Item Name="PL_class cache.lvlib" Type="Library" URL="../Framework Configuration Classes/class cache/PL_class cache.lvlib"/>
+		<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
+		<Item Name="PL_Target Runtime.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target runtime/PL_Target Runtime.lvclass"/>
+		<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
+		<Item Name="PLTarget PC.lvclass" Type="LVClass" URL="../core targets/PC/PLTarget PC.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
-				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
-				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="LVMenuShortCut.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMenuShortCut.ctl"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -275,9 +133,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="TBM configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/root configuration/TBM configuration.lvclass"/>
 				<Item Name="TBM module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/module configuration/TBM module configuration.lvclass"/>
 				<Item Name="TBM channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/channel/TBM channel.lvclass"/>
@@ -291,61 +146,17 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="engine configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Configuration/engine configuration.lvclass"/>
 				<Item Name="Engine Runtime Interface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Runtime/Engine Runtime Interface.lvclass"/>
 				<Item Name="TBM timing source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Timing Source/timing source/TBM timing source.lvclass"/>
-				<Item Name="Edit LVLibs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/EditLVLibs/Edit LVLibs.lvlib"/>
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
-				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
-				<Item Name="NI_Multibyte Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Multibyte/NI_Multibyte Utilities.lvlib"/>
-				<Item Name="Is Name Multiplatform.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Is Name Multiplatform.vi"/>
-				<Item Name="Icon.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Icon/Icon.lvclass"/>
-				<Item Name="Layer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Layer/Layer.lvclass"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
-				<Item Name="Layer.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Layer.ctl"/>
-				<Item Name="LayerType.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/LayerType.ctl"/>
-				<Item Name="lv_icon.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/lv_icon.lvlib"/>
-				<Item Name="Icon Framework.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Icon Framework/Icon Framework.lvclass"/>
-				<Item Name="Font.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Font.ctl"/>
-				<Item Name="BodyText.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyText.ctl"/>
-				<Item Name="Alignment.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Alignment.ctl"/>
-				<Item Name="Graphic.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Graphic.ctl"/>
-				<Item Name="BodyTextPosition.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyTextPosition.ctl"/>
-				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
-				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
-				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
-				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
-				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
-				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
-				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
-				<Item Name="Draw 4-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 4-Bit Pixmap.vi"/>
-				<Item Name="Draw 8-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 8-Bit Pixmap.vi"/>
-				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
-				<Item Name="IEColor.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/IEColor.ctl"/>
-				<Item Name="Create Mask.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Create Mask.vi"/>
-				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
-				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
-				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
-				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
-				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
-				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
-				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
-				<Item Name="Hilite Color.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Hilite Color.vi"/>
-				<Item Name="Draw Round Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Round Rect.vi"/>
-				<Item Name="TRef Traverse for References.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse for References.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
-				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="NISE_CEF_Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CEF_TreeControl/Node/NISE_CEF_Node.lvclass"/>
@@ -379,23 +190,9 @@
 				<Item Name="FPGA manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/FPGA manager/FPGA manager.lvlib"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 			</Item>
-			<Item Name="Iterate Save Progress.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Iterate Save Progress.vi"/>
-			<Item Name="BuildNewProjectPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/BuildNewProjectPath.vi"/>
-			<Item Name="Spec Page Interface.ctl" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Spec Page Interface.ctl"/>
-			<Item Name="MetaDataObj.lvclass" Type="LVClass" URL="/&lt;resource&gt;/dialog/NewProjectWizard/MetaDataObj/MetaDataObj.lvclass"/>
-			<Item Name="CustomVIModes.ctl" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/MetaDataObj/Accessors/CustomVIModes.ctl"/>
-			<Item Name="Center Image In Rectangle.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/MetaDataObj/Center Image In Rectangle.vi"/>
-			<Item Name="Stack Images.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/MetaDataObj/Stack Images.vi"/>
-			<Item Name="ValidateFilePath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/ValidateFilePath.vi"/>
-			<Item Name="Generate Default Project Name and Path.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Generate Default Project Name and Path.vi"/>
-			<Item Name="Handle SpecPage Project Name Change.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Handle SpecPage Project Name Change.vi"/>
-			<Item Name="Close Create Project Progress Bar.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Close Create Project Progress Bar.vi"/>
-			<Item Name="Delete Project Destination on Error.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Delete Project Destination on Error.vi"/>
-			<Item Name="module information.ctl" Type="VI" URL="../Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
-			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="configurator" Type="EXE">
@@ -443,7 +240,7 @@
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Config Classes/PL Framework Configuration Tool.lvlib</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/PL Framework Configuration Tool.lvlib</Property>
 				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
@@ -466,7 +263,7 @@
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Config Classes</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
@@ -474,21 +271,21 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Config Classes/PL Framework Configuration Tool.lvlib/Module Editor Nodes</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/PL Framework Configuration Tool.lvlib/Module Editor Nodes</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Config Classes/PL Framework Configuration Tool.lvlib/Engine Editor Nodes</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/PL Framework Configuration Tool.lvlib/Engine Editor Nodes</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Config Classes/PL Framework Configuration Tool.lvlib/Containers</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/PL Framework Configuration Tool.lvlib/Containers</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">1</Property>
@@ -501,7 +298,7 @@
 				<Property Name="Source[6].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Config Classes/PL Framework Configuration Tool.lvlib/Parent Node/TBM Configuration Node.lvclass</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/PL Framework Configuration Tool.lvlib/Parent Node/TBM Configuration Node.lvclass</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.applyProperties" Type="Bool">true</Property>
