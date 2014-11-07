@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-04 23:29:26" Creator="Daniel" Comments="" ID="5466f1ade190e90577d1e2606650c319">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-07 00:09:21" Creator="Daniel" Comments="" ID="62b78ec6d32161bf3ce4fc958bca700a">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.2.5.12</Library_Version>
+    <Library_Version>1.3.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>Improvements to deploy tool UI, addition of deploy callback to framework, moved fixed channel template functionality into framework. Added button to automap fixed channels.</Release_Notes>
+      <Release_Notes>Remove templates from this package, issue #65</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -101,48 +101,6 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Configurable Module Template/MetaData</Path>
-        <Destination>9</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Configurable Module Template/Source</Path>
-        <Destination>9</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>RT Executable Template/MetaData</Path>
-        <Destination>9</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>RT Executable Template/Source</Path>
-        <Destination>9</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Configuration Editor Sample</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Configuration Editor Sample/MetaData</Path>
-        <Destination>9</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Configuration Editor Sample/Source</Path>
-        <Destination>9</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>TBDataFramework-errors.txt</Path>
         <Destination>3</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -175,9 +133,6 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>pldev.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>pldevnosample.lvproj</Path>
       </Exclusions>
       <Exclusions>
         <Path>tests</Path>
@@ -462,7 +417,7 @@
         <Path>Framework Configuration Classes\platypus configuration\load runtime from configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A73A1B0665A74BC3BC98F48C734E6C28</GUID>
+      <GUID>988230C21120E692D559256FF9850C7F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
