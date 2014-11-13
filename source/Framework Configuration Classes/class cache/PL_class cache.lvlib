@@ -20,7 +20,7 @@
 		<Item Name="get all filenames in cache.vi" Type="VI" URL="../get all filenames in cache.vi"/>
 		<Item Name="identify classes in memory.vi" Type="VI" URL="../identify classes in memory.vi"/>
 		<Item Name="identify new classes.vi" Type="VI" URL="../identify new classes.vi"/>
-		<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="../../../Configuration Editor Sample/Source/Module Configurator/subVI/Read Class Ancestry Without Loading.vi"/>
+		<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="../Read Class Ancestry Without Loading.vi"/>
 	</Item>
 	<Item Name="types" Type="Folder">
 		<Item Name="cache definition.ctl" Type="VI" URL="../cache definition.ctl"/>
