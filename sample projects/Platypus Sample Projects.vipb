@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-07 14:32:22" Modified_Date="2014-11-14 00:04:48" Creator="Daniel" Comments="" ID="c3f0b001ce3dfb80cce92e385e4ab072">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-07 14:32:22" Modified_Date="2014-11-14 15:17:31" Creator="Daniel" Comments="" ID="24670e3545e5d9706ed8107b4fd97dd2">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbdfsample</Package_File_Name>
-    <Library_Version>1.0.7.2</Library_Version>
+    <Library_Version>1.0.8.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>Added fix#71</Release_Notes>
+      <Release_Notes>Added fix#75</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
