@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-07 14:32:22" Modified_Date="2014-11-13 16:40:41" Creator="Daniel" Comments="" ID="468218afb9dc0115964f4488dbf39092">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-07 14:32:22" Modified_Date="2014-11-13 23:24:38" Creator="Daniel" Comments="" ID="42128fad57acbc175e0720022dd29215">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbdfsample</Package_File_Name>
-    <Library_Version>1.0.5.3</Library_Version>
+    <Library_Version>1.0.6.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>

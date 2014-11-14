@@ -23,6 +23,7 @@
 			<Item Name="splash screen.lvlib" Type="Library" URL="../subVI/SplashScreen/splash screen.lvlib"/>
 		</Item>
 		<Item Name="always includes.vi" Type="VI" URL="../subVI/always includes.vi"/>
+		<Item Name="call include vi script.vi" Type="VI" URL="../subVI/call include vi script.vi"/>
 		<Item Name="check if subpanel should be closed.vi" Type="VI" URL="../subVI/check if subpanel should be closed.vi"/>
 		<Item Name="default file paths.vi" Type="VI" URL="../subVI/default file paths.vi"/>
 		<Item Name="disable messages.vi" Type="VI" URL="../subVI/disable messages.vi"/>
