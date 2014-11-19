@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-07 14:32:22" Modified_Date="2014-11-18 17:54:52" Creator="Daniel" Comments="" ID="0ce31e42cf093e8290b7c38d12d34892">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-07 14:32:22" Modified_Date="2014-11-18 18:08:39" Creator="Daniel" Comments="" ID="7dfdf5ca17b923377dd40ebb32a40388">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbdfsample</Package_File_Name>
     <Library_Version>1.0.9.6</Library_Version>
@@ -73,7 +73,7 @@
       <Tools_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;project&gt;\TBDF</Path>
       </Tools_Menu>
       <Help_Menu>
         <LLB>false</LLB>
