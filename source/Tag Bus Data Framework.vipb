@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-19 13:39:51" Creator="Daniel" Comments="" ID="8b94baf40a7dd95f1e8389e83c42cca5">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-19 15:53:53" Creator="Daniel" Comments="" ID="9c4629664e0e16e4ea4fe07c6d0748fe">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.3.5.3</Library_Version>
+    <Library_Version>1.3.5.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>Add script to tools menu</Release_Notes>
+      <Release_Notes>Add script to tools menu, add standard editor to tools menus</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -108,6 +108,12 @@
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>tools menu/Script Module Include File.vi</Path>
+        <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>tools menu/Launch Standard Configuration Editor.vi</Path>
         <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -423,7 +429,7 @@
         <Path>Framework Configuration Classes\platypus configuration\load runtime from configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E978BBCC10AA5CFD538CCB24F6170380</GUID>
+      <GUID>FEAA61474B7FE4AFF2CDF8A023D0A712</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
