@@ -9,8 +9,6 @@
 </Property>
 	<Item Name="Containers" Type="Folder">
 		<Item Name="SystemConfigRepo.lvclass" Type="LVClass" URL="../Classes/SystemConfigRepo/SystemConfigRepo.lvclass"/>
-		<Item Name="Systems.lvclass" Type="LVClass" URL="../Classes/Systems/Systems.lvclass"/>
-		<Item Name="Targets.lvclass" Type="LVClass" URL="../Classes/Targets/Targets.lvclass"/>
 	</Item>
 	<Item Name="Engine Editor Nodes" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>

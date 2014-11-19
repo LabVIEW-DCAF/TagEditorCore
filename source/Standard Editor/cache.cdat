@@ -1,0 +1,464 @@
+<Cluster>
+<Name>cache</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>configuration</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>Search Paths</Name>
+<Dimsize>3</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source</Val>
+</Path>
+</Array>
+<Array>
+<Name>Folders to Exclude</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>full class list</Name>
+<Dimsize>37</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\execution\Shared Library Module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CVT Access\module\configuration\CVT configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CVT Access\module\execution\CVT runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\EIP Tags\channel\EIP Tags Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\EIP Tags\configuration\EIP Tags Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\EIP Tags\execution\EIP Tags Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Ethernet IP\channel\EthernetIP Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Ethernet IP\configuration\EthernetIP configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Ethernet IP\execution\EthernetIP runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\modbus slave\configuration\Modbus Slave configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\modbus slave\execution\Modbus Slave runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\modbus slave\module channel\Modbus Module Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TBWI\configuration\Tag Bus Web Interface configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TBWI\execution\Tag Bus Web Interface runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TDMS Datalogger\module\configuration\TDMS datalogger configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TDMS Datalogger\module\execution\TDMS datalogger runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\variable\module\configuration\Scan Engine configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\variable\module\execution\Scan Engine runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines\Standard Engine\Configuration\Standard Engine Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines\Standard Engine\Runtime\Standard Engine Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\core targets\cRIO\PLTarget cRIO.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\core targets\PC\PLTarget PC.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+</Path>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class cache data</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>targets</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget cRIO</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget cRIO.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>cRIO</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget PC</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget PC.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>PC</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>engines</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>file name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val></Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>0</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val></Val>
+</EW>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>modules</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>file name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val></Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>0</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val></Val>
+</EW>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>ignored class list</Name>
+<Dimsize>35</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\execution\Shared Library Module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CVT Access\module\configuration\CVT configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CVT Access\module\execution\CVT runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\EIP Tags\channel\EIP Tags Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\EIP Tags\configuration\EIP Tags Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\EIP Tags\execution\EIP Tags Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Ethernet IP\channel\EthernetIP Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Ethernet IP\configuration\EthernetIP configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Ethernet IP\execution\EthernetIP runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\modbus slave\configuration\Modbus Slave configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\modbus slave\execution\Modbus Slave runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\modbus slave\module channel\Modbus Module Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TBWI\configuration\Tag Bus Web Interface configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TBWI\execution\Tag Bus Web Interface runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TDMS Datalogger\module\configuration\TDMS datalogger configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TDMS Datalogger\module\execution\TDMS datalogger runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\variable\module\configuration\Scan Engine configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\variable\module\execution\Scan Engine runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines\Standard Engine\Configuration\Standard Engine Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines\Standard Engine\Runtime\Standard Engine Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TBDCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+</Path>
+</Array>
+</Cluster>
+</Cluster>
