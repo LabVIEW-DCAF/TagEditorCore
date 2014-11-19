@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-14 17:38:20" Creator="Daniel" Comments="" ID="c2cae11ce15c2a8c8652db840be634b9">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-19 13:39:51" Creator="Daniel" Comments="" ID="8b94baf40a7dd95f1e8389e83c42cca5">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>1.3.4.3</Library_Version>
+    <Library_Version>1.3.5.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>expose script for includes VI functionality via fp</Release_Notes>
+      <Release_Notes>Add script to tools menu</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -75,7 +75,7 @@
       <Tools_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;project&gt;\TBDF</Path>
       </Tools_Menu>
       <Help_Menu>
         <LLB>false</LLB>
@@ -103,6 +103,12 @@
       <Destination_Overrides>
         <Path>TBDataFramework-errors.txt</Path>
         <Destination>3</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>tools menu/Script Module Include File.vi</Path>
+        <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -417,7 +423,7 @@
         <Path>Framework Configuration Classes\platypus configuration\load runtime from configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>734559EB2F0BC611BC0265C02E1DF5EA</GUID>
+      <GUID>E978BBCC10AA5CFD538CCB24F6170380</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
