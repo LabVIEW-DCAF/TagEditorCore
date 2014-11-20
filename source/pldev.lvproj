@@ -40,8 +40,6 @@
 		<Item Name="PL_Target Runtime.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target runtime/PL_Target Runtime.lvclass"/>
 		<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
 		<Item Name="PLTarget PC.lvclass" Type="LVClass" URL="../core targets/PC/PLTarget PC.lvclass"/>
-		<Item Name="Systems.lvclass" Type="LVClass" URL="../Configuration Editor/Classes/Systems/Systems.lvclass"/>
-		<Item Name="Targets.lvclass" Type="LVClass" URL="../Configuration Editor/Classes/Targets/Targets.lvclass"/>
 		<Item Name="Standard Editor.lvlib" Type="Library" URL="../Standard Editor/Standard Editor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -156,6 +154,7 @@
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="configurator" Type="EXE">
