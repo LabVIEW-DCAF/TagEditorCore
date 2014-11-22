@@ -32,18 +32,22 @@
 		<Item Name="tools menu" Type="Folder" URL="../tools menu">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="runtime classes" Type="Folder">
+		<Item Name="done" Type="Folder">
 			<Item Name="PL_class cache.lvlib" Type="Library" URL="../Framework Configuration Classes/class cache/PL_class cache.lvlib"/>
 			<Item Name="PL_Target Runtime.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target runtime/PL_Target Runtime.lvclass"/>
 			<Item Name="PL_System Configuration.lvclass" Type="LVClass" URL="../Framework Configuration Classes/system configuration/PL_System Configuration.lvclass"/>
 			<Item Name="PL_Target Configuration.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target configuration/PL_Target Configuration.lvclass"/>
 			<Item Name="PLConfigurationSerializer.lvlib" Type="Library" URL="../Framework Configuration Classes/platypus configuration/PLConfigurationSerializer.lvlib"/>
 		</Item>
+		<Item Name="parents" Type="Folder">
+			<Item Name="TBM module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/module configuration/TBM module configuration.lvclass"/>
+			<Item Name="TBM configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/root configuration/TBM configuration.lvclass"/>
+			<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/CEF/CEF_TreeControl/serializable node/NISE_CEF_serializable node.lvclass"/>
+		</Item>
 		<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 		<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
 		<Item Name="PLTarget PC.lvclass" Type="LVClass" URL="../core targets/PC/PLTarget PC.lvclass"/>
 		<Item Name="Standard Editor.lvlib" Type="Library" URL="../Standard Editor/Standard Editor.lvlib"/>
-		<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/CEF/CEF_TreeControl/serializable node/NISE_CEF_serializable node.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -90,8 +94,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-				<Item Name="TBM configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/root configuration/TBM configuration.lvclass"/>
-				<Item Name="TBM module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/module configuration/TBM module configuration.lvclass"/>
 				<Item Name="TBM channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/channel/TBM channel.lvclass"/>
 				<Item Name="tag bus.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus/tag bus.lvlib"/>
 				<Item Name="TBM module execution interface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/runtime/TBM module execution interface.lvclass"/>
