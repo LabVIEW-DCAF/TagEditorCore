@@ -158,6 +158,10 @@
 				<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/CEF/CEF_TreeControl/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
 				<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/CEF/CEF_TreeControl/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
 				<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/CEF/CEF_TreeControl/tree based serializer/NISE_CEF_TreeSerializer.lvlib"/>
+				<Item Name="Read instance name.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/root configuration/Read instance name.vi"/>
+				<Item Name="set metadata property.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/root configuration/set metadata property.vi"/>
+				<Item Name="create GUID.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/root configuration/create GUID.vi"/>
+				<Item Name="read metadata property.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/root configuration/read metadata property.vi"/>
 			</Item>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
