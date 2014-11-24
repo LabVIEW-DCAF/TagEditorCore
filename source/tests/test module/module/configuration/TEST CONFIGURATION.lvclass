@@ -132,7 +132,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
-		<Item Name="validate configuration.vi" Type="VI" URL="../validate configuration.vi">
+		<Item Name="validate.vi" Type="VI" URL="../validate.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&gt;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!(:!=!!?!!!W'7.P&lt;G:J:X6S982J&lt;WYA&gt;'6T&gt;(-O&lt;(:M;7);6%646#"$4UZ'35&gt;65E&amp;535^/,GRW9WRB=X-!!$2U97=A9H6T)'.P&lt;G:J:X6S97*M:3"Q&lt;(6H;7YA&lt;7^E&gt;7RF)'.P&lt;G:J:X6S982J&lt;WYA&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!&gt;%"Q!"Y!!$9:9W^O:GFH&gt;8*B&gt;'FP&lt;C"U:8.U=SZM&gt;GRJ9BJ526.5)%.04E:*2V63162*4UYO&lt;(:D&lt;'&amp;T=Q!!-X2B:S"C&gt;8-A9W^O:GFH&gt;8*B9GRF)("M&gt;7&gt;J&lt;C"N&lt;W2V&lt;'5A9W^O:GFH&gt;8*B&gt;'FP&lt;C"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
