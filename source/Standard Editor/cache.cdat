@@ -6,7 +6,7 @@
 <NumElts>3</NumElts>
 <Array>
 <Name>Search Paths</Name>
-<Dimsize>3</Dimsize>
+<Dimsize>2</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules</Val>
@@ -14,10 +14,6 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\TBD\TBDCore\source</Val>
 </Path>
 </Array>
 <Array>
@@ -30,14 +26,22 @@
 </Array>
 <Array>
 <Name>full class list</Name>
-<Dimsize>37</Dimsize>
+<Dimsize>51</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\editor\Shared Library Module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\execution\Shared Library Module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CVT Access\editor\CVT editor node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
@@ -57,6 +61,10 @@
 </Path>
 <Path>
 <Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\EIP Tags\editor\EIP Tags editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\EIP Tags\execution\EIP Tags Runtime.lvclass</Val>
 </Path>
 <Path>
@@ -69,11 +77,19 @@
 </Path>
 <Path>
 <Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Ethernet IP\editor\EthernetIP editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Ethernet IP\execution\EthernetIP runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\modbus slave\configuration\Modbus Slave configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\modbus slave\editor\Modbus Slave editor node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
@@ -85,11 +101,35 @@
 </Path>
 <Path>
 <Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Profibus\channel\Profibus channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Profibus\configuration\Profibus Module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Profibus\editor\Profibus Module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Profibus\execution\Profibus Module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TBWI\configuration\Tag Bus Web Interface configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TBWI\editor\Tag Bus Web Interface editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TBWI\execution\Tag Bus Web Interface runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TDMS Datalogger\editor\TDMS datalogger editor node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
@@ -98,6 +138,10 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\TDMS Datalogger\module\execution\TDMS datalogger runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\variable\editor\Scan Engine editor node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
@@ -113,71 +157,79 @@
 </Path>
 <Path>
 <Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines\Standard Engine\Editor Node\Standard Engine Editor Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Engines\Standard Engine\Runtime\Standard Engine Runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\TagTable\tag table.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\core targets\cRIO\PLTarget cRIO.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\core targets\PC\PLTarget PC.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\core targets\cRIO\PLTarget cRIO.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\core targets\PC\PLTarget PC.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBDF\TBDCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
@@ -230,33 +282,33 @@
 </Array>
 <Array>
 <Name>engines</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>1</Dimsize>
 <Cluster>
 <Name>class metadata</Name>
 <NumElts>6</NumElts>
 <String>
 <Name>file name</Name>
-<Val></Val>
+<Val>Standard Engine Editor Node</Val>
 </String>
 <String>
 <Name>fully qualified name</Name>
-<Val></Val>
+<Val>Standard Engine Editor Node.lvclass</Val>
 </String>
 <String>
 <Name>menu display name</Name>
-<Val></Val>
+<Val>Standard Engine</Val>
 </String>
 <String>
 <Name>configuration class</Name>
-<Val></Val>
+<Val>Standard Engine Configuration</Val>
 </String>
 <I32>
 <Name>instances allowed</Name>
-<Val></Val>
+<Val>-1</Val>
 </I32>
 <Array>
 <Name>supported targets</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>5</Dimsize>
 <EW>
 <Name>OS</Name>
 <Choice>Windows</Choice>
@@ -267,40 +319,88 @@
 <Choice>Pharlap</Choice>
 <Choice>Other</Choice>
 <Choice>Linux RT x64</Choice>
-<Val></Val>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
 </EW>
 </Array>
 </Cluster>
 </Array>
 <Array>
 <Name>modules</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>9</Dimsize>
 <Cluster>
 <Name>class metadata</Name>
 <NumElts>6</NumElts>
 <String>
 <Name>file name</Name>
-<Val></Val>
+<Val>Shared Library Module editor node</Val>
 </String>
 <String>
 <Name>fully qualified name</Name>
-<Val></Val>
+<Val>Shared Library Module editor node.lvclass</Val>
 </String>
 <String>
 <Name>menu display name</Name>
-<Val></Val>
+<Val>Shared Library Module</Val>
 </String>
 <String>
 <Name>configuration class</Name>
-<Val></Val>
+<Val>Shared Library Module configuration</Val>
 </String>
 <I32>
 <Name>instances allowed</Name>
-<Val></Val>
+<Val>-1</Val>
 </I32>
 <Array>
 <Name>supported targets</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>8</Dimsize>
 <EW>
 <Name>OS</Name>
 <Choice>Windows</Choice>
@@ -311,14 +411,814 @@
 <Choice>Pharlap</Choice>
 <Choice>Other</Choice>
 <Choice>Linux RT x64</Choice>
-<Val></Val>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>6</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
+</EW>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>file name</Name>
+<Val>CVT editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>CVT editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>CVT</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>CVT configuration</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>-1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>7</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>6</Val>
+</EW>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>file name</Name>
+<Val>EIP Tags editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>EIP Tags editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>EIP Tags</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>EIP Tags Configuration</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>-1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>5</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>file name</Name>
+<Val>EthernetIP editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>EthernetIP editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>EthernetIP</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>EthernetIP configuration</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>-1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>3</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>file name</Name>
+<Val>Modbus Slave editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>Modbus Slave editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>Modbus Slave</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>Modbus Slave configuration</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>-1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>8</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>6</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
+</EW>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>file name</Name>
+<Val>Profibus Module editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>Profibus Module editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>Profibus</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>Profibus Module configuration</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>2</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>file name</Name>
+<Val>Tag Bus Web Interface editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>Tag Bus Web Interface editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>Tag Bus Web Interface</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>Tag Bus Web Interface configuration</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>4</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>file name</Name>
+<Val>TDMS datalogger editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>TDMS datalogger editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>TDMS datalogger</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>TDMS datalogger configuration</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>-1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>6</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>file name</Name>
+<Val>Scan Engine editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>Scan Engine editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>Scan Engine</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>Scan Engine configuration</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>6</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
 </EW>
 </Array>
 </Cluster>
 </Array>
 <Array>
 <Name>ignored class list</Name>
-<Dimsize>35</Dimsize>
+<Dimsize>39</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -405,59 +1305,75 @@
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Profibus\channel\Profibus channel.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Profibus\configuration\Profibus Module configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\Profibus\execution\Profibus Module runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+<Val>C:\TBDF\TBDCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBDF\TBDCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBDF\TBDCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBDF\TBDCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBDF\TBDCore\source\Configuration Editor\Classes\TagTable\tag table.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
