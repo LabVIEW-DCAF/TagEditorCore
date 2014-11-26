@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-25 17:02:43" Creator="Daniel" Comments="" ID="67fc886d6c999e5d15830e3ba5834eea">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-11-26 11:05:18" Creator="Daniel" Comments="" ID="f44eb49bdf21e1346d221aec456ce87d">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>2.0.1.5</Library_Version>
+    <Library_Version>2.0.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -429,7 +429,7 @@
         <Path>Framework Configuration Classes\platypus configuration\load runtime from configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF397104C162F4C83021CD722A155C46</GUID>
+      <GUID>E19A93CD7A2B900510CD90575E103632</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
