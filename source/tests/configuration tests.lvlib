@@ -6,7 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="plcfg" Type="Folder">
-		<Item Name="system serialize test.vi" Type="VI" URL="../system serialize test.vi"/>
 		<Item Name="to and from repo test.vi" Type="VI" URL="../to and from repo test.vi"/>
 	</Item>
 	<Item Name="syscfg" Type="Folder">
