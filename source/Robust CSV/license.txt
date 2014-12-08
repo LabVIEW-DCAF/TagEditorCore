@@ -1,0 +1,1 @@
+see ReadMe.txt, uses BSD license. Downloaded from http://lavag.org/files/file/239-robust-csv/
