@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-12-08 23:07:31" Creator="Daniel" Comments="" ID="53058cfc401ab6bf0696f73369c27430">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-12-09 15:14:59" Creator="Daniel" Comments="" ID="bea5ddd246e3c6688664877141a98724">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>2.0.5.4</Library_Version>
+    <Library_Version>2.0.6.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>Fix bugs related to update to CEF 2.0, including better name/alias reporting</Release_Notes>
+      <Release_Notes>Update right click menu for module to improve behavior</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -350,7 +350,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA93AA684D5CA7C7432E14A9E5CBD4C6</GUID>
+      <GUID>1E9C0043C7290131576268FF676E179D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
