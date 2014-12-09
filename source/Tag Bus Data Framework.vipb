@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-12-08 20:10:04" Creator="Daniel" Comments="" ID="21bbea3be1cb06a6fe47aebb29bdc5a1">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-12-08 21:32:20" Creator="Daniel" Comments="" ID="e19505adbcc1044fbcd455046ce96a1f">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>2.0.4.2</Library_Version>
+    <Library_Version>2.0.4.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -123,21 +123,6 @@
         <Password/>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
-      <Password_Overrides>
-        <Path>core targets</Path>
-        <Password/>
-        <Locked_Only>true</Locked_Only>
-      </Password_Overrides>
-      <Password_Overrides>
-        <Path>Framework Configuration Classes</Path>
-        <Password/>
-        <Locked_Only>true</Locked_Only>
-      </Password_Overrides>
-      <Password_Overrides>
-        <Path>Configuration Editor</Path>
-        <Password/>
-        <Locked_Only>true</Locked_Only>
-      </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
@@ -148,6 +133,12 @@
       </Exclusions>
       <Exclusions>
         <Path>tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Robust CSV/Examples</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Robust CSV/dir.mnu</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>sample_code_license_terms_20141101.txt</License_Agreement_Filepath>
@@ -359,7 +350,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8BD5A15BFD92475395510DD8F436C49</GUID>
+      <GUID>0800D2B1C1CC53C0980BAB3082B5EF52</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
