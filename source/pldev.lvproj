@@ -165,6 +165,14 @@
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
+			<Item Name="Read Systems.vi" Type="VI" URL="../Configuration Editor/Classes/SystemConfigRepo/Read Systems.vi"/>
+			<Item Name="Write Systems.vi" Type="VI" URL="../Configuration Editor/Classes/SystemConfigRepo/Write Systems.vi"/>
+			<Item Name="Read System Configuration.vi" Type="VI" URL="../Configuration Editor/Classes/SystemConfigRepo/Read System Configuration.vi"/>
+			<Item Name="Write System Configuration.vi" Type="VI" URL="../Configuration Editor/Classes/SystemConfigRepo/Write System Configuration.vi"/>
+			<Item Name="Read targets.vi" Type="VI" URL="../Configuration Editor/Classes/SystemConfigRepo/Read targets.vi"/>
+			<Item Name="Write targets.vi" Type="VI" URL="../Configuration Editor/Classes/SystemConfigRepo/Write targets.vi"/>
+			<Item Name="Read Element of targets.vi" Type="VI" URL="../Configuration Editor/Classes/SystemConfigRepo/Read Element of targets.vi"/>
+			<Item Name="Write Element of targets.vi" Type="VI" URL="../Configuration Editor/Classes/SystemConfigRepo/Write Element of targets.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="configurator" Type="EXE">
