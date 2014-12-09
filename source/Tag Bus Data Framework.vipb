@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-12-08 22:59:45" Creator="Daniel" Comments="" ID="d39c0cb8b89cb2439053ce3ce15feb41">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-12-08 23:07:31" Creator="Daniel" Comments="" ID="53058cfc401ab6bf0696f73369c27430">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
     <Library_Version>2.0.5.4</Library_Version>
@@ -136,6 +136,9 @@
       </Exclusions>
       <Exclusions>
         <Path>Robust CSV/Examples</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Standard Editor/cache.cdat</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>sample_code_license_terms_20141101.txt</License_Agreement_Filepath>
@@ -347,7 +350,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C9DAC38504FA0B1740FC566D08614374</GUID>
+      <GUID>CA93AA684D5CA7C7432E14A9E5CBD4C6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
