@@ -26,20 +26,13 @@
 		<Item Name="tests" Type="Folder">
 			<Item Name="configuration tests.lvlib" Type="Library" URL="../tests/configuration tests.lvlib"/>
 		</Item>
-		<Item Name="Utilities" Type="Folder" URL="../Utilities">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="script includes loader.vi" Type="VI" URL="../Utilities/script includes loader.vi"/>
+			<Item Name="script includes VI.vi" Type="VI" URL="../Utilities/script includes VI.vi"/>
 		</Item>
-		<Item Name="tools menu" Type="Folder" URL="../tools menu">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Robust CSV" Type="Folder">
-			<Item Name="Examples" Type="Folder">
-				<Item Name="MOCK_DATA.csv" Type="Document" URL="../Robust CSV/Examples/MOCK_DATA.csv"/>
-			</Item>
-			<Item Name="dir.mnu" Type="Document" URL="../Robust CSV/dir.mnu"/>
-			<Item Name="license.txt" Type="Document" URL="../Robust CSV/license.txt"/>
-			<Item Name="ReadMe.txt" Type="Document" URL="../Robust CSV/ReadMe.txt"/>
-			<Item Name="Robust CSV.lvlib" Type="Library" URL="../Robust CSV/Robust CSV.lvlib"/>
+		<Item Name="tools menu" Type="Folder">
+			<Item Name="Launch Standard Configuration Editor.vi" Type="VI" URL="../tools menu/Launch Standard Configuration Editor.vi"/>
+			<Item Name="Script Module Include File.vi" Type="VI" URL="../tools menu/Script Module Include File.vi"/>
 		</Item>
 		<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 		<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
@@ -50,10 +43,8 @@
 		<Item Name="PL_System Configuration.lvclass" Type="LVClass" URL="../Framework Configuration Classes/system configuration/PL_System Configuration.lvclass"/>
 		<Item Name="PL_Target Configuration.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target configuration/PL_Target Configuration.lvclass"/>
 		<Item Name="PLConfigurationSerializer.lvlib" Type="Library" URL="../Framework Configuration Classes/platypus configuration/PLConfigurationSerializer.lvlib"/>
-		<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
-		<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/tree serializer/NISE_CEF_TreeSerializer.lvlib"/>
-		<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
 		<Item Name="PL_Serialization Interface.lvlib" Type="Library" URL="../Framework Configuration Classes/flattened data interface/PL_Serialization Interface.lvlib"/>
+		<Item Name="Robust CSV.lvlib" Type="Library" URL="../Robust CSV/Robust CSV.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -165,6 +156,9 @@
 				<Item Name="TBM configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/root configuration/TBM configuration.lvclass"/>
 				<Item Name="NISE_CEF_serializable node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/serializable node/NISE_CEF_serializable node.lvclass"/>
 				<Item Name="ms timing source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Timing Source/standard timing source/ms timing source.lvclass"/>
+				<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
+				<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/tree serializer/NISE_CEF_TreeSerializer.lvlib"/>
+				<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
 			</Item>
 			<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
