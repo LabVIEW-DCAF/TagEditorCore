@@ -32,6 +32,15 @@
 		<Item Name="tools menu" Type="Folder" URL="../tools menu">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Robust CSV" Type="Folder">
+			<Item Name="Examples" Type="Folder">
+				<Item Name="MOCK_DATA.csv" Type="Document" URL="../Robust CSV/Examples/MOCK_DATA.csv"/>
+			</Item>
+			<Item Name="dir.mnu" Type="Document" URL="../Robust CSV/dir.mnu"/>
+			<Item Name="license.txt" Type="Document" URL="../Robust CSV/license.txt"/>
+			<Item Name="ReadMe.txt" Type="Document" URL="../Robust CSV/ReadMe.txt"/>
+			<Item Name="Robust CSV.lvlib" Type="Library" URL="../Robust CSV/Robust CSV.lvlib"/>
+		</Item>
 		<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 		<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
 		<Item Name="PLTarget PC.lvclass" Type="LVClass" URL="../core targets/PC/PLTarget PC.lvclass"/>
@@ -158,6 +167,9 @@
 				<Item Name="ms timing source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Timing Source/standard timing source/ms timing source.lvclass"/>
 			</Item>
 			<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
+			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="configurator" Type="EXE">
