@@ -4,9 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Examples" Type="Folder">
-		<Item Name="Example Usage.vi" Type="VI" URL="../Examples/Example Usage.vi"/>
-	</Item>
 	<Item Name="Flatten to CSV Record.vi" Type="VI" URL="../Flatten to CSV Record.vi"/>
 	<Item Name="Parse CSV String.vi" Type="VI" URL="../Parse CSV String.vi"/>
 	<Item Name="Read CSV File.vi" Type="VI" URL="../Read CSV File.vi"/>
