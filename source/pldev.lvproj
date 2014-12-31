@@ -34,6 +34,19 @@
 			<Item Name="Launch Standard Configuration Editor.vi" Type="VI" URL="../tools menu/Launch Standard Configuration Editor.vi"/>
 			<Item Name="Script Module Include File.vi" Type="VI" URL="../tools menu/Script Module Include File.vi"/>
 		</Item>
+		<Item Name="RT Management" Type="Folder">
+			<Item Name="classes" Type="Folder">
+				<Item Name="File Transfer Behavior" Type="Folder"/>
+				<Item Name="FTP" Type="Folder">
+					<Item Name="FTP testing.xlsx" Type="Document" URL="/&lt;vilib&gt;/NI/RT Management/classes/FTP/FTP testing.xlsx"/>
+				</Item>
+				<Item Name="RT Management" Type="Folder"/>
+				<Item Name="WebDAV" Type="Folder"/>
+			</Item>
+			<Item Name="controls" Type="Folder"/>
+			<Item Name="VIs" Type="Folder"/>
+			<Item Name="RT Management.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/RT Management/RT Management.lvlib"/>
+		</Item>
 		<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 		<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
 		<Item Name="PLTarget PC.lvclass" Type="LVClass" URL="../core targets/PC/PLTarget PC.lvclass"/>
@@ -159,11 +172,24 @@
 				<Item Name="NISE_CEF_Repository.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/Repository/NISE_CEF_Repository.lvclass"/>
 				<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/tree serializer/NISE_CEF_TreeSerializer.lvlib"/>
 				<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
+				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
+				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
 			</Item>
 			<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="configurator" Type="EXE">
