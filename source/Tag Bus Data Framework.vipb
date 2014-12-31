@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-12-11 15:27:41" Creator="Daniel" Comments="" ID="c4bfcf054634b8a655ce79a7b7a9dcde">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2014-12-30 19:21:31" Creator="Daniel" Comments="" ID="00e374e215caaae0ea7a6555c92309b5">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
     <Library_Version>2.0.7.6</Library_Version>
@@ -120,6 +120,111 @@
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
+        <Password/>
+        <Locked_Only>true</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Robust CSV/Robust CSV.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Editor/PL Framework Configuration Tool.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Editor/Classes/TBM Configuration Node/TBM Configuration Node.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Editor/Classes/Targets/Targets.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Editor/Classes/Systems/Systems.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Editor/Classes/SystemConfigRepo/SystemConfigRepo.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Editor/Classes/Module editor node/module editor node.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Editor/Classes/EngineTags/EngineTags.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Editor/Classes/Engine Parent/Engine Parent Editor Node.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Configuration Editor/Classes/Engine Mappings/Engine Mappings.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>core targets/cRIO/PLTarget cRIO.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>core targets/PC/PLTarget PC.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Utilities</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>tools menu</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Standard Editor/Standard Editor.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Framework Configuration Classes/target runtime/PL_Target Runtime.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Framework Configuration Classes/target configuration/PL_Target Configuration.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Framework Configuration Classes/system configuration/PL_System Configuration.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Framework Configuration Classes/class cache/PL_class cache.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Framework Configuration Classes/flattened data interface/PL_Serialization Interface.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Framework Configuration Classes/platypus configuration/PLConfigurationSerializer.lvlib</Path>
         <Password/>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
@@ -350,7 +455,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBCDD7CF5A1310BC15C9DC7C1EBA6F9C</GUID>
+      <GUID>5B33B246539AF7B4D8F37791AF81DBFD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
