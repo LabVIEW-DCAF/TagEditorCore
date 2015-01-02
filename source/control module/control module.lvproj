@@ -22,9 +22,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="control module configuration.lvclass" Type="LVClass" URL="../configuration/control module configuration.lvclass"/>
+		<Item Name="control module data interface generator.lvlib" Type="Library" URL="../script/control module data interface generator.lvlib"/>
 		<Item Name="control module editor.lvclass" Type="LVClass" URL="../editor node/control module editor.lvclass"/>
 		<Item Name="control module runtime.lvclass" Type="LVClass" URL="../runtime/control module runtime.lvclass"/>
-		<Item Name="data interface script.lvlib" Type="Library" URL="../script/data interface script.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
