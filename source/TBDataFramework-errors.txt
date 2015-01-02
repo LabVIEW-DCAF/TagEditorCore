@@ -59,5 +59,7 @@ A configured class was not found in the search path.
 <nierror code="538267">
 Control Module: A configured channel was not found in the current type definition
 </nierror>
+<nierror code="538268">
+Control Module: A fixed channel configuration is invalid
 </nierror>
 </nidocument>
