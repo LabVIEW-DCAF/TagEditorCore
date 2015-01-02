@@ -56,4 +56,8 @@ The specified owner does not have permission to modify this tag.
 <nierror code="538266">
 A configured class was not found in the search path.
 </nierror>
+<nierror code="538267">
+Control Module: A configured channel was not found in the current type definition
+</nierror>
+</nierror>
 </nidocument>
