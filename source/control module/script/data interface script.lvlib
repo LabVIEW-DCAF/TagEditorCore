@@ -14,6 +14,7 @@
 		<Item Name="PathsCluster.ctl" Type="VI" URL="../Controls/PathsCluster.ctl"/>
 		<Item Name="processing script control.ctl" Type="VI" URL="../Controls/processing script control.ctl"/>
 		<Item Name="SampleControl.ctl" Type="VI" URL="../Controls/SampleControl.ctl"/>
+		<Item Name="scripting spec.ctl" Type="VI" URL="../Controls/scripting spec.ctl"/>
 		<Item Name="StateCluster.ctl" Type="VI" URL="../Controls/StateCluster.ctl"/>
 		<Item Name="template interface cluster.ctl" Type="VI" URL="../subVIs/template interface cluster.ctl"/>
 		<Item Name="TerminalReferences.ctl" Type="VI" URL="../Controls/TerminalReferences.ctl"/>

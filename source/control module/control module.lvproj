@@ -128,7 +128,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="fixed channel runtime.lvclass" Type="LVClass" URL="../module/execution/fixed channel runtime.lvclass"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/timingcommon/nirviCommon.vi"/>
 			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 			<Item Name="PL_class cache.lvlib" Type="Library" URL="../../Framework Configuration Classes/class cache/PL_class cache.lvlib"/>
