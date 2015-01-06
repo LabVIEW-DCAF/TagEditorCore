@@ -47,12 +47,12 @@
 
 
 <ProjectTemplate>
-  <Title localize="yes">Fixed Channel Tag Bus Module with Editor Node</Title>
+  <Title localize="yes">User Control Tag Bus Module with Editor Node</Title>
   <Description localize="yes">Creates a sample Tag Bus Module project containing an editor class.</Description>
   <Filters localize="yes">TBDF:Modules</Filters>
   <Keywords localize="yes">data;component;framework;mapping;access;plugin</Keywords>
   <LocationPath>tag bus configurable plugin module/fixed channel module</LocationPath>
-  <ProjectPath>fixed channel code module.lvproj</ProjectPath>
+  <ProjectPath>user control module.lvproj</ProjectPath>
   <ListboxImagePath>images/datacomp.png</ListboxImagePath>
   <DocumentationPath>documentation/component editor documentation.html</DocumentationPath>
   <CustomVIMode>AfterPage2NoUI</CustomVIMode>
