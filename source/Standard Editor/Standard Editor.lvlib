@@ -19,9 +19,7 @@
 			<Item Name="dialog get save path.vi" Type="VI" URL="../subVI/dialog get save path.vi"/>
 			<Item Name="dialog save dirty dot.vi" Type="VI" URL="../subVI/dialog save dirty dot.vi"/>
 		</Item>
-		<Item Name="SplashScreen" Type="Folder">
-			<Item Name="splash screen.lvlib" Type="Library" URL="../subVI/SplashScreen/splash screen.lvlib"/>
-		</Item>
+		<Item Name="SplashScreen" Type="Folder"/>
 		<Item Name="always includes.vi" Type="VI" URL="../subVI/always includes.vi"/>
 		<Item Name="call include vi script.vi" Type="VI" URL="../subVI/call include vi script.vi"/>
 		<Item Name="check if subpanel should be closed.vi" Type="VI" URL="../subVI/check if subpanel should be closed.vi"/>

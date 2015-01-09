@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="13008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">Standard Editor.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../Standard Editor.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*0!!!*Q(C=\&gt;7^&lt;2N"%)&lt;BTY9)+$,!$A1#!JR0\)QNM!):UQ*4*1+9+T!G=/"!#4MQW!#$;9%N%/\A^/ZS?'2E"J)A"&lt;L4]O?\WZG(&gt;YO4V,&gt;L[5L$J7XSX_UVDL=GP&gt;%QTOB2#Q\PE`ISTDB&amp;Q[F'DQ^P&amp;1X6`V2E=PR*:`807I`J=&amp;&lt;`:&lt;`PQK&lt;0\8.\X_X_YC*^]T8\2?V"R%B'-*RB;KW'*%`S*%`S*%`S)!`S)!`S)!^S*X&gt;S*X&gt;S*X&gt;S)T&gt;S)T&gt;S)T@SPJ/,8/1CBZ1U4RIF2:-#S=F1F,QEHM34?")08Z6Y%E`C34S*BV/5?"*0YEE]C9&gt;J3DS**`%EHM2$K3\*PJ0D34S56_!*0)%H]!1?7CLQ")#A76!Y+!*$Q=(A1_!*0)'(DQI]A3@Q"*\!QW%&amp;HM!4?!*0Y'&amp;+PSL2.7UHRU-:/2\(YXA=D_/BN"S0YX%]DM@RU%[/R`%Y#+?B5RS#H%H/#=Y8R_.Y?*0D=4S/R`%Y(A\V/_4^SD2.W]HR'"\$9XA-D_'BB!S0Y4%]BM@Q5&amp;;'R`!9(M.D?'AFQW.Y$)]"-:L38E9R9[*REB%9(P\[;L&amp;_F[*,L/^3,6\6IF1N.N5C5CU/V5V8X5T646*&gt;@.6&amp;66UMV561`4A67I62.6&amp;.&lt;C&gt;KT_O/M7'M'3P'EL&amp;AT"ETRL2.@?54^`O^&gt;LO&gt;.JO.VOOV6KO6FMOF&amp;IO&amp;ZP/Z:L/:JN0J_"CY92]@#)@HUDW@D_0X^O\JT`?@N\&amp;^`0&amp;Q`?`J\\&gt;@N]&gt;D&lt;`3`^!-]'`66ZX7Z2M_&lt;#G[7!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -14,6 +12,5 @@
 	<Item Name="main splash.vi" Type="VI" URL="../main splash.vi"/>
 	<Item Name="notifier data.ctl" Type="VI" URL="../notifier data.ctl"/>
 	<Item Name="splash screen.ctl" Type="VI" URL="../splash screen.ctl"/>
-	<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 	<Item Name="Update.vi" Type="VI" URL="../Update.vi"/>
 </Library>
