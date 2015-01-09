@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2015-01-09 12:42:30" Creator="Daniel" Comments="" ID="c101ff6c4aab736e47d338fc48d56c4d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2015-01-09 16:49:42" Creator="Daniel" Comments="" ID="c1e67f8175aa2b0e4f93ba15c0403c54">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
     <Library_Version>2.1.1.3</Library_Version>
@@ -195,11 +195,6 @@
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
       <Password_Overrides>
-        <Path>Standard Editor/Standard Editor.lvlib</Path>
-        <Password/>
-        <Locked_Only>false</Locked_Only>
-      </Password_Overrides>
-      <Password_Overrides>
         <Path>Framework Configuration Classes/target runtime/PL_Target Runtime.lvclass</Path>
         <Password/>
         <Locked_Only>false</Locked_Only>
@@ -229,6 +224,11 @@
         <Password/>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
+      <Password_Overrides>
+        <Path>Standard Editor</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
@@ -245,6 +245,9 @@
       </Exclusions>
       <Exclusions>
         <Path>Standard Editor/cache.cdat</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Standard Editor/Module Configuration Editor.lvproj</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>sample_code_license_terms_20141101.txt</License_Agreement_Filepath>
@@ -456,7 +459,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD63D74A5A4BCB459C3B039EC56FBB13</GUID>
+      <GUID>60CB688BCF53F0B5DDB155924E641455</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
