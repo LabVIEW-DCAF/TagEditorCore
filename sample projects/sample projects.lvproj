@@ -174,32 +174,6 @@
 						</Item>
 						<Item Name="tag bus io plugin.lvproj" Type="Document" URL="../Source/tag bus configurable plugin module/io plugin/tag bus io plugin.lvproj"/>
 					</Item>
-					<Item Name="processing plugin" Type="Folder">
-						<Item Name="documentation" Type="Folder">
-							<Item Name="component editor documentation.html" Type="Document" URL="../Source/tag bus configurable plugin module/processing plugin/documentation/component editor documentation.html"/>
-						</Item>
-						<Item Name="editor node" Type="Folder">
-							<Item Name="tag bus processing plugin editor node.lvclass" Type="LVClass" URL="../Source/tag bus configurable plugin module/processing plugin/editor node/tag bus processing plugin editor node.lvclass"/>
-						</Item>
-						<Item Name="images" Type="Folder">
-							<Item Name="datacomp.png" Type="Document" URL="../Source/tag bus configurable plugin module/processing plugin/images/datacomp.png"/>
-						</Item>
-						<Item Name="module" Type="Folder">
-							<Item Name="configuration" Type="Folder">
-								<Item Name="tag bus processing plugin module configuration.lvclass" Type="LVClass" URL="../Source/tag bus configurable plugin module/processing plugin/module/configuration/tag bus processing plugin module configuration.lvclass"/>
-							</Item>
-							<Item Name="execution" Type="Folder">
-								<Item Name="tag bus processing plugin module.lvclass" Type="LVClass" URL="../Source/tag bus configurable plugin module/processing plugin/module/execution/tag bus processing plugin module.lvclass"/>
-							</Item>
-						</Item>
-						<Item Name="scripting" Type="Folder">
-							<Item Name="TagBusProcessingPluginFeatureDecider.lvclass" Type="LVClass" URL="../Source/tag bus configurable plugin module/processing plugin/scripting/TagBusProcessingPluginFeatureDecider.lvclass"/>
-						</Item>
-						<Item Name="testing" Type="Folder">
-							<Item Name="processing plugin tests.lvlib" Type="Library" URL="../Source/tag bus configurable plugin module/processing plugin/testing/processing plugin tests.lvlib"/>
-						</Item>
-						<Item Name="tag bus processing plugin.lvproj" Type="Document" URL="../Source/tag bus configurable plugin module/processing plugin/tag bus processing plugin.lvproj"/>
-					</Item>
 					<Item Name="user code module" Type="Folder">
 						<Item Name="documentation" Type="Folder">
 							<Item Name="component editor documentation.html" Type="Document" URL="../Source/tag bus configurable plugin module/user code module/documentation/component editor documentation.html"/>
