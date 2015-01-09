@@ -53,6 +53,10 @@
 			<Item Name="control module.lvlps" Type="Document" URL="../control module/control module.lvlps"/>
 			<Item Name="control module.lvproj" Type="Document" URL="../control module/control module.lvproj"/>
 		</Item>
+		<Item Name="standard editor" Type="Folder">
+			<Item Name="Standard Editor splash screen.lvlib" Type="Library" URL="../Standard Editor/subVI/SplashScreen/Standard Editor splash screen.lvlib"/>
+			<Item Name="Standard Editor.lvlib" Type="Library" URL="../Standard Editor/Standard Editor.lvlib"/>
+		</Item>
 		<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 		<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
 		<Item Name="PLTarget PC.lvclass" Type="LVClass" URL="../core targets/PC/PLTarget PC.lvclass"/>
@@ -193,6 +197,7 @@
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="Close VI Reference and Wait Until VI Leaves Memory.vi" Type="VI" URL="/&lt;vilib&gt;/VIServer/Close VI Reference and Wait Until VI Leaves Memory.vi"/>
 				<Item Name="glyph manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/glyph manager/glyph manager.lvlib"/>
+				<Item Name="Add status to name.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/Configuration Editor/subVIs/Add status to name.vi"/>
 			</Item>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
