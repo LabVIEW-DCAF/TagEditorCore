@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2015-01-09 17:11:09" Creator="Daniel" Comments="" ID="3191a05a6599468fe6fdae3a05e34f06">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2015-01-15 13:54:33" Creator="Daniel" Comments="" ID="61d58a46330653ad75a5bfbef88f186f">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
     <Library_Version>2.1.1.4</Library_Version>
@@ -226,6 +226,21 @@
       </Password_Overrides>
       <Password_Overrides>
         <Path>Standard Editor/Standard Editor.lvlib</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>control module/configuration/control module configuration.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>control module/editor node/control module editor.lvclass</Path>
+        <Password/>
+        <Locked_Only>false</Locked_Only>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>control module/runtime/control module runtime.lvclass</Path>
         <Password/>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
@@ -459,7 +474,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60CB688BCF53F0B5DDB155924E641455</GUID>
+      <GUID>A27A48CAF0D94BD479E9BD868CF01C85</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
