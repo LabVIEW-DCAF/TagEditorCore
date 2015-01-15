@@ -118,7 +118,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
-	<Item Name="user intialization.vi" Type="VI" URL="../user intialization.vi">
+	<Item Name="user initialization.vi" Type="VI" URL="../user initialization.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;^!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!A(G.P&lt;H2S&lt;WQA&lt;7^E&gt;7RF)(*V&lt;H2J&lt;75O&lt;(:D&lt;'&amp;T=Q!!'7:J?'6E)'.I97ZO:7QA=H6O&gt;'FN:3"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%*!=!!?!!!G*'.P&lt;H2S&lt;WQA&lt;7^E&gt;7RF)'.P&lt;G:J:X6S982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!%'.P&lt;G:J:X6S982J&lt;WYA;7Y!!%2!=!!?!!!A(G.P&lt;H2S&lt;WQA&lt;7^E&gt;7RF)(*V&lt;H2J&lt;75O&lt;(:D&lt;'&amp;T=Q!!'':J?'6E)'.I97ZO:7QA=H6O&gt;'FN:3"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!*)!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
