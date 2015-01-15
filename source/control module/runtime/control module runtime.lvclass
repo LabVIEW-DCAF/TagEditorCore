@@ -82,15 +82,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
-	<Item Name="data cluster type definition.ctl" Type="VI" URL="../data cluster type definition.ctl">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
-	</Item>
 	<Item Name="Channel Run Time Mapping Info.ctl" Type="VI" URL="../Channel Run Time Mapping Info.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$"!!!!"1!&amp;!!-!!"Z!1!!"`````Q!!%%.I97ZO:7QA37ZE;7.J:8-!!""!-0````]'5X2S;7ZH!!!;1%!!!@````]!!AV$;'&amp;O&lt;G6M)%ZB&lt;76T!'Q!]1!!!!!!!!!#(7:J?'6E)'.I97ZO:7QA=H6O&gt;'FN:3ZM&gt;G.M98.T)5.I97ZO:7QA5H6O)&amp;2J&lt;75A47&amp;Q='FO:S"*&lt;G:P,G.U&lt;!!E1&amp;!!!A!"!!-51WBB&lt;GZF&lt;#".98"Q;7ZH)%FO:G]!!!%!"!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
