@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2015-01-30 18:28:02" Creator="Daniel" Comments="" ID="65ed1a48fc75c9e15e27ad1d088c73f0">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2015-02-09 14:59:24" Creator="Daniel" Comments="" ID="13309fb2376c6d2b0f702c42b548ab22">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
     <Library_Version>2.1.2.4</Library_Version>
@@ -116,6 +116,12 @@
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>tools menu/Launch Standard Configuration Editor.vi</Path>
+        <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>tools menu/Launch Control Module Scripting Utility.vi</Path>
         <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -475,7 +481,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00BC0BE6A9FC6BF3220BEF22DC2E4395</GUID>
+      <GUID>6930B2E46AA462074D2375660CB011E8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
