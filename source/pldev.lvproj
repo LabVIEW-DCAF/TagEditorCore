@@ -31,6 +31,7 @@
 			<Item Name="script includes VI.vi" Type="VI" URL="../Utilities/script includes VI.vi"/>
 		</Item>
 		<Item Name="tools menu" Type="Folder">
+			<Item Name="Launch Control Module Scripting Utility.vi" Type="VI" URL="../tools menu/Launch Control Module Scripting Utility.vi"/>
 			<Item Name="Launch Standard Configuration Editor.vi" Type="VI" URL="../tools menu/Launch Standard Configuration Editor.vi"/>
 			<Item Name="Script Module Include File.vi" Type="VI" URL="../tools menu/Script Module Include File.vi"/>
 		</Item>
@@ -197,8 +198,9 @@
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="Close VI Reference and Wait Until VI Leaves Memory.vi" Type="VI" URL="/&lt;vilib&gt;/VIServer/Close VI Reference and Wait Until VI Leaves Memory.vi"/>
 				<Item Name="glyph manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/glyph manager/glyph manager.lvlib"/>
-				<Item Name="NI_SE_Front Panel Layout.lvlib" Type="Library" URL="/&lt;vilib&gt;/Front Panel Layout/NI_SE_Front Panel Layout.lvlib"/>
-				<Item Name="LVFontTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 			</Item>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
