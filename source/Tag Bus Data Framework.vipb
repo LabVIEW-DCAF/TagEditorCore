@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2015-02-09 14:59:24" Creator="Daniel" Comments="" ID="13309fb2376c6d2b0f702c42b548ab22">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2015-02-12 14:09:28" Creator="Daniel" Comments="" ID="22e6f71f6de6dfeaa3dc6c9889d8466e">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
     <Library_Version>2.1.2.4</Library_Version>
@@ -19,7 +19,7 @@
     <Package_Dependencies>
       <Additional_External_Dependencies>ni_lib_config_editor &gt;=2.1.0.1</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_execsys &gt;=2.1.0.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_fp_layout &gt;=1.1.0.39</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_fp_layout &gt;=1.1.1.40</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_rt_management &gt;=1.1.0.40</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_tbm &gt;=2.1.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
@@ -481,7 +481,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6930B2E46AA462074D2375660CB011E8</GUID>
+      <GUID>4E615DC3D277F230C778C50195D953C1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
