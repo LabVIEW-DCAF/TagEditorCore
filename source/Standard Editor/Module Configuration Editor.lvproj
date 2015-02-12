@@ -59,7 +59,6 @@
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
-				<Item Name="Add status to name.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/Configuration Editor/subVIs/Add status to name.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -189,6 +188,7 @@
 			<Item Name="Robust CSV.lvlib" Type="Library" URL="../../Robust CSV/Robust CSV.lvlib"/>
 			<Item Name="script includes loader.vi" Type="VI" URL="../../Utilities/script includes loader.vi"/>
 			<Item Name="script includes VI.vi" Type="VI" URL="../../Utilities/script includes VI.vi"/>
+			<Item Name="Standard Editor splash screen.lvlib" Type="Library" URL="../subVI/SplashScreen/Standard Editor splash screen.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Utility" Type="EXE">
