@@ -62,4 +62,7 @@ Control Module: A configured channel was not found in the current type definitio
 <nierror code="538268">
 Control Module: A fixed channel configuration is invalid
 </nierror>
+<nierror code="538269">
+A requested target could not be located
+</nierror>
 </nidocument>
