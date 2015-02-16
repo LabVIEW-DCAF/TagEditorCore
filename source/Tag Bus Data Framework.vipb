@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2015-02-12 14:09:28" Creator="Daniel" Comments="" ID="22e6f71f6de6dfeaa3dc6c9889d8466e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2015-02-15 01:50:56" Creator="Daniel" Comments="" ID="7a8dada5237428307a1ecd184ebf6862">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>2.1.2.4</Library_Version>
+    <Library_Version>2.1.3.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -38,7 +38,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>Various bugfixes, new fixed channel module revision</Release_Notes>
+      <Release_Notes>Improved mapping view</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -481,7 +481,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E615DC3D277F230C778C50195D953C1</GUID>
+      <GUID>FFBC2B3589BE65083607C678855FB2DC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

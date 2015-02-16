@@ -68,6 +68,7 @@
 		<Item Name="PLConfigurationSerializer.lvlib" Type="Library" URL="../Framework Configuration Classes/platypus configuration/PLConfigurationSerializer.lvlib"/>
 		<Item Name="PL_Serialization Interface.lvlib" Type="Library" URL="../Framework Configuration Classes/flattened data interface/PL_Serialization Interface.lvlib"/>
 		<Item Name="Robust CSV.lvlib" Type="Library" URL="../Robust CSV/Robust CSV.lvlib"/>
+		<Item Name="additional filter.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Tag Bus/tag/additional filter.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
