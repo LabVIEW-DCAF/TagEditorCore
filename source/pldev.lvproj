@@ -204,9 +204,6 @@
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="NI_SE_Front Panel Layout.lvlib" Type="Library" URL="/&lt;vilib&gt;/Front Panel Layout/NI_SE_Front Panel Layout.lvlib"/>
 				<Item Name="LVFontTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
-				<Item Name="get unmapped tag list.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Configuration/get unmapped tag list.vi"/>
-				<Item Name="get channels mapped to tag.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Configuration/get channels mapped to tag.vi"/>
-				<Item Name="map channels together.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Configuration/map channels together.vi"/>
 			</Item>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
