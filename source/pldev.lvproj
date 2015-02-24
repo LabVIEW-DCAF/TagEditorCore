@@ -31,9 +31,8 @@
 			<Item Name="script includes VI.vi" Type="VI" URL="../Utilities/script includes VI.vi"/>
 		</Item>
 		<Item Name="tools menu" Type="Folder">
-			<Item Name="Launch Control Module Scripting Utility.vi" Type="VI" URL="../tools menu/Launch Control Module Scripting Utility.vi"/>
 			<Item Name="Launch Standard Configuration Editor.vi" Type="VI" URL="../tools menu/Launch Standard Configuration Editor.vi"/>
-			<Item Name="Script Module Include File.vi" Type="VI" URL="../tools menu/Script Module Include File.vi"/>
+			<Item Name="Launch User Control Module Scripting Utility.vi" Type="VI" URL="../tools menu/Launch User Control Module Scripting Utility.vi"/>
 		</Item>
 		<Item Name="control module" Type="Folder">
 			<Item Name="configuration" Type="Folder">
@@ -68,7 +67,6 @@
 		<Item Name="PLConfigurationSerializer.lvlib" Type="Library" URL="../Framework Configuration Classes/platypus configuration/PLConfigurationSerializer.lvlib"/>
 		<Item Name="PL_Serialization Interface.lvlib" Type="Library" URL="../Framework Configuration Classes/flattened data interface/PL_Serialization Interface.lvlib"/>
 		<Item Name="Robust CSV.lvlib" Type="Library" URL="../Robust CSV/Robust CSV.lvlib"/>
-		<Item Name="additional filter.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Tag Bus/tag/additional filter.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
