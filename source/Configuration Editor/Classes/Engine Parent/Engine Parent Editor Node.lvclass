@@ -187,4 +187,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
 	</Item>
+	<Item Name="InnerCallbackOnWriteTree.vi" Type="VI" URL="../InnerCallbackOnWriteTree.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;?!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"C1(!!(A!!33614#"'=G&amp;N:8&gt;P=GMA1W^O:GFH&gt;8*B&gt;'FP&lt;C"5&lt;W^M,GRW&lt;'FC)56O:WFO:3"198*F&lt;H1A272J&gt;'^S)%ZP:'5O&lt;(:D&lt;'&amp;T=Q!0&lt;G^E:3!I:G^S)(2Z='5J!#Z!=!!?!!!8&amp;5Z*5U6@1U6'8UZP:'5O&lt;(:D&lt;'&amp;T=Q!-4G^E:3ZM&gt;G.M98.T!!!&lt;1(!!)!!"!!=!$GZP:'5A=G6G:8*F&lt;G.F!!"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!9!#!-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!#1!!!!%A!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 </LVClass>
