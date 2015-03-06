@@ -117,6 +117,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082135056</Property>
 	</Item>
+	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*:!!!!&amp;1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!-0````]#351!!"*!-0````]*='&amp;S:7ZU)%F%!"*!-0````]*&lt;G^E:3"U?8"F!!Z!-0````]%&gt;'6Y&gt;!!!'%!Q`````Q^B:'2J&gt;'FP&lt;G&amp;M)(2F?(1!$E!Q`````Q6H&lt;(FQ;!!,1!-!"72F=(2I!":!-0````].:WRZ='AA&lt;X:F=GRB?1"1!0%!!!!!!!!!!B6/36.&amp;8U.&amp;2F^/&lt;W2F,GRW9WRB=X-,5X6N&lt;7&amp;S?3ZD&gt;'Q!*E"1!!A!"1!'!!=!#!!*!!I!#Q!-#UZP:'64&gt;7VN98*Z!"2!1!!"`````Q!."X.V&lt;7VB=HE!,E"Q!"Y!!"=64EF426^$25:@4G^E:3ZM&gt;G.M98.T!!R/&lt;W2F,GRW9WRB=X-!!%]!]1!!!!!!!!!#&amp;5Z*5U6@1U6'8UZP:'5O&lt;(:D&lt;'&amp;T=QN/&lt;W2F5G6G,G.U&lt;!!F1(!!)!!"!!]!&amp;'2B&gt;'%A&gt;G&amp;M&gt;75A=G6G:8*F&lt;G.F!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%%"4#H"B=G&amp;N:82F=H-!!$"!=!!?!!!@(7.P&lt;H2S&lt;WQA&lt;7^E&gt;7RF)'6E;82P=CZM&gt;G.M98.T!!&gt;O&lt;W2F)'FO!&amp;1!]!!-!!-!"!!/!"!!"!!%!!1!"!!2!!1!%A!4!Q!!?!!!$1A!!!!!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!#1!!!!!!%!&amp;!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+	</Item>
 	<Item Name="InnerCallbackOnWriteTree.vi" Type="VI" URL="../InnerCallbackOnWriteTree.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%U!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!Y1(!!(A!!(RVD&lt;WZU=G^M)'VP:(6M:3"F:'FU&lt;X)O&lt;(:D&lt;'&amp;T=Q!0&lt;G^E:3!I:G^S)(2Z='5J!#Z!=!!?!!!8&amp;5Z*5U6@1U6'8UZP:'5O&lt;(:D&lt;'&amp;T=Q!-4G^E:3ZM&gt;G.M98.T!!!&lt;1(!!)!!"!!=!$GZP:'5A=G6G:8*F&lt;G.F!!"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!9!#!-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!#1!!!!%A!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
