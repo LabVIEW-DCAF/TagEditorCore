@@ -6,14 +6,10 @@
 <NumElts>3</NumElts>
 <Array>
 <Name>Search Paths</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\TBD\TBDCore\source</Val>
+<Val>C:\TBD\TagEditorCore\source</Val>
 </Path>
 </Array>
 <Array>
@@ -26,70 +22,86 @@
 </Array>
 <Array>
 <Name>full class list</Name>
-<Dimsize>16</Dimsize>
+<Dimsize>20</Dimsize>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\core targets\cRIO\PLTarget cRIO.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\control module\configuration\control module configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\core targets\PC\PLTarget PC.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\control module\editor node\control module editor.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\control module\runtime\control module runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\core targets\cRIO\PLTarget cRIO.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\core targets\PC\PLTarget PC.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TagEditorCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TagEditorCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TagEditorCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
@@ -186,33 +198,33 @@
 </Array>
 <Array>
 <Name>modules</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>1</Dimsize>
 <Cluster>
 <Name>class metadata</Name>
 <NumElts>6</NumElts>
 <String>
 <Name>file name</Name>
-<Val></Val>
+<Val>TEST EDITOR</Val>
 </String>
 <String>
 <Name>fully qualified name</Name>
-<Val></Val>
+<Val>configuration tests.lvlib:TEST EDITOR.lvclass</Val>
 </String>
 <String>
 <Name>menu display name</Name>
-<Val></Val>
+<Val>TEST CONFIGURATION</Val>
 </String>
 <String>
 <Name>configuration class</Name>
-<Val></Val>
+<Val>TEST CONFIGURATION</Val>
 </String>
 <I32>
 <Name>instances allowed</Name>
-<Val></Val>
+<Val>-1</Val>
 </I32>
 <Array>
 <Name>supported targets</Name>
-<Dimsize>0</Dimsize>
+<Dimsize>8</Dimsize>
 <EW>
 <Name>OS</Name>
 <Choice>Windows</Choice>
@@ -223,69 +235,165 @@
 <Choice>Pharlap</Choice>
 <Choice>Other</Choice>
 <Choice>Linux RT x64</Choice>
-<Val></Val>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>6</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
 </EW>
 </Array>
 </Cluster>
 </Array>
 <Array>
 <Name>ignored class list</Name>
-<Dimsize>14</Dimsize>
+<Dimsize>17</Dimsize>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\control module\configuration\control module configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\control module\editor node\control module editor.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\control module\runtime\control module runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TBDCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TagEditorCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\TBD\TagEditorCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
