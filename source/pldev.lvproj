@@ -68,7 +68,6 @@
 		<Item Name="PL_Serialization Interface.lvlib" Type="Library" URL="../Framework Configuration Classes/flattened data interface/PL_Serialization Interface.lvlib"/>
 		<Item Name="Robust CSV.lvlib" Type="Library" URL="../Robust CSV/Robust CSV.lvlib"/>
 		<Item Name="PL_Target RIO Runtime.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target cRIO runtime/PL_Target RIO Runtime.lvclass"/>
-		<Item Name="Load node UI optimized.vi" Type="VI" URL="../Configuration Editor/subVIs/Load node UI optimized.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>

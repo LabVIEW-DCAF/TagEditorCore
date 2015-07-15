@@ -25,6 +25,7 @@
 		<Item Name="default file paths.vi" Type="VI" URL="../subVI/default file paths.vi"/>
 		<Item Name="disable messages.vi" Type="VI" URL="../subVI/disable messages.vi"/>
 		<Item Name="Load Custom Status Glyph.vi" Type="VI" URL="../subVI/Load Custom Status Glyph.vi"/>
+		<Item Name="Load node UI optimized.vi" Type="VI" URL="../subVI/Load node UI optimized.vi"/>
 		<Item Name="menu options.vi" Type="VI" URL="../subVI/menu options.vi"/>
 		<Item Name="Overlay Image.vi" Type="VI" URL="../subVI/Overlay Image.vi"/>
 		<Item Name="Remove UI without races.vi" Type="VI" URL="../subVI/Remove UI without races.vi"/>
