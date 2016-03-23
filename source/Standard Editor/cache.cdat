@@ -6,10 +6,14 @@
 <NumElts>3</NumElts>
 <Array>
 <Name>Search Paths</Name>
-<Dimsize>1</Dimsize>
+<Dimsize>2</Dimsize>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source</Val>
 </Path>
 </Array>
 <Array>
@@ -25,83 +29,83 @@
 <Dimsize>20</Dimsize>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\control module\configuration\control module configuration.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\control module\configuration\control module configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\control module\editor node\control module editor.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\control module\editor node\control module editor.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\control module\runtime\control module runtime.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\control module\runtime\control module runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\core targets\cRIO\PLTarget cRIO.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\core targets\cRIO\PLTarget cRIO.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\core targets\PC\PLTarget PC.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\core targets\PC\PLTarget PC.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
@@ -329,71 +333,71 @@
 <Dimsize>17</Dimsize>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\control module\configuration\control module configuration.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\control module\configuration\control module configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\control module\editor node\control module editor.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\control module\editor node\control module editor.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\control module\runtime\control module runtime.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\control module\runtime\control module runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\TBD\TagEditorCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
