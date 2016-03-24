@@ -54,6 +54,7 @@
 			<Item Name="control module.lvproj" Type="Document" URL="../control module/control module.lvproj"/>
 		</Item>
 		<Item Name="standard editor" Type="Folder">
+			<Item Name="About Screen Library.lvlib" Type="Library" URL="../about menu/About Screen Library.lvlib"/>
 			<Item Name="Standard Editor.lvlib" Type="Library" URL="../Standard Editor/Standard Editor.lvlib"/>
 		</Item>
 		<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
