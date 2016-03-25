@@ -6,11 +6,11 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="acfg files" Type="Folder">
 		<Item Name="DCAF Assets" Type="Folder">
-			<Item Name="DCAF About Text.txt" Type="Document" URL="../../../../../About Screen Tool/acfg Files/DCAF Assets/DCAF About Text.txt"/>
-			<Item Name="DCAF Banner.png" Type="Document" URL="../../../../../About Screen Tool/acfg Files/DCAF Assets/DCAF Banner.png"/>
-			<Item Name="NI Logo.png" Type="Document" URL="../../../../../About Screen Tool/acfg Files/DCAF Assets/NI Logo.png"/>
+			<Item Name="DCAF About Text.txt" Type="Document" URL="../acfg Files/DCAF Assets/DCAF About Text.txt"/>
+			<Item Name="DCAF Banner.png" Type="Document" URL="../acfg Files/DCAF Assets/DCAF Banner.png"/>
+			<Item Name="NI Logo.png" Type="Document" URL="../acfg Files/DCAF Assets/NI Logo.png"/>
 		</Item>
-		<Item Name="DCAF.acfg" Type="Document" URL="../../../../../About Screen Tool/acfg Files/DCAF.acfg"/>
+		<Item Name="DCAF.acfg" Type="Document" URL="../acfg Files/DCAF.acfg"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Configuration Data.ctl" Type="VI" URL="../Controls/Configuration Data.ctl"/>
