@@ -17,7 +17,7 @@
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI</Val>
 </Path>
 </Array>
 <Array>
@@ -30,7 +30,7 @@
 </Array>
 <Array>
 <Name>full class list</Name>
-<Dimsize>60</Dimsize>
+<Dimsize>101</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -193,83 +193,247 @@
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\folder\NISE_CEF_serializable node folder.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\folder configuration\NISE_CEF_serializable node folder configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\hierarchy repo\NISE_CEF_HierarchyRepo.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\Node\NISE_CEF_Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\Repository\NISE_CEF_Repository.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\serializable configuration\NISE_CEF_serializable configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\serializable node\NISE_CEF_serializable node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\API\Modbus API.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\configuration\control module configuration.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\API\Master\Modbus Master.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\editor node\control module editor.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\API\Slave\Modbus Slave.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\runtime\control module runtime.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Data Model\Device Data Model.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\cRIO\PLTarget cRIO.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Master Function Definition\Master Function Definition.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\PC\PLTarget PC.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Modbus Data Unit\Modbus Data Unit.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\editor node\fixed channel editor.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Protocol.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\configuration\fixed channel configuration.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Master\Network Master.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\execution\fixed channel runtime.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Master\Serial\Serial Master.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Master\TCP\TCP Master.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Slave\Network Slave.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Slave\Serial\Serial Slave.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Slave\TCP\TCP Slave.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Standard Data Model\Standard Data Model.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Transmission Data Unit\Transmission Data Unit.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Transmission Data Unit\ASCII\ASCII Data Unit.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Transmission Data Unit\IP\IP Data Unit.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Transmission Data Unit\RTU\RTU Data Unit.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Transmission Data Unit\Serial Interface\Serial Data Unit.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Execution Interface\Engine Configuration\engine configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Execution Interface\Engine Runtime\Engine Runtime Interface.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Timing Source\scan engine timing source\scan engine timing source.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Timing Source\standard timing source\ms timing source.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Timing Source\timing source\TBM timing source.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Timing Source\usec timing source\usec timing source.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\RT Management\classes\File Transfer Behavior\File Transfer Behavior.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\RT Management\classes\FTP\FTP.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\RT Management\classes\RT Management\RT Management.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\RT Management\classes\WebDAV\WebDAV.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus\dictionary\data dictionary.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus\tag\tag descriptor.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus\tag collection\tag collection.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\control module\configuration\control module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\control module\editor node\control module editor.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\control module\runtime\control module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\core targets\cRIO\PLTarget cRIO.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\core targets\PC\PLTarget PC.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Module Framework\channel\TBM channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Module Framework\module configuration\TBM module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Module Framework\root configuration\TBM configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Module Framework\runtime\TBM module execution interface.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TagWebClient\labview client api\tag web client.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
@@ -1566,7 +1730,7 @@
 </Array>
 <Array>
 <Name>ignored class list</Name>
-<Dimsize>46</Dimsize>
+<Dimsize>87</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -1681,75 +1845,239 @@
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\folder\NISE_CEF_serializable node folder.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\folder configuration\NISE_CEF_serializable node folder configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\hierarchy repo\NISE_CEF_HierarchyRepo.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\Node\NISE_CEF_Node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\Repository\NISE_CEF_Repository.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\serializable configuration\NISE_CEF_serializable configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Configuration Framework\serializable node\NISE_CEF_serializable node.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\API\Modbus API.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\configuration\control module configuration.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\API\Master\Modbus Master.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\editor node\control module editor.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\API\Slave\Modbus Slave.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\runtime\control module runtime.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Data Model\Device Data Model.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\editor node\fixed channel editor.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Master Function Definition\Master Function Definition.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\configuration\fixed channel configuration.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Modbus Data Unit\Modbus Data Unit.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\execution\fixed channel runtime.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Protocol.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Master\Network Master.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Master\Serial\Serial Master.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Master\TCP\TCP Master.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Slave\Network Slave.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Slave\Serial\Serial Slave.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Network Protocol\Network Slave\TCP\TCP Slave.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Standard Data Model\Standard Data Model.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Transmission Data Unit\Transmission Data Unit.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Transmission Data Unit\ASCII\ASCII Data Unit.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Transmission Data Unit\IP\IP Data Unit.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Transmission Data Unit\RTU\RTU Data Unit.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\Transmission Data Unit\Serial Interface\Serial Data Unit.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Execution Interface\Engine Configuration\engine configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Execution Interface\Engine Runtime\Engine Runtime Interface.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Timing Source\scan engine timing source\scan engine timing source.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Timing Source\standard timing source\ms timing source.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Timing Source\timing source\TBM timing source.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Module Timing Source\usec timing source\usec timing source.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\RT Management\classes\File Transfer Behavior\File Transfer Behavior.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\RT Management\classes\FTP\FTP.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\RT Management\classes\RT Management\RT Management.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\RT Management\classes\WebDAV\WebDAV.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus\dictionary\data dictionary.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus\tag\tag descriptor.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus\tag collection\tag collection.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\control module\configuration\control module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\control module\editor node\control module editor.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\control module\runtime\control module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework1\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Module Framework\channel\TBM channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Module Framework\module configuration\TBM module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Module Framework\root configuration\TBM configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Module Framework\runtime\TBM module execution interface.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TagWebClient\labview client api\tag web client.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
