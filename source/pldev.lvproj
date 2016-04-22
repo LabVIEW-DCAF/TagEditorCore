@@ -220,7 +220,7 @@
 				<Item Name="Rendezvous Name &amp; Ref DB Action.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous Name &amp; Ref DB Action.ctl"/>
 				<Item Name="Rendezvous Name &amp; Ref DB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous Name &amp; Ref DB.vi"/>
 				<Item Name="Create Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create Rendezvous.vi"/>
-				<Item Name="Progress Bar.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/NI Progress Bar API/Progress Bar.lvlib"/>
+				<Item Name="Progress Bar.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Progress Bar/Progress Bar.lvlib"/>
 			</Item>
 			<Item Name="owning references.ctl" Type="VI" URL="../control module/script/Controls/owning references.ctl"/>
 			<Item Name="GraphViz Mapping Visualizer.lvlib" Type="Library" URL="../Utilities/GraphViz Vizualizations/GraphViz Mapping Visualizer.lvlib"/>
