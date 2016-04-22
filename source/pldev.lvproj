@@ -221,37 +221,6 @@
 				<Item Name="Rendezvous Name &amp; Ref DB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous Name &amp; Ref DB.vi"/>
 				<Item Name="Create Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create Rendezvous.vi"/>
 				<Item Name="Progress Bar.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/NI Progress Bar API/Progress Bar.lvlib"/>
-				<Item Name="Shared Library Module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/CLFN/configuration/Shared Library Module configuration.lvclass"/>
-				<Item Name="Shared Library Module editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/CLFN/editor node/Shared Library Module editor node.lvclass"/>
-				<Item Name="CVT configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/CVT Access/configuration/CVT configuration.lvclass"/>
-				<Item Name="CVT editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/CVT Access/editor node/CVT editor node.lvclass"/>
-				<Item Name="Current Value Table.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Current Value Table/Current Value Table.lvlib"/>
-				<Item Name="EIP Tags Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/configuration/EIP Tags Configuration.lvclass"/>
-				<Item Name="EIP Tags Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/channel/EIP Tags Channel.lvclass"/>
-				<Item Name="EIP Tags editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/editor node/EIP Tags editor node.lvclass"/>
-				<Item Name="EthernetIP configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/configuration/EthernetIP configuration.lvclass"/>
-				<Item Name="EthernetIP Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/channel/EthernetIP Channel.lvclass"/>
-				<Item Name="EthernetIP editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/editor node/EthernetIP editor node.lvclass"/>
-				<Item Name="Modbus Module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/modbus slave/configuration/Modbus Module configuration.lvclass"/>
-				<Item Name="Modbus Module Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/modbus slave/module channel/Modbus Module Channel.lvclass"/>
-				<Item Name="Modbus Module editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/modbus slave/editor node/Modbus Module editor node.lvclass"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Profibus Module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/Profibus/configuration/Profibus Module configuration.lvclass"/>
-				<Item Name="Profibus channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/Profibus/channel/Profibus channel.lvclass"/>
-				<Item Name="Profibus Module editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/Profibus/editor node/Profibus Module editor node.lvclass"/>
-				<Item Name="Tag Bus Web Interface configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/TBWI/configuration/Tag Bus Web Interface configuration.lvclass"/>
-				<Item Name="Tag Bus Web Interface editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/TBWI/editor node/Tag Bus Web Interface editor node.lvclass"/>
-				<Item Name="TDMS datalogger configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/TDMS Datalogger/configuration/TDMS datalogger configuration.lvclass"/>
-				<Item Name="TDMS datalogger editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/TDMS Datalogger/editor/TDMS datalogger editor node.lvclass"/>
-				<Item Name="TEC configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/UDP Broadcast/configuration/TEC configuration.lvclass"/>
-				<Item Name="TEC editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/UDP Broadcast/editor node/TEC editor node.lvclass"/>
-				<Item Name="UI Reference configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/UI/configuration/UI Reference configuration.lvclass"/>
-				<Item Name="UI Reference editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/UI/editor node/UI Reference editor node.lvclass"/>
-				<Item Name="Scan Engine configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/variable/configuration/Scan Engine configuration.lvclass"/>
-				<Item Name="Scan Engine editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/variable/editor node/Scan Engine editor node.lvclass"/>
-				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
-				<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Engines/Standard Engine/Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
-				<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Engines/Standard Engine/Editor Node/Standard Engine Editor Node.lvclass"/>
 			</Item>
 			<Item Name="owning references.ctl" Type="VI" URL="../control module/script/Controls/owning references.ctl"/>
 			<Item Name="GraphViz Mapping Visualizer.lvlib" Type="Library" URL="../Utilities/GraphViz Vizualizations/GraphViz Mapping Visualizer.lvlib"/>
