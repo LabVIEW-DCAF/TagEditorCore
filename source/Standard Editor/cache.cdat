@@ -6,7 +6,7 @@
 <NumElts>3</NumElts>
 <Array>
 <Name>Search Paths</Name>
-<Dimsize>3</Dimsize>
+<Dimsize>4</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules</Val>
@@ -19,6 +19,10 @@
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI</Val>
 </Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\core targets</Val>
+</Path>
 </Array>
 <Array>
 <Name>Folders to Exclude</Name>
@@ -30,7 +34,7 @@
 </Array>
 <Array>
 <Name>full class list</Name>
-<Dimsize>104</Dimsize>
+<Dimsize>107</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -221,6 +225,18 @@
 </Path>
 <Path>
 <Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Distributed Control and Automation Framework\fixed module parent\editor node\fixed channel editor.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Distributed Control and Automation Framework\fixed module parent\module\configuration\fixed channel configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Distributed Control and Automation Framework\fixed module parent\module\execution\fixed channel runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Modbus Library\API\Modbus API.lvclass</Val>
 </Path>
 <Path>
@@ -401,18 +417,6 @@
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\editor node\fixed channel editor.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\configuration\fixed channel configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\execution\fixed channel runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
 </Path>
 <Path>
@@ -447,6 +451,18 @@
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TagWebClient\labview client api\tag web client.lvclass</Val>
 </Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\core targets\cDAQ\PLTarget cDAQ.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\core targets\CVS\PLTarget CVS.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\Tanner\Documents\DCAF\TagEditorCore\source\core targets\PXI\PLTarget PXI.lvclass</Val>
+</Path>
 </Array>
 </Cluster>
 <Cluster>
@@ -454,7 +470,7 @@
 <NumElts>4</NumElts>
 <Array>
 <Name>targets</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>5</Dimsize>
 <Cluster>
 <Name>class metadata</Name>
 <NumElts>4</NumElts>
@@ -489,6 +505,66 @@
 <String>
 <Name>menu display name</Name>
 <Val>PC</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget cDAQ</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget cDAQ.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>RT cDAQ</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget CVS</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget CVS.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>CVS</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget PXI</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget PXI.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>RT PXI</Val>
 </String>
 <String>
 <Name>configuration class name</Name>
@@ -2077,18 +2153,6 @@
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\editor node\fixed channel editor.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\configuration\fixed channel configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\execution\fixed channel runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
 </Path>
 <Path>
@@ -2102,6 +2166,18 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Distributed Control and Automation Framework\fixed module parent\editor node\fixed channel editor.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Distributed Control and Automation Framework\fixed module parent\module\configuration\fixed channel configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Distributed Control and Automation Framework\fixed module parent\module\execution\fixed channel runtime.lvclass</Val>
 </Path>
 </Array>
 </Cluster>

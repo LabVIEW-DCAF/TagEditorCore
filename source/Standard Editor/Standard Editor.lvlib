@@ -18,13 +18,13 @@
 			<Item Name="dialog edit search paths.vi" Type="VI" URL="../subVI/dialog edit search paths.vi"/>
 			<Item Name="dialog get save path.vi" Type="VI" URL="../subVI/dialog get save path.vi"/>
 			<Item Name="dialog save dirty dot.vi" Type="VI" URL="../subVI/dialog save dirty dot.vi"/>
+			<Item Name="launch target selector.vi" Type="VI" URL="../subVI/launch target selector.vi"/>
 		</Item>
 		<Item Name="always includes.vi" Type="VI" URL="../subVI/always includes.vi"/>
 		<Item Name="call include vi script.vi" Type="VI" URL="../subVI/call include vi script.vi"/>
 		<Item Name="check if subpanel should be closed.vi" Type="VI" URL="../subVI/check if subpanel should be closed.vi"/>
 		<Item Name="default file paths.vi" Type="VI" URL="../subVI/default file paths.vi"/>
 		<Item Name="disable messages.vi" Type="VI" URL="../subVI/disable messages.vi"/>
-		<Item Name="launch target selector.vi" Type="VI" URL="../subVI/launch target selector.vi"/>
 		<Item Name="Load Custom Status Glyph.vi" Type="VI" URL="../subVI/Load Custom Status Glyph.vi"/>
 		<Item Name="Load node UI optimized.vi" Type="VI" URL="../subVI/Load node UI optimized.vi"/>
 		<Item Name="menu options.vi" Type="VI" URL="../subVI/menu options.vi"/>
@@ -35,7 +35,6 @@
 		<Item Name="save operation.vi" Type="VI" URL="../subVI/save operation.vi"/>
 		<Item Name="Save.vi" Type="VI" URL="../subVI/Save.vi"/>
 		<Item Name="send error message.vi" Type="VI" URL="../subVI/send error message.vi"/>
-		<Item Name="target selector.vi" Type="VI" URL="../subVI/target selector.vi"/>
 	</Item>
 	<Item Name="Configuration Utility.vi" Type="VI" URL="../Configuration Utility.vi"/>
 </Library>
