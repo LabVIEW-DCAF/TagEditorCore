@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2016-04-25 18:25:48" Creator="Daniel" Comments="" ID="003966827668df1da49e3b6e5b2c9a9a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2016-04-27 13:59:53" Creator="Daniel" Comments="" ID="bc60f6a494cdc2470d25eac3c00d0360">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
-    <Library_Version>2.1.3.8</Library_Version>
+    <Library_Version>2.1.3.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -504,7 +504,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07C7F67DBB6E1D73003CCB5532FF227E</GUID>
+      <GUID>FC45B1AA4F78A542E5E824B9562035FC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
