@@ -62,7 +62,7 @@
 			<Item Name="PLTarget cRIO.lvclass" Type="LVClass" URL="../core targets/cRIO/PLTarget cRIO.lvclass"/>
 			<Item Name="PLTarget PC.lvclass" Type="LVClass" URL="../core targets/PC/PLTarget PC.lvclass"/>
 			<Item Name="PLTarget cDAQ.lvclass" Type="LVClass" URL="../core targets/cDAQ/PLTarget cDAQ.lvclass"/>
-			<Item Name="PLTarget CVS.lvclass" Type="LVClass" URL="../core targets/CVS/PLTarget CVS.lvclass"/>
+			<Item Name="PLTarget CVS.lvclass" Type="LVClass" URL="../core targets/RTCVS/PLTarget CVS.lvclass"/>
 		</Item>
 		<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 		<Item Name="PL_class cache.lvlib" Type="Library" URL="../Framework Configuration Classes/class cache/PL_class cache.lvlib"/>
