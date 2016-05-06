@@ -30,7 +30,7 @@
 </Array>
 <Array>
 <Name>full class list</Name>
-<Dimsize>104</Dimsize>
+<Dimsize>107</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\TBM Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -405,11 +405,23 @@
 </Path>
 <Path>
 <Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\cDAQ\PLTarget cDAQ.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\cRIO\PLTarget cRIO.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\PC\PLTarget PC.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\PXI\PLTarget PXI.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\RTCVS\PLTarget CVS.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
@@ -454,7 +466,7 @@
 <NumElts>4</NumElts>
 <Array>
 <Name>targets</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>5</Dimsize>
 <Cluster>
 <Name>class metadata</Name>
 <NumElts>4</NumElts>
@@ -489,6 +501,66 @@
 <String>
 <Name>menu display name</Name>
 <Val>PC</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget cDAQ</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget cDAQ.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>cDAQ</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget PXI</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget PXI.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>PXI</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget CVS</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget CVS.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>CVS</Val>
 </String>
 <String>
 <Name>configuration class name</Name>
