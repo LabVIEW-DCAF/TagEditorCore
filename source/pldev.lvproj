@@ -230,9 +230,6 @@
 				<Item Name="Create Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create Rendezvous.vi"/>
 				<Item Name="Progress Bar.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Progress Bar/Progress Bar.lvlib"/>
 				<Item Name="DCAF UI Elements.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/DCAF UI Toolkit/Controls/DCAF UI Elements.lvlib"/>
-				<Item Name="fixed channel editor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/fixed module parent/editor node/fixed channel editor.lvclass"/>
-				<Item Name="fixed channel configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/fixed module parent/module/configuration/fixed channel configuration.lvclass"/>
-				<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Engines/Standard Engine/Editor Node/Standard Engine Editor Node.lvclass"/>
 			</Item>
 			<Item Name="owning references.ctl" Type="VI" URL="../control module/script/Controls/owning references.ctl"/>
 			<Item Name="GraphViz Mapping Visualizer.lvlib" Type="Library" URL="../Utilities/GraphViz Vizualizations/GraphViz Mapping Visualizer.lvlib"/>
