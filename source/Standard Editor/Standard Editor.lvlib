@@ -29,6 +29,7 @@
 		<Item Name="Load node UI optimized.vi" Type="VI" URL="../subVI/Load node UI optimized.vi"/>
 		<Item Name="menu options.vi" Type="VI" URL="../subVI/menu options.vi"/>
 		<Item Name="Overlay Image.vi" Type="VI" URL="../subVI/Overlay Image.vi"/>
+		<Item Name="Refresh All Nodes.vi" Type="VI" URL="../subVI/Refresh All Nodes.vi"/>
 		<Item Name="Remove UI without races.vi" Type="VI" URL="../subVI/Remove UI without races.vi"/>
 		<Item Name="save as.vi" Type="VI" URL="../subVI/save as.vi"/>
 		<Item Name="save operation binary.vi" Type="VI" URL="../subVI/save operation binary.vi"/>
