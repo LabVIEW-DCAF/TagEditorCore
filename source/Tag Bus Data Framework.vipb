@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2016-05-18 09:57:42" Creator="Daniel" Comments="" ID="26ecefe7b6dd1d586e30c80dbceef02e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2016-06-15 16:43:23" Creator="Daniel" Comments="" ID="78a78f51a887857164809cf028a5d4f3">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dataeng</Package_File_Name>
     <Library_Version>2.1.3.10</Library_Version>
@@ -23,7 +23,7 @@
       <Additional_External_Dependencies>ni_lib_fp_layout &gt;=1.1.1.40</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_rt_management &gt;=1.1.0.40</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_tbm &gt;=2.1.0.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_progress_bar &gt;=1.0.0.7</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_progress_bar &gt;=1.0.0.12</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -505,7 +505,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>23C332B584EF4BFFE5818F8375D0B74B</GUID>
+      <GUID>53B00A487FE882FE87DFFFA7F5EDACE0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
