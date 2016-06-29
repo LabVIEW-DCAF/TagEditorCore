@@ -230,34 +230,15 @@
 				<Item Name="Create Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create Rendezvous.vi"/>
 				<Item Name="Progress Bar.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Progress Bar/Progress Bar.lvlib"/>
 				<Item Name="DCAF UI Elements.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/DCAF UI Toolkit/Controls/DCAF UI Elements.lvlib"/>
-				<Item Name="Shared Library Module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/CLFN/configuration/Shared Library Module configuration.lvclass"/>
-				<Item Name="Shared Library Module editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/CLFN/editor node/Shared Library Module editor node.lvclass"/>
-				<Item Name="CVT configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/CVT Access/configuration/CVT configuration.lvclass"/>
-				<Item Name="CVT editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/CVT Access/editor node/CVT editor node.lvclass"/>
-				<Item Name="Current Value Table.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Current Value Table/Current Value Table.lvlib"/>
-				<Item Name="EIP Tags Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/EIP Tags/configuration/EIP Tags Configuration.lvclass"/>
-				<Item Name="EIP Tags Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/EIP Tags/channel/EIP Tags Channel.lvclass"/>
-				<Item Name="EIP Tags editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/EIP Tags/editor node/EIP Tags editor node.lvclass"/>
-				<Item Name="EthernetIP configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/Ethernet IP/configuration/EthernetIP configuration.lvclass"/>
-				<Item Name="EthernetIP Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/Ethernet IP/channel/EthernetIP Channel.lvclass"/>
-				<Item Name="EthernetIP editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/Ethernet IP/editor node/EthernetIP editor node.lvclass"/>
-				<Item Name="Modbus Module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/modbus slave/configuration/Modbus Module configuration.lvclass"/>
-				<Item Name="Modbus Module Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/modbus slave/module channel/Modbus Module Channel.lvclass"/>
-				<Item Name="Modbus Module editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/modbus slave/editor node/Modbus Module editor node.lvclass"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Profibus Module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/Profibus/configuration/Profibus Module configuration.lvclass"/>
-				<Item Name="Profibus channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/Profibus/channel/Profibus channel.lvclass"/>
-				<Item Name="Profibus Module editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/Profibus/editor node/Profibus Module editor node.lvclass"/>
-				<Item Name="TDMS datalogger configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/TDMS Datalogger/configuration/TDMS datalogger configuration.lvclass"/>
-				<Item Name="TDMS datalogger editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/TDMS Datalogger/editor/TDMS datalogger editor node.lvclass"/>
-				<Item Name="TEC configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/UDP Broadcast/configuration/TEC configuration.lvclass"/>
-				<Item Name="TEC editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/UDP Broadcast/editor node/TEC editor node.lvclass"/>
-				<Item Name="Scan Engine configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/variable/configuration/Scan Engine configuration.lvclass"/>
-				<Item Name="Scan Engine editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/variable/editor node/Scan Engine editor node.lvclass"/>
-				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
+				<Item Name="Polynomial Scale configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/DCAF Scaling - Polynomial/module/configuration/Polynomial Scale configuration.lvclass"/>
+				<Item Name="Scaling configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Templates/DCAF Scaling/module/configuration/Scaling configuration.lvclass"/>
+				<Item Name="Polynomial Scale editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/DCAF Scaling - Polynomial/editor node/Polynomial Scale editor node.lvclass"/>
+				<Item Name="Scaling editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Templates/DCAF Scaling/editor node/Scaling editor node.lvclass"/>
+				<Item Name="Table Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/DCAF Table API/Table Manager.lvlib"/>
+				<Item Name="To .NET Object.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/To .NET Object.vi"/>
+				<Item Name=".NET Object To Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object To Variant.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Engines/Standard Engine/Editor Node/Standard Engine Editor Node.lvclass"/>
-				<Item Name="fixed channel editor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/fixed module parent/editor node/fixed channel editor.lvclass"/>
-				<Item Name="fixed channel configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/fixed module parent/module/configuration/fixed channel configuration.lvclass"/>
 			</Item>
 			<Item Name="owning references.ctl" Type="VI" URL="../control module/script/Controls/owning references.ctl"/>
 			<Item Name="GraphViz Mapping Visualizer.lvlib" Type="Library" URL="../Utilities/GraphViz Vizualizations/GraphViz Mapping Visualizer.lvlib"/>

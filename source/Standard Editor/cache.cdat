@@ -30,7 +30,7 @@
 </Array>
 <Array>
 <Name>full class list</Name>
-<Dimsize>57</Dimsize>
+<Dimsize>60</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -54,6 +54,18 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CVT Access\execution\CVT runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\editor node\Polynomial Scale editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\configuration\Polynomial Scale configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\execution\Polynomial Scale runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
@@ -466,7 +478,7 @@
 </Array>
 <Array>
 <Name>modules</Name>
-<Dimsize>9</Dimsize>
+<Dimsize>10</Dimsize>
 <Cluster>
 <Name>class metadata</Name>
 <NumElts>7</NumElts>
@@ -1415,10 +1427,138 @@
 </EW>
 </Array>
 </Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>7</NumElts>
+<String>
+<Name>file name</Name>
+<Val>Polynomial Scale editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>Polynomial Scale editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>Polynomial Scale configuration</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>Polynomial Scale configuration</Val>
+</String>
+<String>
+<Name>category</Name>
+<Val>Other</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>-1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>8</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>6</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
+</EW>
+</Array>
+</Cluster>
 </Array>
 <Array>
 <Name>ignored class list</Name>
-<Dimsize>42</Dimsize>
+<Dimsize>44</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -1586,6 +1726,14 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\configuration\Polynomial Scale configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\execution\Polynomial Scale runtime.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
