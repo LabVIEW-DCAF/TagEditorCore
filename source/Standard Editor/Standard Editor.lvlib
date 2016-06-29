@@ -25,6 +25,7 @@
 		<Item Name="check if subpanel should be closed.vi" Type="VI" URL="../subVI/check if subpanel should be closed.vi"/>
 		<Item Name="default file paths.vi" Type="VI" URL="../subVI/default file paths.vi"/>
 		<Item Name="disable messages.vi" Type="VI" URL="../subVI/disable messages.vi"/>
+		<Item Name="get module IDs from All Nodes Summary.vi" Type="VI" URL="../subVI/get module IDs from All Nodes Summary.vi"/>
 		<Item Name="Load Custom Status Glyph.vi" Type="VI" URL="../subVI/Load Custom Status Glyph.vi"/>
 		<Item Name="Load node UI optimized.vi" Type="VI" URL="../subVI/Load node UI optimized.vi"/>
 		<Item Name="menu options.vi" Type="VI" URL="../subVI/menu options.vi"/>
