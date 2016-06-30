@@ -36,10 +36,10 @@
 		</Item>
 		<Item Name="control module" Type="Folder">
 			<Item Name="configuration" Type="Folder">
-				<Item Name="control module configuration.lvclass" Type="LVClass" URL="../control module/configuration/control module configuration.lvclass"/>
+				<Item Name="control module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/control module/configuration/control module configuration.lvclass"/>
 			</Item>
 			<Item Name="editor node" Type="Folder">
-				<Item Name="control module editor.lvclass" Type="LVClass" URL="../control module/editor node/control module editor.lvclass"/>
+				<Item Name="control module editor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/control module/editor node/control module editor.lvclass"/>
 			</Item>
 			<Item Name="runtime" Type="Folder">
 				<Item Name="control module runtime.lvclass" Type="LVClass" URL="../control module/runtime/control module runtime.lvclass"/>
@@ -49,8 +49,6 @@
 				<Item Name="subVIs" Type="Folder"/>
 				<Item Name="control module data interface generator.lvlib" Type="Library" URL="../control module/script/control module data interface generator.lvlib"/>
 			</Item>
-			<Item Name="control module.aliases" Type="Document" URL="../control module/control module.aliases"/>
-			<Item Name="control module.lvlps" Type="Document" URL="../control module/control module.lvlps"/>
 			<Item Name="control module.lvproj" Type="Document" URL="../control module/control module.lvproj"/>
 		</Item>
 		<Item Name="standard editor" Type="Folder">
@@ -230,15 +228,6 @@
 				<Item Name="Create Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create Rendezvous.vi"/>
 				<Item Name="Progress Bar.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Progress Bar/Progress Bar.lvlib"/>
 				<Item Name="DCAF UI Elements.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/DCAF UI Toolkit/Controls/DCAF UI Elements.lvlib"/>
-				<Item Name="Polynomial Scale configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/DCAF Scaling - Polynomial/module/configuration/Polynomial Scale configuration.lvclass"/>
-				<Item Name="Scaling configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Templates/DCAF Scaling/module/configuration/Scaling configuration.lvclass"/>
-				<Item Name="Polynomial Scale editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/DCAF Scaling - Polynomial/editor node/Polynomial Scale editor node.lvclass"/>
-				<Item Name="Scaling editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Templates/DCAF Scaling/editor node/Scaling editor node.lvclass"/>
-				<Item Name="Table Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/DCAF Table API/Table Manager.lvlib"/>
-				<Item Name="To .NET Object.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/To .NET Object.vi"/>
-				<Item Name=".NET Object To Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object To Variant.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Engines/Standard Engine/Editor Node/Standard Engine Editor Node.lvclass"/>
 			</Item>
 			<Item Name="owning references.ctl" Type="VI" URL="../control module/script/Controls/owning references.ctl"/>
 			<Item Name="GraphViz Mapping Visualizer.lvlib" Type="Library" URL="../Utilities/GraphViz Vizualizations/GraphViz Mapping Visualizer.lvlib"/>
@@ -248,6 +237,7 @@
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="control module configuration.lvclass" Type="LVClass" URL="../control module/configuration/control module configuration.lvclass"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>

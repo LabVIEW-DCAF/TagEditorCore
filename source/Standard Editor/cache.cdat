@@ -30,7 +30,7 @@
 </Array>
 <Array>
 <Name>full class list</Name>
-<Dimsize>60</Dimsize>
+<Dimsize>63</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -154,6 +154,18 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UDP Broadcast\execution\TEC runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\configuration\UI Reference configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\editor node\UI Reference editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\execution\UI Reference runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
@@ -478,7 +490,7 @@
 </Array>
 <Array>
 <Name>modules</Name>
-<Dimsize>10</Dimsize>
+<Dimsize>11</Dimsize>
 <Cluster>
 <Name>class metadata</Name>
 <NumElts>7</NumElts>
@@ -1555,10 +1567,126 @@
 </EW>
 </Array>
 </Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>7</NumElts>
+<String>
+<Name>file name</Name>
+<Val>UI Reference editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>UI Reference editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>UI Reference configuration</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>UI Reference configuration</Val>
+</String>
+<String>
+<Name>category</Name>
+<Val>Local I/O</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>-1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>7</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>6</Val>
+</EW>
+</Array>
+</Cluster>
 </Array>
 <Array>
 <Name>ignored class list</Name>
-<Dimsize>44</Dimsize>
+<Dimsize>46</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -1734,6 +1862,14 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\execution\Polynomial Scale runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\configuration\UI Reference configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\execution\UI Reference runtime.lvclass</Val>
 </Path>
 </Array>
 </Cluster>

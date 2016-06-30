@@ -35,4 +35,5 @@
 		<Item Name="tokens to path.vi" Type="VI" URL="../subVIs/tokens to path.vi"/>
 		<Item Name="view deploy screen.vi" Type="VI" URL="../subVIs/view deploy screen.vi"/>
 	</Item>
+	<Item Name="is PC" Type="VI" URL="../subVIs/is PC"/>
 </Library>
