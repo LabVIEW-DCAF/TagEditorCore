@@ -39,7 +39,7 @@
 				<Item Name="control module configuration.lvclass" Type="LVClass" URL="../control module/configuration/control module configuration.lvclass"/>
 			</Item>
 			<Item Name="editor node" Type="Folder">
-				<Item Name="control module editor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/control module/editor node/control module editor.lvclass"/>
+				<Item Name="control module editor.lvclass" Type="LVClass" URL="../control module/editor node/control module editor.lvclass"/>
 			</Item>
 			<Item Name="runtime" Type="Folder">
 				<Item Name="control module runtime.lvclass" Type="LVClass" URL="../control module/runtime/control module runtime.lvclass"/>
