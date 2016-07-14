@@ -6,18 +6,14 @@
 <NumElts>3</NumElts>
 <Array>
 <Name>Search Paths</Name>
-<Dimsize>3</Dimsize>
+<Dimsize>2</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF</Val>
+</Path>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Engines</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework</Val>
 </Path>
 </Array>
 <Array>
@@ -30,7 +26,99 @@
 </Array>
 <Array>
 <Name>full class list</Name>
-<Dimsize>63</Dimsize>
+<Dimsize>60</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Engines\Standard Engine\Editor Node\Standard Engine Editor Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Engines\Standard Engine\Execution Engine\Configuration\Standard Engine Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Engines\Standard Engine\Execution Engine\Runtime\Standard Engine Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\control module\configuration\control module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\control module\editor node\control module editor.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\control module\runtime\control module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\core targets\cDAQ\PLTarget cDAQ.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\core targets\cRIO\PLTarget cRIO.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\core targets\PC\PLTarget PC.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\core targets\PXI\PLTarget PXI.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\core targets\RTCVS\PLTarget CVS.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -178,110 +266,6 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\variable\execution\Scan Engine runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Engines\Standard Engine\Editor Node\Standard Engine Editor Node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Engines\Standard Engine\Execution Engine\Configuration\Standard Engine Configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Engines\Standard Engine\Execution Engine\Runtime\Standard Engine Runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\configuration\control module configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\editor node\control module editor.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\runtime\control module runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\cDAQ\PLTarget cDAQ.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\cRIO\PLTarget cRIO.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\PC\PLTarget PC.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\PXI\PLTarget PXI.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\core targets\RTCVS\PLTarget CVS.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\editor node\fixed channel editor.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\configuration\fixed channel configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\execution\fixed channel runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
@@ -732,6 +716,134 @@
 <Choice>Other</Choice>
 <Choice>Linux RT x64</Choice>
 <Val>6</Val>
+</EW>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>7</NumElts>
+<String>
+<Name>file name</Name>
+<Val>Polynomial Scale editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>Polynomial Scale editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>Polynomial Scale configuration</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>Polynomial Scale configuration</Val>
+</String>
+<String>
+<Name>category</Name>
+<Val>Other</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>-1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>8</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>6</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
 </EW>
 </Array>
 </Cluster>
@@ -1328,250 +1440,6 @@
 <NumElts>7</NumElts>
 <String>
 <Name>file name</Name>
-<Val>Scan Engine editor node</Val>
-</String>
-<String>
-<Name>fully qualified name</Name>
-<Val>Scan Engine editor node.lvclass</Val>
-</String>
-<String>
-<Name>menu display name</Name>
-<Val>Scan Engine configuration</Val>
-</String>
-<String>
-<Name>configuration class</Name>
-<Val>Scan Engine configuration</Val>
-</String>
-<String>
-<Name>category</Name>
-<Val>Local I/O</Val>
-</String>
-<I32>
-<Name>instances allowed</Name>
-<Val>1</Val>
-</I32>
-<Array>
-<Name>supported targets</Name>
-<Dimsize>7</Dimsize>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>3</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>4</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>5</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>0</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>1</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>2</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>7</Val>
-</EW>
-</Array>
-</Cluster>
-<Cluster>
-<Name>class metadata</Name>
-<NumElts>7</NumElts>
-<String>
-<Name>file name</Name>
-<Val>Polynomial Scale editor node</Val>
-</String>
-<String>
-<Name>fully qualified name</Name>
-<Val>Polynomial Scale editor node.lvclass</Val>
-</String>
-<String>
-<Name>menu display name</Name>
-<Val>Polynomial Scale configuration</Val>
-</String>
-<String>
-<Name>configuration class</Name>
-<Val>Polynomial Scale configuration</Val>
-</String>
-<String>
-<Name>category</Name>
-<Val>Other</Val>
-</String>
-<I32>
-<Name>instances allowed</Name>
-<Val>-1</Val>
-</I32>
-<Array>
-<Name>supported targets</Name>
-<Dimsize>8</Dimsize>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>0</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>1</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>2</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>3</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>4</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>5</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>6</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>7</Val>
-</EW>
-</Array>
-</Cluster>
-<Cluster>
-<Name>class metadata</Name>
-<NumElts>7</NumElts>
-<String>
-<Name>file name</Name>
 <Val>UI Reference editor node</Val>
 </String>
 <String>
@@ -1683,10 +1551,194 @@
 </EW>
 </Array>
 </Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>7</NumElts>
+<String>
+<Name>file name</Name>
+<Val>Scan Engine editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>Scan Engine editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>Scan Engine configuration</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>Scan Engine configuration</Val>
+</String>
+<String>
+<Name>category</Name>
+<Val>Local I/O</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>7</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
+</EW>
+</Array>
+</Cluster>
 </Array>
 <Array>
 <Name>ignored class list</Name>
-<Dimsize>46</Dimsize>
+<Dimsize>43</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Engines\Standard Engine\Execution Engine\Configuration\Standard Engine Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Engines\Standard Engine\Execution Engine\Runtime\Standard Engine Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\control module\configuration\control module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\control module\editor node\control module editor.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\control module\runtime\control module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
@@ -1702,6 +1754,14 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CVT Access\execution\CVT runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\configuration\Polynomial Scale configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\execution\Polynomial Scale runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
@@ -1769,107 +1829,19 @@
 </Path>
 <Path>
 <Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\variable\configuration\Scan Engine configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\variable\execution\Scan Engine runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Engines\Standard Engine\Execution Engine\Configuration\Standard Engine Configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Engines\Standard Engine\Execution Engine\Runtime\Standard Engine Runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\configuration\control module configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\editor node\control module editor.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\control module\runtime\control module runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\editor node\fixed channel editor.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\configuration\fixed channel configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\fixed module parent\module\execution\fixed channel runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\Tag Bus Data Framework\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\configuration\Polynomial Scale configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\execution\Polynomial Scale runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\configuration\UI Reference configuration.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\execution\UI Reference runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\variable\configuration\Scan Engine configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\variable\execution\Scan Engine runtime.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
