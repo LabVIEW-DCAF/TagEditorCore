@@ -6,14 +6,10 @@
 <NumElts>3</NumElts>
 <Array>
 <Name>Search Paths</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules</Val>
 </Path>
 </Array>
 <Array>
@@ -26,7 +22,7 @@
 </Array>
 <Array>
 <Name>full class list</Name>
-<Dimsize>60</Dimsize>
+<Dimsize>53</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Engines\Standard Engine\Editor Node\Standard Engine Editor Node.lvclass</Val>
@@ -38,6 +34,126 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Engines\Standard Engine\Execution Engine\Runtime\Standard Engine Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\CVT Access\configuration\CVT configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\CVT Access\editor node\CVT editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\CVT Access\execution\CVT runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\EIP Tags\channel\EIP Tags Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\EIP Tags\configuration\EIP Tags Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\EIP Tags\editor node\EIP Tags editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\EIP Tags\execution\EIP Tags Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Ethernet IP\channel\EthernetIP Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Ethernet IP\configuration\EthernetIP configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Ethernet IP\editor node\EthernetIP editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Ethernet IP\execution\EthernetIP runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\modbus\configuration\Modbus Module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\modbus\editor node\Modbus Module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\modbus\execution\Modbus Module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\modbus\module channel\Modbus Module Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\scan engine\configuration\Scan Engine configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\scan engine\editor node\Scan Engine editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\scan engine\execution\Scan Engine runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Shared Library\configuration\Shared Library Module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Shared Library\editor node\Shared Library Module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Shared Library\execution\Shared Library Module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\TDMS Datalogger\configuration\TDMS datalogger configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\TDMS Datalogger\editor\TDMS datalogger editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\TDMS Datalogger\execution\TDMS datalogger runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\UDP Broadcast\configuration\TEC configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\UDP Broadcast\editor node\TEC editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\UDP Broadcast\execution\TEC runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\UI\configuration\UI Reference configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\UI\editor node\UI Reference editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\UI\execution\UI Reference runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
@@ -118,154 +234,6 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\editor node\Shared Library Module editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\execution\Shared Library Module runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CVT Access\configuration\CVT configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CVT Access\editor node\CVT editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CVT Access\execution\CVT runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\editor node\Polynomial Scale editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\configuration\Polynomial Scale configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\execution\Polynomial Scale runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\EIP Tags\channel\EIP Tags Channel.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\EIP Tags\configuration\EIP Tags Configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\EIP Tags\editor node\EIP Tags editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\EIP Tags\execution\EIP Tags Runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Ethernet IP\channel\EthernetIP Channel.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Ethernet IP\configuration\EthernetIP configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Ethernet IP\editor node\EthernetIP editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Ethernet IP\execution\EthernetIP runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\modbus slave\configuration\Modbus Module configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\modbus slave\editor node\Modbus Module editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\modbus slave\execution\Modbus Module runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\modbus slave\module channel\Modbus Module Channel.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Profibus\channel\Profibus channel.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Profibus\configuration\Profibus Module configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Profibus\editor node\Profibus Module editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Profibus\execution\Profibus Module runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\TDMS Datalogger\configuration\TDMS datalogger configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\TDMS Datalogger\editor\TDMS datalogger editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\TDMS Datalogger\execution\TDMS datalogger runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UDP Broadcast\configuration\TEC configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UDP Broadcast\editor node\TEC editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UDP Broadcast\execution\TEC runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\configuration\UI Reference configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\editor node\UI Reference editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\execution\UI Reference runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\variable\configuration\Scan Engine configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\variable\editor node\Scan Engine editor node.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\variable\execution\Scan Engine runtime.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
@@ -474,135 +442,7 @@
 </Array>
 <Array>
 <Name>modules</Name>
-<Dimsize>11</Dimsize>
-<Cluster>
-<Name>class metadata</Name>
-<NumElts>7</NumElts>
-<String>
-<Name>file name</Name>
-<Val>Shared Library Module editor node</Val>
-</String>
-<String>
-<Name>fully qualified name</Name>
-<Val>Shared Library Module editor node.lvclass</Val>
-</String>
-<String>
-<Name>menu display name</Name>
-<Val>Shared Library Module configuration</Val>
-</String>
-<String>
-<Name>configuration class</Name>
-<Val>Shared Library Module configuration</Val>
-</String>
-<String>
-<Name>category</Name>
-<Val>Local I/O</Val>
-</String>
-<I32>
-<Name>instances allowed</Name>
-<Val>-1</Val>
-</I32>
-<Array>
-<Name>supported targets</Name>
-<Dimsize>8</Dimsize>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>0</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>1</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>2</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>3</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>4</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>5</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>6</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>7</Val>
-</EW>
-</Array>
-</Cluster>
+<Dimsize>9</Dimsize>
 <Cluster>
 <Name>class metadata</Name>
 <NumElts>7</NumElts>
@@ -716,134 +556,6 @@
 <Choice>Other</Choice>
 <Choice>Linux RT x64</Choice>
 <Val>6</Val>
-</EW>
-</Array>
-</Cluster>
-<Cluster>
-<Name>class metadata</Name>
-<NumElts>7</NumElts>
-<String>
-<Name>file name</Name>
-<Val>Polynomial Scale editor node</Val>
-</String>
-<String>
-<Name>fully qualified name</Name>
-<Val>Polynomial Scale editor node.lvclass</Val>
-</String>
-<String>
-<Name>menu display name</Name>
-<Val>Polynomial Scale configuration</Val>
-</String>
-<String>
-<Name>configuration class</Name>
-<Val>Polynomial Scale configuration</Val>
-</String>
-<String>
-<Name>category</Name>
-<Val>Other</Val>
-</String>
-<I32>
-<Name>instances allowed</Name>
-<Val>-1</Val>
-</I32>
-<Array>
-<Name>supported targets</Name>
-<Dimsize>8</Dimsize>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>0</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>1</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>2</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>3</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>4</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>5</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>6</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>7</Val>
 </EW>
 </Array>
 </Cluster>
@@ -1164,23 +876,23 @@
 <NumElts>7</NumElts>
 <String>
 <Name>file name</Name>
-<Val>Profibus Module editor node</Val>
+<Val>Scan Engine editor node</Val>
 </String>
 <String>
 <Name>fully qualified name</Name>
-<Val>Profibus Module editor node.lvclass</Val>
+<Val>Scan Engine editor node.lvclass</Val>
 </String>
 <String>
 <Name>menu display name</Name>
-<Val>Profibus Module configuration</Val>
+<Val>Scan Engine configuration</Val>
 </String>
 <String>
 <Name>configuration class</Name>
-<Val>Profibus Module configuration</Val>
+<Val>Scan Engine configuration</Val>
 </String>
 <String>
 <Name>category</Name>
-<Val>Other</Val>
+<Val>Local I/O</Val>
 </String>
 <I32>
 <Name>instances allowed</Name>
@@ -1188,7 +900,7 @@
 </I32>
 <Array>
 <Name>supported targets</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>7</Dimsize>
 <EW>
 <Name>OS</Name>
 <Choice>Windows</Choice>
@@ -1212,6 +924,194 @@
 <Choice>Other</Choice>
 <Choice>Linux RT x64</Choice>
 <Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
+</EW>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>7</NumElts>
+<String>
+<Name>file name</Name>
+<Val>Shared Library Module editor node</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>Shared Library Module editor node.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>Shared Library Module configuration</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>Shared Library Module configuration</Val>
+</String>
+<String>
+<Name>category</Name>
+<Val>Local I/O</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>-1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>8</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>6</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
 </EW>
 </Array>
 </Cluster>
@@ -1551,126 +1451,10 @@
 </EW>
 </Array>
 </Cluster>
-<Cluster>
-<Name>class metadata</Name>
-<NumElts>7</NumElts>
-<String>
-<Name>file name</Name>
-<Val>Scan Engine editor node</Val>
-</String>
-<String>
-<Name>fully qualified name</Name>
-<Val>Scan Engine editor node.lvclass</Val>
-</String>
-<String>
-<Name>menu display name</Name>
-<Val>Scan Engine configuration</Val>
-</String>
-<String>
-<Name>configuration class</Name>
-<Val>Scan Engine configuration</Val>
-</String>
-<String>
-<Name>category</Name>
-<Val>Local I/O</Val>
-</String>
-<I32>
-<Name>instances allowed</Name>
-<Val>1</Val>
-</I32>
-<Array>
-<Name>supported targets</Name>
-<Dimsize>7</Dimsize>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>3</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>4</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>5</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>0</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>1</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>2</Val>
-</EW>
-<EW>
-<Name>OS</Name>
-<Choice>Windows</Choice>
-<Choice>Mac</Choice>
-<Choice>Linux</Choice>
-<Choice>Linux RT ARM</Choice>
-<Choice>VxWorks</Choice>
-<Choice>Pharlap</Choice>
-<Choice>Other</Choice>
-<Choice>Linux RT x64</Choice>
-<Val>7</Val>
-</EW>
-</Array>
-</Cluster>
 </Array>
 <Array>
 <Name>ignored class list</Name>
-<Dimsize>43</Dimsize>
+<Dimsize>38</Dimsize>
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Engines\Standard Engine\Execution Engine\Configuration\Standard Engine Configuration.lvclass</Val>
@@ -1678,6 +1462,90 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Engines\Standard Engine\Execution Engine\Runtime\Standard Engine Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\CVT Access\configuration\CVT configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\CVT Access\execution\CVT runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\EIP Tags\channel\EIP Tags Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\EIP Tags\configuration\EIP Tags Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\EIP Tags\execution\EIP Tags Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Ethernet IP\channel\EthernetIP Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Ethernet IP\configuration\EthernetIP configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Ethernet IP\execution\EthernetIP runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\modbus\configuration\Modbus Module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\modbus\execution\Modbus Module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\modbus\module channel\Modbus Module Channel.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\scan engine\configuration\Scan Engine configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\scan engine\execution\Scan Engine runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Shared Library\configuration\Shared Library Module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\Shared Library\execution\Shared Library Module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\TDMS Datalogger\configuration\TDMS datalogger configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\TDMS Datalogger\execution\TDMS datalogger runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\UDP Broadcast\configuration\TEC configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\UDP Broadcast\execution\TEC runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\UI\configuration\UI Reference configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Modules\UI\execution\UI Reference runtime.lvclass</Val>
 </Path>
 <Path>
 <Name>Path</Name>
@@ -1738,110 +1606,6 @@
 <Path>
 <Name>Path</Name>
 <Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF\Tag Editor Core\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\configuration\Shared Library Module configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CLFN\execution\Shared Library Module runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CVT Access\configuration\CVT configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\CVT Access\execution\CVT runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\configuration\Polynomial Scale configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\DCAF Scaling - Polynomial\module\execution\Polynomial Scale runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\EIP Tags\channel\EIP Tags Channel.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\EIP Tags\configuration\EIP Tags Configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\EIP Tags\execution\EIP Tags Runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Ethernet IP\channel\EthernetIP Channel.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Ethernet IP\configuration\EthernetIP configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Ethernet IP\execution\EthernetIP runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\modbus slave\configuration\Modbus Module configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\modbus slave\execution\Modbus Module runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\modbus slave\module channel\Modbus Module Channel.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Profibus\channel\Profibus channel.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Profibus\configuration\Profibus Module configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\Profibus\execution\Profibus Module runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\TDMS Datalogger\configuration\TDMS datalogger configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\TDMS Datalogger\execution\TDMS datalogger runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UDP Broadcast\configuration\TEC configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UDP Broadcast\execution\TEC runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\configuration\UI Reference configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\UI\execution\UI Reference runtime.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\variable\configuration\Scan Engine configuration.lvclass</Val>
-</Path>
-<Path>
-<Name>Path</Name>
-<Val>C:\Program Files (x86)\National Instruments\LabVIEW 2013\vi.lib\NI\DCAF Modules\variable\execution\Scan Engine runtime.lvclass</Val>
 </Path>
 </Array>
 </Cluster>
