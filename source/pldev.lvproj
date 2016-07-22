@@ -73,7 +73,7 @@
 		<Item Name="PL_Target RIO Runtime.lvclass" Type="LVClass" URL="../Framework Configuration Classes/target cRIO runtime/PL_Target RIO Runtime.lvclass"/>
 		<Item Name="Additional Files Array.ctl" Type="VI" URL="../Configuration Editor/subVIs/Additional Files Array.ctl"/>
 		<Item Name="Mapping.ctl" Type="VI" URL="../Configuration Editor/subVIs/Mapping.ctl"/>
-		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Engines/Standard Engine/Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
+		<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Engines/Standard Engine/Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>

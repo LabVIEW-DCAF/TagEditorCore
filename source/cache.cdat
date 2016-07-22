@@ -1,0 +1,480 @@
+<Cluster>
+<Name>cache</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>configuration</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>Search Paths</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source</Val>
+</Path>
+</Array>
+<Array>
+<Name>Folders to Exclude</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>full class list</Name>
+<Dimsize>23</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\control module\configuration\control module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\control module\editor node\control module editor.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\control module\runtime\control module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\core targets\cDAQ\PLTarget cDAQ.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\core targets\cRIO\PLTarget cRIO.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\core targets\PC\PLTarget PC.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\core targets\PXI\PLTarget PXI.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\core targets\RTCVS\PLTarget CVS.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\tests\test module\editor node\TEST EDITOR.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+</Path>
+</Array>
+</Cluster>
+<Cluster>
+<Name>class cache data</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>targets</Name>
+<Dimsize>5</Dimsize>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget cDAQ</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget cDAQ.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>cDAQ</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget cRIO</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget cRIO.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>cRIO</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget PC</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget PC.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>PC</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget PXI</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget PXI.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>PXI</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>file name</Name>
+<Val>PLTarget CVS</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>PLTarget CVS.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>CVS</Val>
+</String>
+<String>
+<Name>configuration class name</Name>
+<Val>PL_Target Configuration</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>engines</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>7</NumElts>
+<String>
+<Name>file name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val></Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val></Val>
+</String>
+<String>
+<Name>category</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val></Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>0</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val></Val>
+</EW>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>modules</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>class metadata</Name>
+<NumElts>7</NumElts>
+<String>
+<Name>file name</Name>
+<Val>TEST EDITOR</Val>
+</String>
+<String>
+<Name>fully qualified name</Name>
+<Val>configuration tests.lvlib:TEST EDITOR.lvclass</Val>
+</String>
+<String>
+<Name>menu display name</Name>
+<Val>TEST CONFIGURATION</Val>
+</String>
+<String>
+<Name>configuration class</Name>
+<Val>TEST CONFIGURATION</Val>
+</String>
+<String>
+<Name>category</Name>
+<Val>Other</Val>
+</String>
+<I32>
+<Name>instances allowed</Name>
+<Val>-1</Val>
+</I32>
+<Array>
+<Name>supported targets</Name>
+<Dimsize>8</Dimsize>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>3</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>4</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>5</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>6</Val>
+</EW>
+<EW>
+<Name>OS</Name>
+<Choice>Windows</Choice>
+<Choice>Mac</Choice>
+<Choice>Linux</Choice>
+<Choice>Linux RT ARM</Choice>
+<Choice>VxWorks</Choice>
+<Choice>Pharlap</Choice>
+<Choice>Other</Choice>
+<Choice>Linux RT x64</Choice>
+<Val>7</Val>
+</EW>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>ignored class list</Name>
+<Dimsize>17</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\Engine Mappings\Engine Mappings.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\Engine Parent\Engine Parent Editor Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\EngineTags\EngineTags.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\Module editor node\module editor node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\SystemConfigRepo\SystemConfigRepo.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\Systems\Systems.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\Targets\Targets.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Configuration Editor\Classes\TBM Configuration Node\TBM Configuration Node.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\control module\configuration\control module configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\control module\editor node\control module editor.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\control module\runtime\control module runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Framework Configuration Classes\system configuration\PL_System Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Framework Configuration Classes\target configuration\PL_Target Configuration.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Framework Configuration Classes\target cRIO runtime\PL_Target RIO Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\Framework Configuration Classes\target runtime\PL_Target Runtime.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\tests\test module\module\configuration\TEST CONFIGURATION.lvclass</Val>
+</Path>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\W7\Documents\TagEditorCore\source\tests\test module\module\execution\TEST RUNTIME.lvclass</Val>
+</Path>
+</Array>
+</Cluster>
+</Cluster>
