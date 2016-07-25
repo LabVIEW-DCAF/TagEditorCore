@@ -228,13 +228,7 @@
 				<Item Name="Create Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create Rendezvous.vi"/>
 				<Item Name="Progress Bar.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Progress Bar/Progress Bar.lvlib"/>
 				<Item Name="control module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/control module/configuration/control module configuration.lvclass"/>
-				<Item Name="Add.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF UI Toolkit/Controls/Add.ctl"/>
-				<Item Name="Remove.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF UI Toolkit/Controls/Remove.ctl"/>
-				<Item Name="Import.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF UI Toolkit/Controls/Import.ctl"/>
-				<Item Name="Export.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF UI Toolkit/Controls/Export.ctl"/>
-				<Item Name="Move One Right.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF UI Toolkit/Controls/Move One Right.ctl"/>
-				<Item Name="Move One Left.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF UI Toolkit/Controls/Move One Left.ctl"/>
-				<Item Name="DCAF UI Elements.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/DCAF UI Toolkit/Controls/DCAF UI Elements.lvlib"/>
+				<Item Name="DCAF UI Elements.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/DCAF UI Toolkit/Controls/DCAF UI Elements.lvlib"/>
 			</Item>
 			<Item Name="owning references.ctl" Type="VI" URL="../control module/script/Controls/owning references.ctl"/>
 			<Item Name="GraphViz Mapping Visualizer.lvlib" Type="Library" URL="../Utilities/GraphViz Vizualizations/GraphViz Mapping Visualizer.lvlib"/>
