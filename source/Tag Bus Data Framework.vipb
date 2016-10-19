@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2016-10-17 17:14:40" Creator="Daniel" Comments="" ID="163aeb6aa0890073aa6596e94a146d35">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2016-10-19 13:17:58" Creator="Daniel" Comments="" ID="7b1985b68abf47c5b2823dcebbb898f8">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_tag_editor</Package_File_Name>
-    <Library_Version>2.1.3.13</Library_Version>
+    <Library_Version>2.1.3.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -502,7 +502,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD87D8F25FE11B7404E6B05CEFCF8DA1</GUID>
+      <GUID>FC61198A27D0106B4FD924463C60F046</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
