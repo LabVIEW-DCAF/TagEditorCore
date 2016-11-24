@@ -5,9 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="plcfg" Type="Folder">
-		<Item Name="to and from repo test.vi" Type="VI" URL="../to and from repo test.vi"/>
-	</Item>
+	<Item Name="plcfg" Type="Folder"/>
 	<Item Name="syscfg" Type="Folder">
 		<Item Name="syscfg serialize test.vi" Type="VI" URL="../syscfg serialize test.vi"/>
 	</Item>
