@@ -23,6 +23,7 @@
 		<Item Name="always includes.vi" Type="VI" URL="../subVI/always includes.vi"/>
 		<Item Name="call include vi script.vi" Type="VI" URL="../subVI/call include vi script.vi"/>
 		<Item Name="check if subpanel should be closed.vi" Type="VI" URL="../subVI/check if subpanel should be closed.vi"/>
+		<Item Name="clean duplicated node mappings.vi" Type="VI" URL="../subVI/clean duplicated node mappings.vi"/>
 		<Item Name="default file paths.vi" Type="VI" URL="../subVI/default file paths.vi"/>
 		<Item Name="disable messages.vi" Type="VI" URL="../subVI/disable messages.vi"/>
 		<Item Name="get module IDs from All Nodes Summary.vi" Type="VI" URL="../subVI/get module IDs from All Nodes Summary.vi"/>
@@ -38,5 +39,6 @@
 		<Item Name="Save.vi" Type="VI" URL="../subVI/Save.vi"/>
 		<Item Name="send error message.vi" Type="VI" URL="../subVI/send error message.vi"/>
 	</Item>
+	<Item Name="Clean Duplicate Engine Mapping.vi" Type="VI" URL="../subVI/Clean Duplicate Engine Mapping.vi"/>
 	<Item Name="Configuration Utility.vi" Type="VI" URL="../Configuration Utility.vi"/>
 </Library>
