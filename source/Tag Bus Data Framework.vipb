@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2016-11-23 19:14:38" Creator="Daniel" Comments="" ID="de2054406061a105ae83642059e28f7b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2016-12-12 14:42:50" Creator="Daniel" Comments="" ID="bb458a23e8739fe042158663d3e3bb57">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_tag_editor</Package_File_Name>
     <Library_Version>2.2.0.3</Library_Version>
@@ -17,13 +17,13 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_config_editor &gt;=2.1.1.75</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dcaf_execution_interface &gt;=2.1.3.46</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dcaf_progress_bar &gt;=1.0.0.18</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dcaf_ui_toolkit &gt;=1.0.0.5</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_config_editor &gt;=2.2.1.113</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_execution_interface &gt;=2.2.3.55</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_progress_bar &gt;=1.0.0.23</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_ui_toolkit &gt;=1.0.0.121</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_fp_layout &gt;=1.1.1.40</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_rt_management &gt;=1.1.0.40</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_syslog_wrapper_linux &gt;=1.0.0.3</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_rt_management &gt;=1.1.1.41</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_syslog_wrapper_linux &gt;=1.0.0.7</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -40,7 +40,8 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>Changed the scope of the module limit from engine to target. </Release_Notes>
+      <Release_Notes>DCAF 1.1 Release
+Updated Dependecies versions</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -502,7 +503,7 @@
         <Path>Framework Configuration Classes\flattened data interface\load target hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7650008A6AD6A0AF4CD1119FF9989F3</GUID>
+      <GUID>27E5ACAD1ADED59B07B9F73F6FE0CADE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
