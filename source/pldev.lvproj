@@ -228,7 +228,18 @@
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="Close VI Reference and Wait Until VI Leaves Memory.vi" Type="VI" URL="/&lt;vilib&gt;/VIServer/Close VI Reference and Wait Until VI Leaves Memory.vi"/>
 				<Item Name="write syslog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Syslog Wrapper - Linux/write syslog.vi"/>
-				<Item Name="update module id.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Configuration/update module id.vi"/>
+				<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Engines/Standard Engine/Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
+				<Item Name="Standard Engine Editor Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Engines/Standard Engine/Editor Node/Standard Engine Editor Node.lvclass"/>
+				<Item Name="Scan Engine configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/configuration/Scan Engine configuration.lvclass"/>
+				<Item Name="Scan Engine editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/scan engine/editor node/Scan Engine editor node.lvclass"/>
+				<Item Name="LVComboBoxStrsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVComboBoxStrsAndValuesArrayTypeDef.ctl"/>
+				<Item Name="CVT configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/CVT Access/configuration/CVT configuration.lvclass"/>
+				<Item Name="CVT editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/CVT Access/editor node/CVT editor node.lvclass"/>
+				<Item Name="Current Value Table.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Current Value Table/Current Value Table.lvlib"/>
+				<Item Name="TEC configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/UDP Broadcast/configuration/TEC configuration.lvclass"/>
+				<Item Name="TEC editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/UDP Broadcast/editor node/TEC editor node.lvclass"/>
+				<Item Name="UI Reference configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/UI/configuration/UI Reference configuration.lvclass"/>
+				<Item Name="UI Reference editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/UI/editor node/UI Reference editor node.lvclass"/>
 			</Item>
 			<Item Name="GraphViz Mapping Visualizer.lvlib" Type="Library" URL="../Utilities/GraphViz Vizualizations/GraphViz Mapping Visualizer.lvlib"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
