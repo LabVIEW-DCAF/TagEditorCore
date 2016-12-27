@@ -24,10 +24,11 @@
 		<Item Name="Test Enum Helpers.vi" Type="VI" URL="../Enum/Test Enum Helpers.vi"/>
 	</Item>
 	<Item Name="Table Managers" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Cell Change.ctl" Type="VI" URL="../Table Manager/Cell Change.ctl"/>
 		<Item Name="Detect Cell Change.vi" Type="VI" URL="../Table Manager/Detect Cell Change.vi"/>
-		<Item Name="Multi Column Listbox.lvclass" Type="LVClass" URL="../Listbox/Multi Column Listbox.lvclass"/>
 		<Item Name="Table Manager.lvclass" Type="LVClass" URL="../Table Manager/Table Manager.lvclass"/>
+		<Item Name="Multi Column Listbox.lvclass" Type="LVClass" URL="../Listbox/Multi Column Listbox.lvclass"/>
 	</Item>
 	<Item Name="Line.lvclass" Type="LVClass" URL="../Line/Line.lvclass"/>
 </Library>
