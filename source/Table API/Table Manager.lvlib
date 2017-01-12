@@ -8,6 +8,8 @@
 		<Item Name="avaiable tag menu action.vi" Type="VI" URL="../Available Tag Menu/avaiable tag menu action.vi"/>
 		<Item Name="available tag dialog.vi" Type="VI" URL="../Available Tag Menu/available tag dialog.vi"/>
 		<Item Name="available tags menu.vi" Type="VI" URL="../Available Tag Menu/available tags menu.vi"/>
+		<Item Name="channel action event.ctl" Type="VI" URL="../Available Tag Menu/channel action event.ctl"/>
+		<Item Name="dialog output action.ctl" Type="VI" URL="../Available Tag Menu/dialog output action.ctl"/>
 	</Item>
 	<Item Name="Columns" Type="Folder">
 		<Item Name="Column.lvclass" Type="LVClass" URL="../Column/Column.lvclass"/>
@@ -22,6 +24,9 @@
 		<Item Name="overlay enum on cell.vi" Type="VI" URL="../Enum/overlay enum on cell.vi"/>
 		<Item Name="string to enum.vi" Type="VI" URL="../Enum/string to enum.vi"/>
 		<Item Name="Test Enum Helpers.vi" Type="VI" URL="../Enum/Test Enum Helpers.vi"/>
+	</Item>
+	<Item Name="Helpers" Type="Folder">
+		<Item Name="format mapping column info.vi" Type="VI" URL="../Helpers/format mapping column info.vi"/>
 	</Item>
 	<Item Name="Table Managers" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
