@@ -175,6 +175,7 @@
 			</Item>
 			<Item Name="control module configuration.lvclass" Type="LVClass" URL="../../control module/configuration/control module configuration.lvclass"/>
 			<Item Name="control module editor.lvclass" Type="LVClass" URL="../../control module/editor node/control module editor.lvclass"/>
+			<Item Name="control module runtime.lvclass" Type="LVClass" URL="../../control module/runtime/control module runtime.lvclass"/>
 			<Item Name="GraphViz Mapping Visualizer.lvlib" Type="Library" URL="../../Utilities/GraphViz Vizualizations/GraphViz Mapping Visualizer.lvlib"/>
 			<Item Name="PL Framework Configuration Tool.lvlib" Type="Library" URL="../../Configuration Editor/PL Framework Configuration Tool.lvlib"/>
 			<Item Name="PL_class cache.lvlib" Type="Library" URL="../../Framework Configuration Classes/class cache/PL_class cache.lvlib"/>
