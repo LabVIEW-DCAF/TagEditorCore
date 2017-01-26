@@ -41,4 +41,5 @@
 		<Item Name="send error message.vi" Type="VI" URL="../subVI/send error message.vi"/>
 	</Item>
 	<Item Name="Configuration Utility.vi" Type="VI" URL="../Configuration Utility.vi"/>
+	<Item Name="Move Node.vi" Type="VI" URL="../subVI/Move Node.vi"/>
 </Library>
