@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2017-01-26 14:58:10" Creator="Daniel" Comments="" ID="10bc9847db277cbafa73a4f1fc9a9c15">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2017-01-30 11:59:37" Creator="Daniel" Comments="" ID="3bcda99b40b4504c52e9fe16e1251560">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_tag_editor</Package_File_Name>
-    <Library_Version>2.2.0.5</Library_Version>
+    <Library_Version>2.3.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -29,7 +29,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>Utilities\External tools\Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -42,7 +42,8 @@
       <URL>https://github.com/TBDFramework/TBDCore</URL>
       <Release_Notes>DCAF 1.1 Release
 Updated Dependecies versions
-Addded Table API to Core </Release_Notes>
+Addded Table API to Core 
+Added Putty dependency</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -524,7 +525,7 @@ Addded Table API to Core </Release_Notes>
         <Path>TableAPI</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C24CAB941D79ABBEF67A2B2EFAEFDB7B</GUID>
+      <GUID>ED0357067FC87B6481479015E8BBE6C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -643,7 +644,7 @@ Addded Table API to Core </Release_Notes>
         <Path>Table API\Mapping Column\Define Mapping Column.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A917F8A6208CA4034DF084EE9612E198</GUID>
+      <GUID>35E41A263341E9E695073871988CE6F5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

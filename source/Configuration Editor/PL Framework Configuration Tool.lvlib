@@ -14,6 +14,9 @@
 		<Item Name="Systems.lvclass" Type="LVClass" URL="../Classes/Systems/Systems.lvclass"/>
 		<Item Name="Targets.lvclass" Type="LVClass" URL="../Classes/Targets/Targets.lvclass"/>
 	</Item>
+	<Item Name="Deployment Helpers" Type="Folder">
+		<Item Name="SCP File Transfer.lvclass" Type="LVClass" URL="../Classes/Deployment Helpers/SCP File Transfer/SCP File Transfer.lvclass"/>
+	</Item>
 	<Item Name="Engine Editor Nodes" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Engine Parent Editor Node.lvclass" Type="LVClass" URL="../Classes/Engine Parent/Engine Parent Editor Node.lvclass"/>
