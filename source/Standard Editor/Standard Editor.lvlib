@@ -17,6 +17,7 @@
 		<Item Name="dialog" Type="Folder">
 			<Item Name="dialog edit search paths.vi" Type="VI" URL="../subVI/dialog edit search paths.vi"/>
 			<Item Name="dialog get save path.vi" Type="VI" URL="../subVI/dialog get save path.vi"/>
+			<Item Name="dialog save before deploy.vi" Type="VI" URL="../subVI/dialog save before deploy.vi"/>
 			<Item Name="dialog save dirty dot.vi" Type="VI" URL="../subVI/dialog save dirty dot.vi"/>
 			<Item Name="launch target selector.vi" Type="VI" URL="../subVI/launch target selector.vi"/>
 		</Item>
