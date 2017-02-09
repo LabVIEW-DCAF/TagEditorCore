@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2017-01-30 11:59:37" Creator="Daniel" Comments="" ID="3bcda99b40b4504c52e9fe16e1251560">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2017-02-09 10:11:31" Creator="Daniel" Comments="" ID="86b146e48936e6b38721a794822c94af">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_tag_editor</Package_File_Name>
     <Library_Version>2.3.0.5</Library_Version>
@@ -24,6 +24,7 @@
       <Additional_External_Dependencies>ni_lib_fp_layout &gt;=1.1.1.40</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_rt_management &gt;=1.1.1.41</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_syslog_wrapper_linux &gt;=1.0.0.7</Additional_External_Dependencies>
+      <Package_Conflicts>ni_lib_dcaf_table_api &gt;=1.0.0.15</Package_Conflicts>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -525,7 +526,7 @@ Added Putty dependency</Release_Notes>
         <Path>TableAPI</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED0357067FC87B6481479015E8BBE6C0</GUID>
+      <GUID>91ED1C2FDE851E63289A7F7BB4EAF683</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -644,7 +645,7 @@ Added Putty dependency</Release_Notes>
         <Path>Table API\Mapping Column\Define Mapping Column.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35E41A263341E9E695073871988CE6F5</GUID>
+      <GUID>7D9D43F636B44874955A9B68E4EF38CB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
