@@ -33,6 +33,7 @@
 		<Item Name="add filename if missing.vi" Type="VI" URL="../subVIs/add filename if missing.vi"/>
 		<Item Name="Add status to name.vi" Type="VI" URL="../subVIs/Add status to name.vi"/>
 		<Item Name="deployment configuration.ctl" Type="VI" URL="../subVIs/deployment configuration.ctl"/>
+		<Item Name="Deployment error handling.vi" Type="VI" URL="../subVIs/Deployment error handling.vi"/>
 		<Item Name="deployment tool.vi" Type="VI" URL="../subVIs/deployment tool.vi"/>
 		<Item Name="Glyphs Status.ctl" Type="VI" URL="../subVIs/Glyphs Status.ctl"/>
 		<Item Name="tokens to path.vi" Type="VI" URL="../subVIs/tokens to path.vi"/>
