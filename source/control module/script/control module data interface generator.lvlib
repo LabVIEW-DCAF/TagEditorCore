@@ -33,14 +33,17 @@
 		<Item Name="CreateIndexCluster.vi" Type="VI" URL="../subVIs/CreateIndexCluster.vi"/>
 		<Item Name="DefaultsGlobal.vi" Type="VI" URL="../subVIs/DefaultsGlobal.vi"/>
 		<Item Name="find or create references.vi" Type="VI" URL="../subVIs/find or create references.vi"/>
+		<Item Name="Get Definition VIs Paths.vi" Type="VI" URL="../subVIs/Get Definition VIs Paths.vi"/>
 		<Item Name="get full path of target vi.vi" Type="VI" URL="../subVIs/get full path of target vi.vi"/>
 		<Item Name="GetVIReference.vi" Type="VI" URL="../subVIs/GetVIReference.vi"/>
 		<Item Name="initialize vi references.vi" Type="VI" URL="../subVIs/initialize vi references.vi"/>
 		<Item Name="OpenCreateVI.vi" Type="VI" URL="../subVIs/OpenCreateVI.vi"/>
 		<Item Name="regular expression to csv.vi" Type="VI" URL="../subVIs/regular expression to csv.vi"/>
 		<Item Name="SaveVi.vi" Type="VI" URL="../subVIs/SaveVi.vi"/>
+		<Item Name="Set Definition Files.vi" Type="VI" URL="../subVIs/Set Definition Files.vi"/>
 		<Item Name="temporary load classes.vi" Type="VI" URL="../subVIs/temporary load classes.vi"/>
 		<Item Name="Update From Typedef.vi" Type="VI" URL="../subVIs/Update From Typedef.vi"/>
+		<Item Name="UpdateExecutionSettings.vi" Type="VI" URL="../subVIs/UpdateExecutionSettings.vi"/>
 		<Item Name="Validate channels.vi" Type="VI" URL="../subVIs/Validate channels.vi"/>
 		<Item Name="validate inputs.vi" Type="VI" URL="../subVIs/validate inputs.vi"/>
 		<Item Name="WireReadBlockDiagram.vi" Type="VI" URL="../subVIs/WireReadBlockDiagram.vi"/>
