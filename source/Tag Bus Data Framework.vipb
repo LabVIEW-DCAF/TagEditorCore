@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2014-07-23 19:04:50" Modified_Date="2017-06-22 10:34:26" Creator="Daniel" Comments="" ID="6cb9a04a537a03f152f95c8c4e7926a5">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2017-04-26 18:27:00" Creator="Daniel" Comments="" ID="99ff34f20904616feb58c5dc3bc871d0">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_tag_editor</Package_File_Name>
-    <Library_Version>2.5.0.2</Library_Version>
+    <Library_Version>2.4.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -41,11 +41,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
-      <Release_Notes>-Added additional filtering to Engine Tags UI
--User can now filter tags with no Writer channel or no Reader Channels
-
-DCO-1.1-Signed-off-by: Ian Knox &lt;iknox@dataahead.de&gt; (github: knoxberry)
-</Release_Notes>
+      <Release_Notes>Updated to LabVIEW 2014 or later</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -101,11 +97,6 @@ DCO-1.1-Signed-off-by: Ian Knox &lt;iknox@dataahead.de&gt; (github: knoxberry)
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
-      <QuickDrop_Plugins>
-        <LLB>false</LLB>
-        <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
-      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -535,7 +526,7 @@ DCO-1.1-Signed-off-by: Ian Knox &lt;iknox@dataahead.de&gt; (github: knoxberry)
         <Path>TableAPI</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D50B14DFF9B37BBF46A4CE87D1D1A68D</GUID>
+      <GUID>20CA0C6776B41D7105C71906FD5A2164</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -654,7 +645,7 @@ DCO-1.1-Signed-off-by: Ian Knox &lt;iknox@dataahead.de&gt; (github: knoxberry)
         <Path>Table API\Mapping Column\Define Mapping Column.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>504860F3074DAABE7BE4C1A5FD33E71A</GUID>
+      <GUID>F9417F90C163FCD2515403F3C8021128</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
