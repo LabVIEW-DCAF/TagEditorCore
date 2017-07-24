@@ -5,48 +5,51 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Controls" Type="Folder">
-		<Item Name="ControlsProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/Controls/ControlsProperties.ctl"/>
+		<Item Name="ControlsProperties.ctl" Type="VI" URL="../Controls/ControlsProperties.ctl"/>
 		<Item Name="IndexCluster.ctl" Type="VI" URL="../Controls/IndexCluster.ctl"/>
 		<Item Name="initialized references.ctl" Type="VI" URL="../Controls/initialized references.ctl"/>
-		<Item Name="input script control.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/Controls/input script control.ctl"/>
+		<Item Name="input script control.ctl" Type="VI" URL="../Controls/input script control.ctl"/>
 		<Item Name="interface VI type.ctl" Type="VI" URL="../Controls/interface VI type.ctl"/>
-		<Item Name="output script control.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/Controls/output script control.ctl"/>
+		<Item Name="output script control.ctl" Type="VI" URL="../Controls/output script control.ctl"/>
 		<Item Name="PathsCluster.ctl" Type="VI" URL="../Controls/PathsCluster.ctl"/>
-		<Item Name="processing script control.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/Controls/processing script control.ctl"/>
+		<Item Name="processing script control.ctl" Type="VI" URL="../Controls/processing script control.ctl"/>
 		<Item Name="SampleControl.ctl" Type="VI" URL="../Controls/SampleControl.ctl"/>
 		<Item Name="scripting spec.ctl" Type="VI" URL="../Controls/scripting spec.ctl"/>
-		<Item Name="StateCluster.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/Controls/StateCluster.ctl"/>
+		<Item Name="StateCluster.ctl" Type="VI" URL="../Controls/StateCluster.ctl"/>
 		<Item Name="template interface cluster.ctl" Type="VI" URL="../subVIs/template interface cluster.ctl"/>
-		<Item Name="TerminalReferences.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/Controls/TerminalReferences.ctl"/>
+		<Item Name="TerminalReferences.ctl" Type="VI" URL="../Controls/TerminalReferences.ctl"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="AddBunlderWithName.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/AddBunlderWithName.vi"/>
-		<Item Name="AddFrontPanelControls.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/AddFrontPanelControls.vi"/>
-		<Item Name="AddUnbunlderwithname.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/AddUnbunlderwithname.vi"/>
-		<Item Name="check type and blank string.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/check type and blank string.vi"/>
-		<Item Name="ClearBD.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/ClearBD.vi"/>
-		<Item Name="ClearFP.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/ClearFP.vi"/>
-		<Item Name="close references.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/close references.vi"/>
-		<Item Name="ClusterDataTypeToTagBusDataType.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/ClusterDataTypeToTagBusDataType.vi"/>
-		<Item Name="ClusterElementNames.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/ClusterElementNames.vi"/>
-		<Item Name="ControlFileToVariant.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/ControlFileToVariant.vi"/>
-		<Item Name="CreateIndexCluster.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/CreateIndexCluster.vi"/>
+		<Item Name="AddBunlderWithName.vi" Type="VI" URL="../subVIs/AddBunlderWithName.vi"/>
+		<Item Name="AddFrontPanelControls.vi" Type="VI" URL="../subVIs/AddFrontPanelControls.vi"/>
+		<Item Name="AddUnbunlderwithname.vi" Type="VI" URL="../subVIs/AddUnbunlderwithname.vi"/>
+		<Item Name="check type and blank string.vi" Type="VI" URL="../subVIs/check type and blank string.vi"/>
+		<Item Name="ClearBD.vi" Type="VI" URL="../subVIs/ClearBD.vi"/>
+		<Item Name="ClearFP.vi" Type="VI" URL="../subVIs/ClearFP.vi"/>
+		<Item Name="close references.vi" Type="VI" URL="../subVIs/close references.vi"/>
+		<Item Name="ClusterDataTypeToTagBusDataType.vi" Type="VI" URL="../subVIs/ClusterDataTypeToTagBusDataType.vi"/>
+		<Item Name="ClusterElementNames.vi" Type="VI" URL="../subVIs/ClusterElementNames.vi"/>
+		<Item Name="ControlFileToVariant.vi" Type="VI" URL="../subVIs/ControlFileToVariant.vi"/>
+		<Item Name="CreateIndexCluster.vi" Type="VI" URL="../subVIs/CreateIndexCluster.vi"/>
 		<Item Name="DefaultsGlobal.vi" Type="VI" URL="../subVIs/DefaultsGlobal.vi"/>
 		<Item Name="find or create references.vi" Type="VI" URL="../subVIs/find or create references.vi"/>
+		<Item Name="Get Definition VIs Paths.vi" Type="VI" URL="../subVIs/Get Definition VIs Paths.vi"/>
 		<Item Name="get full path of target vi.vi" Type="VI" URL="../subVIs/get full path of target vi.vi"/>
 		<Item Name="GetVIReference.vi" Type="VI" URL="../subVIs/GetVIReference.vi"/>
 		<Item Name="initialize vi references.vi" Type="VI" URL="../subVIs/initialize vi references.vi"/>
-		<Item Name="OpenCreateVI.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/OpenCreateVI.vi"/>
+		<Item Name="OpenCreateVI.vi" Type="VI" URL="../subVIs/OpenCreateVI.vi"/>
 		<Item Name="regular expression to csv.vi" Type="VI" URL="../subVIs/regular expression to csv.vi"/>
-		<Item Name="SaveVi.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/SaveVi.vi"/>
+		<Item Name="SaveVi.vi" Type="VI" URL="../subVIs/SaveVi.vi"/>
+		<Item Name="Set Definition Files.vi" Type="VI" URL="../subVIs/Set Definition Files.vi"/>
 		<Item Name="temporary load classes.vi" Type="VI" URL="../subVIs/temporary load classes.vi"/>
 		<Item Name="Update From Typedef.vi" Type="VI" URL="../subVIs/Update From Typedef.vi"/>
+		<Item Name="UpdateExecutionSettings.vi" Type="VI" URL="../subVIs/UpdateExecutionSettings.vi"/>
 		<Item Name="Validate channels.vi" Type="VI" URL="../subVIs/Validate channels.vi"/>
-		<Item Name="validate inputs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/validate inputs.vi"/>
-		<Item Name="WireReadBlockDiagram.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/WireReadBlockDiagram.vi"/>
-		<Item Name="WireReadTagbusVIs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/WireReadTagbusVIs.vi"/>
-		<Item Name="WireWriteBlockDiagram.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/WireWriteBlockDiagram.vi"/>
-		<Item Name="WireWriteTagbusVIs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/subVIs/WireWriteTagbusVIs.vi"/>
+		<Item Name="validate inputs.vi" Type="VI" URL="../subVIs/validate inputs.vi"/>
+		<Item Name="WireReadBlockDiagram.vi" Type="VI" URL="../subVIs/WireReadBlockDiagram.vi"/>
+		<Item Name="WireReadTagbusVIs.vi" Type="VI" URL="../subVIs/WireReadTagbusVIs.vi"/>
+		<Item Name="WireWriteBlockDiagram.vi" Type="VI" URL="../subVIs/WireWriteBlockDiagram.vi"/>
+		<Item Name="WireWriteTagbusVIs.vi" Type="VI" URL="../subVIs/WireWriteTagbusVIs.vi"/>
 	</Item>
-	<Item Name="FromClusterToTagBusScript.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/script/FromClusterToTagBusScript.vi"/>
+	<Item Name="FromClusterToTagBusScript.vi" Type="VI" URL="../FromClusterToTagBusScript.vi"/>
 </Library>
