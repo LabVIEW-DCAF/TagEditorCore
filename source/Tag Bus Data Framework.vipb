@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2017-04-26 18:27:00" Creator="Daniel" Comments="" ID="99ff34f20904616feb58c5dc3bc871d0">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2017-09-13 16:02:40" Creator="Daniel" Comments="" ID="6d14eb2199b4628b33d93e64d05329cd">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_tag_editor</Package_File_Name>
     <Library_Version>2.4.0.6</Library_Version>
@@ -18,7 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>ni_lib_config_editor &gt;=2.2.1.116</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dcaf_execution_interface &gt;=2.2.3.58</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_execution_interface &gt;=2.3.0.7</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_dcaf_progress_bar &gt;=1.0.0.24</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_dcaf_ui_toolkit &gt;=1.0.0.124</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_fp_layout &gt;=1.1.1.40</Additional_External_Dependencies>
@@ -526,7 +526,7 @@
         <Path>TableAPI</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20CA0C6776B41D7105C71906FD5A2164</GUID>
+      <GUID>4B3B3CB4EDA8F1BD6EFF5373DA906308</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -645,7 +645,7 @@
         <Path>Table API\Mapping Column\Define Mapping Column.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F9417F90C163FCD2515403F3C8021128</GUID>
+      <GUID>C20260496F1BC6517AE7D5D67E540019</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
