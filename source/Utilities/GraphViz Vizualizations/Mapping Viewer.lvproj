@@ -27,6 +27,7 @@
 			</Item>
 			<Item Name="Verify HTML Tables and Digraph.vi" Type="VI" URL="../Test/Verify HTML Tables and Digraph.vi"/>
 		</Item>
+		<Item Name="DCAF.png" Type="Document" URL="../DCAF.png"/>
 		<Item Name="GraphViz Mapping Visualizer.lvlib" Type="Library" URL="../GraphViz Mapping Visualizer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
