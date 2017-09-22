@@ -11,6 +11,7 @@
 		<Item Name="Create Digraph String.vi" Type="VI" URL="../Create Digraph String.vi"/>
 		<Item Name="Create One Column Table HTML From Channel List.vi" Type="VI" URL="../Create One Column Table HTML From Channel List.vi"/>
 		<Item Name="Create Two Column Table HTML From Channel List.vi" Type="VI" URL="../Create Two Column Table HTML From Channel List.vi"/>
+		<Item Name="Discover Node Connections Using Tag Info.vi" Type="VI" URL="../Discover Node Connections Using Tag Info.vi"/>
 		<Item Name="Format Node ID.vi" Type="VI" URL="../Format Node ID.vi"/>
 		<Item Name="Format Port ID.vi" Type="VI" URL="../Format Port ID.vi"/>
 		<Item Name="Generate GraphViz Mapping File.vi" Type="VI" URL="../Generate GraphViz Mapping File.vi"/>

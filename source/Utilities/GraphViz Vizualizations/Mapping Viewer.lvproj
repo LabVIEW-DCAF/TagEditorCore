@@ -21,6 +21,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test" Type="Folder">
+			<Item Name="Verify Digraph for Simulation Mappings.lvtest" Type="TestItem" URL="../Test/Verify Digraph for Simulation Mappings.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Verify Digraph for Simulation Mappings.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">2CC6A66D-F740-1DCB-FEB2-7DCAEB782F9A</Property>
+			</Item>
+			<Item Name="Verify Digraph for Simulation Mappings.vi" Type="VI" URL="../Test/Verify Digraph for Simulation Mappings.vi"/>
 			<Item Name="Verify HTML Tables and Digraph.lvtest" Type="TestItem" URL="../Test/Verify HTML Tables and Digraph.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Verify HTML Tables and Digraph.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">D40899E0-55BB-5B9E-3ADD-600B4A516ECD</Property>
