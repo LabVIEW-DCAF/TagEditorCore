@@ -26,6 +26,11 @@
 				<Property Name="utf.vector.test.bind" Type="Str">2CC6A66D-F740-1DCB-FEB2-7DCAEB782F9A</Property>
 			</Item>
 			<Item Name="Verify Digraph for Simulation Mappings.vi" Type="VI" URL="../Test/Verify Digraph for Simulation Mappings.vi"/>
+			<Item Name="Verify Digraph for Supported Datatypes.lvtest" Type="TestItem" URL="../Test/Verify Digraph for Supported Datatypes.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Verify Digraph for Supported Datatypes.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">B7B27E71-6D6D-3204-4D5F-C398303A3F17</Property>
+			</Item>
+			<Item Name="Verify Digraph for Supported Datatypes.vi" Type="VI" URL="../Test/Verify Digraph for Supported Datatypes.vi"/>
 			<Item Name="Verify HTML Tables and Digraph.lvtest" Type="TestItem" URL="../Test/Verify HTML Tables and Digraph.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Verify HTML Tables and Digraph.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">D40899E0-55BB-5B9E-3ADD-600B4A516ECD</Property>
