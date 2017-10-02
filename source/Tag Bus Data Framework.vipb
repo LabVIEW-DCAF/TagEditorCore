@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2017-09-13 16:02:40" Creator="Daniel" Comments="" ID="6d14eb2199b4628b33d93e64d05329cd">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2017-10-02 15:04:29" Creator="Daniel" Comments="" ID="fb41122c3092749cd3f96defbd6ac86c">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_tag_editor</Package_File_Name>
     <Library_Version>2.4.0.6</Library_Version>
@@ -37,7 +37,7 @@
     <VI_Package_Configuration_File>Tag Bus Data Framework.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description/>
+      <Description>&lt;b&gt;This package will also run the installers for GraphViz and PuTTY to your machine. If you do not want to use these programs you may choose not to install them when prompted. &lt;/b&gt; All code has been tested using Graphviz 2.38, so if you have a different version you may choose to install this version over your current version.</Description>
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
@@ -526,7 +526,7 @@
         <Path>TableAPI</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4B3B3CB4EDA8F1BD6EFF5373DA906308</GUID>
+      <GUID>15FB0A8EEBF601959E1665CF12121823</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -645,7 +645,7 @@
         <Path>Table API\Mapping Column\Define Mapping Column.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C20260496F1BC6517AE7D5D67E540019</GUID>
+      <GUID>88FBA41140D4F0C16C49714EDD27A9ED</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
