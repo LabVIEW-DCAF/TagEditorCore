@@ -10,37 +10,36 @@
 
 </Property>
 	<Item Name="Containers" Type="Folder">
-		<Item Name="SystemConfigRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/Classes/SystemConfigRepo/SystemConfigRepo.lvclass"/>
-		<Item Name="Systems.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/Classes/Systems/Systems.lvclass"/>
-		<Item Name="Targets.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/Classes/Targets/Targets.lvclass"/>
+		<Item Name="SystemConfigRepo.lvclass" Type="LVClass" URL="../Classes/SystemConfigRepo/SystemConfigRepo.lvclass"/>
+		<Item Name="Systems.lvclass" Type="LVClass" URL="../Classes/Systems/Systems.lvclass"/>
+		<Item Name="Targets.lvclass" Type="LVClass" URL="../Classes/Targets/Targets.lvclass"/>
 	</Item>
 	<Item Name="Deployment Helpers" Type="Folder">
-		<Item Name="Create new directories.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/Classes/Deployment Helpers/SCP File Transfer/Create new directories.vi"/>
-		<Item Name="SCP File Transfer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/Classes/Deployment Helpers/SCP File Transfer/SCP File Transfer.lvclass"/>
+		<Item Name="SCP File Transfer.lvclass" Type="LVClass" URL="../Classes/Deployment Helpers/SCP File Transfer/SCP File Transfer.lvclass"/>
 	</Item>
 	<Item Name="Engine Editor Nodes" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Engine Parent Editor Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/Classes/Engine Parent/Engine Parent Editor Node.lvclass"/>
-		<Item Name="Engine Mappings.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/Classes/Engine Mappings/Engine Mappings.lvclass"/>
-		<Item Name="EngineTags.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/Classes/EngineTags/EngineTags.lvclass"/>
+		<Item Name="Engine Parent Editor Node.lvclass" Type="LVClass" URL="../Classes/Engine Parent/Engine Parent Editor Node.lvclass"/>
+		<Item Name="Engine Mappings.lvclass" Type="LVClass" URL="../Classes/Engine Mappings/Engine Mappings.lvclass"/>
+		<Item Name="EngineTags.lvclass" Type="LVClass" URL="../Classes/EngineTags/EngineTags.lvclass"/>
 	</Item>
 	<Item Name="Module Editor Nodes" Type="Folder">
-		<Item Name="module editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/Classes/Module editor node/module editor node.lvclass"/>
+		<Item Name="module editor node.lvclass" Type="LVClass" URL="../Classes/Module editor node/module editor node.lvclass"/>
 	</Item>
 	<Item Name="Parent Node" Type="Folder">
-		<Item Name="TBM Configuration Node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/Classes/TBM Configuration Node/TBM Configuration Node.lvclass"/>
+		<Item Name="TBM Configuration Node.lvclass" Type="LVClass" URL="../Classes/TBM Configuration Node/TBM Configuration Node.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="add filename if missing.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/add filename if missing.vi"/>
-		<Item Name="Add status to name.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/Add status to name.vi"/>
-		<Item Name="deployment configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/deployment configuration.ctl"/>
-		<Item Name="Deployment error handling.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/Deployment error handling.vi"/>
-		<Item Name="deployment tool.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/deployment tool.vi"/>
-		<Item Name="get current vi lib.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/get current vi lib.vi"/>
-		<Item Name="Get Error Definitions.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/Get Error Definitions.vi"/>
-		<Item Name="Glyphs Status.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/Glyphs Status.ctl"/>
-		<Item Name="tokens to path.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/tokens to path.vi"/>
-		<Item Name="view deploy screen.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/view deploy screen.vi"/>
+		<Item Name="add filename if missing.vi" Type="VI" URL="../subVIs/add filename if missing.vi"/>
+		<Item Name="Add status to name.vi" Type="VI" URL="../subVIs/Add status to name.vi"/>
+		<Item Name="deployment configuration.ctl" Type="VI" URL="../subVIs/deployment configuration.ctl"/>
+		<Item Name="Deployment error handling.vi" Type="VI" URL="../subVIs/Deployment error handling.vi"/>
+		<Item Name="deployment tool.vi" Type="VI" URL="../subVIs/deployment tool.vi"/>
+		<Item Name="get current vi lib.vi" Type="VI" URL="../subVIs/get current vi lib.vi"/>
+		<Item Name="Get Error Definitions.vi" Type="VI" URL="../subVIs/Get Error Definitions.vi"/>
+		<Item Name="Glyphs Status.ctl" Type="VI" URL="../subVIs/Glyphs Status.ctl"/>
+		<Item Name="tokens to path.vi" Type="VI" URL="../subVIs/tokens to path.vi"/>
+		<Item Name="view deploy screen.vi" Type="VI" URL="../subVIs/view deploy screen.vi"/>
 	</Item>
-	<Item Name="is PC" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Configuration Editor/subVIs/is PC"/>
+	<Item Name="is PC" Type="VI" URL="../subVIs/is PC"/>
 </Library>
