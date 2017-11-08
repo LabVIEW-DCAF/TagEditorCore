@@ -36,6 +36,7 @@
 		<Item Name="Deployment error handling.vi" Type="VI" URL="../subVIs/Deployment error handling.vi"/>
 		<Item Name="deployment tool.vi" Type="VI" URL="../subVIs/deployment tool.vi"/>
 		<Item Name="get current vi lib.vi" Type="VI" URL="../subVIs/get current vi lib.vi"/>
+		<Item Name="Get Error Definitions.vi" Type="VI" URL="../subVIs/Get Error Definitions.vi"/>
 		<Item Name="Glyphs Status.ctl" Type="VI" URL="../subVIs/Glyphs Status.ctl"/>
 		<Item Name="tokens to path.vi" Type="VI" URL="../subVIs/tokens to path.vi"/>
 		<Item Name="view deploy screen.vi" Type="VI" URL="../subVIs/view deploy screen.vi"/>
