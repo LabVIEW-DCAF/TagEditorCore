@@ -23,6 +23,11 @@
 		<Item Name="Engine Mappings.lvclass" Type="LVClass" URL="../Classes/Engine Mappings/Engine Mappings.lvclass"/>
 		<Item Name="EngineTags.lvclass" Type="LVClass" URL="../Classes/EngineTags/EngineTags.lvclass"/>
 	</Item>
+	<Item Name="Missing Plugin" Type="Folder">
+		<Item Name="Missing Plugin configuration.lvclass" Type="LVClass" URL="../Classes/Missing Plugin/module/configuration/Missing Plugin configuration.lvclass"/>
+		<Item Name="Missing Plugin editor node.lvclass" Type="LVClass" URL="../Classes/Missing Plugin/editor node/Missing Plugin editor node.lvclass"/>
+		<Item Name="Missing Plugin runtime.lvclass" Type="LVClass" URL="../Classes/Missing Plugin/module/execution/Missing Plugin runtime.lvclass"/>
+	</Item>
 	<Item Name="Module Editor Nodes" Type="Folder">
 		<Item Name="module editor node.lvclass" Type="LVClass" URL="../Classes/Module editor node/module editor node.lvclass"/>
 	</Item>
