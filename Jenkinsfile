@@ -3,7 +3,6 @@
 
 //Modify the below parameters to match the values for this particular repo
 
-def utfPaths = ["source\\pldev.lvproj"]
 def vipbPaths = ["source\\Tag Bus Data Framework.vipb"]
 def lvVersion = "14.0"
 
