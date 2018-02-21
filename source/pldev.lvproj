@@ -228,40 +228,6 @@
 			<Item Name="Table Manager.lvlib" Type="Library" URL="../Table API/Table Manager.lvlib"/>
 			<Item Name="TryGetGraphVizPath.vi" Type="VI" URL="../Utilities/External tools/TryGetGraphVizPath.vi"/>
 			<Item Name="Format Numeric String.vi" Type="VI" URL="../Table API/Helpers/Format Numeric String.vi"/>
-			<Item Name="PL_System Configuration.lvclass" Type="LVClass" URL="../tests/Framework Configuration Classes/system configuration/PL_System Configuration.lvclass"/>
-			<Item Name="PL_System Configuration.ctl" Type="VI" URL="../tests/Framework Configuration Classes/system configuration/PL_System Configuration.lvclass/PL_System Configuration.ctl"/>
-			<Item Name="Write Configuration Name.vi" Type="VI" URL="../tests/Framework Configuration Classes/system configuration/Write Configuration Name.vi"/>
-			<Item Name="Write save time.vi" Type="VI" URL="../tests/Framework Configuration Classes/system configuration/Write save time.vi"/>
-			<Item Name="Write Saved Version.vi" Type="VI" URL="../tests/Framework Configuration Classes/system configuration/Write Saved Version.vi"/>
-			<Item Name="Read Configuration Name.vi" Type="VI" URL="../tests/Framework Configuration Classes/system configuration/Read Configuration Name.vi"/>
-			<Item Name="Read save time.vi" Type="VI" URL="../tests/Framework Configuration Classes/system configuration/Read save time.vi"/>
-			<Item Name="Read Saved Version.vi" Type="VI" URL="../tests/Framework Configuration Classes/system configuration/Read Saved Version.vi"/>
-			<Item Name="PL_Target Configuration.lvclass" Type="LVClass" URL="../tests/Framework Configuration Classes/target configuration/PL_Target Configuration.lvclass"/>
-			<Item Name="PL_Target Configuration.ctl" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/PL_Target Configuration.lvclass/PL_Target Configuration.ctl"/>
-			<Item Name="Write hostname.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Write hostname.vi"/>
-			<Item Name="Write name.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Write name.vi"/>
-			<Item Name="Write OS.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Write OS.vi"/>
-			<Item Name="Write Config Path.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Write Config Path.vi"/>
-			<Item Name="Write load bitfile.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Write load bitfile.vi"/>
-			<Item Name="Write RIO FPGA.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Write RIO FPGA.vi"/>
-			<Item Name="Write bitfile path.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Write bitfile path.vi"/>
-			<Item Name="Read hostname.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Read hostname.vi"/>
-			<Item Name="Read name.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Read name.vi"/>
-			<Item Name="Read OS.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Read OS.vi"/>
-			<Item Name="Read Config Path.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Read Config Path.vi"/>
-			<Item Name="Read load bitfile.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Read load bitfile.vi"/>
-			<Item Name="Read RIO FPGA.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Read RIO FPGA.vi"/>
-			<Item Name="Read bitfile path.vi" Type="VI" URL="../tests/Framework Configuration Classes/target configuration/Read bitfile path.vi"/>
-			<Item Name="TBM Configuration Node.lvclass" Type="LVClass" URL="../tests/Configuration Editor/Classes/TBM Configuration Node/TBM Configuration Node.lvclass"/>
-			<Item Name="module editor node.lvclass" Type="LVClass" URL="../tests/Configuration Editor/Classes/Module editor node/module editor node.lvclass"/>
-			<Item Name="EngineTags.lvclass" Type="LVClass" URL="../tests/Configuration Editor/Classes/EngineTags/EngineTags.lvclass"/>
-			<Item Name="Engine Parent Editor Node.lvclass" Type="LVClass" URL="../tests/Configuration Editor/Classes/Engine Parent/Engine Parent Editor Node.lvclass"/>
-			<Item Name="Targets.lvclass" Type="LVClass" URL="../tests/Configuration Editor/Classes/Targets/Targets.lvclass"/>
-			<Item Name="Systems.lvclass" Type="LVClass" URL="../tests/Configuration Editor/Classes/Systems/Systems.lvclass"/>
-			<Item Name="SystemConfigRepo.lvclass" Type="LVClass" URL="../tests/Configuration Editor/Classes/SystemConfigRepo/SystemConfigRepo.lvclass"/>
-			<Item Name="deployment configuration.ctl" Type="VI" URL="../tests/Configuration Editor/subVIs/deployment configuration.ctl"/>
-			<Item Name="deployment configuration.ctl" Type="VI" URL="../tests/Configuration Editor/Classes/TBM Configuration Node/deployment configuration.ctl"/>
-			<Item Name="view deploy screen.vi" Type="VI" URL="../tests/Configuration Editor/subVIs/view deploy screen.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="configurator" Type="EXE">
