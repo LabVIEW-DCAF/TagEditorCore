@@ -25,6 +25,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
 			<Item Name="configuration tests.lvlib" Type="Library" URL="../tests/Configuration Tests/configuration tests.lvlib"/>
+			<Item Name="SystemConfigReop Tests.lvlib" Type="Library" URL="../tests/SystemConfigRepo/SystemConfigReop Tests.lvlib"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="script includes loader.vi" Type="VI" URL="../Utilities/script includes loader.vi"/>
