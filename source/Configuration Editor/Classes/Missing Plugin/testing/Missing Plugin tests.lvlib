@@ -36,11 +36,21 @@
 	<Item Name="config crosslink test.vi" Type="VI" URL="../config crosslink test.vi"/>
 	<Item Name="config crosslink test.lvtest" Type="TestItem" URL="../config crosslink test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">Missing Plugin tests.lvlib:config crosslink test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">58F75908-C91F-55C4-908D-5425ADFC6210</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">411668B9-DB4B-D3DC-AAAB-6BBD57CB4AA0</Property>
 	</Item>
 	<Item Name="runtime to editor crosslink test.vi" Type="VI" URL="../runtime to editor crosslink test.vi"/>
 	<Item Name="runtime to editor crosslink test.lvtest" Type="TestItem" URL="../runtime to editor crosslink test.lvtest">
 		<Property Name="utf.test.bind" Type="Str">Missing Plugin tests.lvlib:runtime to editor crosslink test.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">4FBB11F8-1B83-F486-ED6A-3D4E3DF6D575</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">33DD3236-A6E0-CF06-5FF4-51E4CBD760D7</Property>
+	</Item>
+	<Item Name="To String Test.vi" Type="VI" URL="../To String Test.vi"/>
+	<Item Name="To String Test.lvtest" Type="TestItem" URL="../To String Test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">Missing Plugin tests.lvlib:To String Test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">CE8D0389-9261-C421-A0C0-DBF862B8457D</Property>
+	</Item>
+	<Item Name="From String Test.vi" Type="VI" URL="../From String Test.vi"/>
+	<Item Name="From String Test.lvtest" Type="TestItem" URL="../From String Test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">Missing Plugin tests.lvlib:From String Test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">58A51F18-BEDA-CA18-C960-4F516A22CBB6</Property>
 	</Item>
 </Library>
