@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2018-02-20 17:00:01" Creator="Daniel" Comments="" ID="bcc0ea9e3480f039137f12516bb6a0a1">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2018-02-28 11:40:47" Creator="Daniel" Comments="" ID="a60cc287130e2d4a84c3ecd4c0df8c86">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_tag_editor</Package_File_Name>
-    <Library_Version>2.4.1.6</Library_Version>
+    <Library_Version>2.4.2.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\core</Library_Output_Folder>
@@ -526,7 +526,7 @@
         <Path>TableAPI</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDA25FF870A8F700B75662449B181ACC</GUID>
+      <GUID>6299D860B1D1BE47C46A78347A48DE8E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -645,7 +645,7 @@
         <Path>Table API\Mapping Column\Define Mapping Column.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F984EC204AB3A5EF858F7E2B0E51EE50</GUID>
+      <GUID>AFB8196A3A42F3A902E523CD4D96FF1B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
