@@ -65,4 +65,9 @@ Control Module: A fixed channel configuration is invalid
 <nierror code="538269">
 A requested target could not be located
 </nierror>
+<nierror code="538270">
+Cannot Flatten Missing Plugin configuration.lvclass
+
+Possible Reasons: You are trying to save a configuration which contains a module that did not load.
+</nierror>
 </nidocument>
