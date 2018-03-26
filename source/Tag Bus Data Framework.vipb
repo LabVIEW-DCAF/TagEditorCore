@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2018-03-09 17:20:48" Creator="Daniel" Comments="" ID="45289e8f1eefaba3808078b6750c6680">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-23 19:04:50" Modified_Date="2018-03-23 20:30:12" Creator="Daniel" Comments="" ID="e52bb8f8cbfb6c770b223df12c4efbc7">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_tag_editor</Package_File_Name>
     <Library_Version>2.4.1.6</Library_Version>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_config_editor &gt;=2.2.1.120</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dcaf_execution_interface &gt;=2.3.0.16</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_config_editor &gt;=2.3.0.6</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_dcaf_execution_interface &gt;=2.3.0.17</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_dcaf_progress_bar &gt;=1.0.0.24</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_dcaf_ui_toolkit &gt;=1.0.0.124</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_fp_layout &gt;=1.1.1.40</Additional_External_Dependencies>
@@ -42,7 +42,8 @@
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/TBDFramework/TBDCore</URL>
       <Release_Notes>Editor can now open configurations with missing modules.
-Added Abstract methods for Inport Export functionality</Release_Notes>
+Added Abstract methods for Inport Export functionality
+Abstract Methods to export to CSV in the modules were created. </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -527,7 +528,7 @@ Added Abstract methods for Inport Export functionality</Release_Notes>
         <Path>TableAPI</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>783F505A7783D63360A9B7F4007142F0</GUID>
+      <GUID>88E1CCF7EE9CFC4B22E0CB7BA17D9217</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -646,7 +647,7 @@ Added Abstract methods for Inport Export functionality</Release_Notes>
         <Path>Table API\Mapping Column\Define Mapping Column.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C18544B5E408D011B71F2AEEE634131</GUID>
+      <GUID>87FD1A7817BE6E3A20DD3CE6834E2314</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
