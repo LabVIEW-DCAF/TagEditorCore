@@ -16,3 +16,5 @@
 *.lvlps
 
 !/Style Guidelines/**/*
+source/cache.cdat
+source/cache.cdat

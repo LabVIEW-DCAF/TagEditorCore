@@ -13,6 +13,9 @@
 		<Item Name="MoveMessage.ctl" Type="VI" URL="../Controls/MoveMessage.ctl"/>
 		<Item Name="StateCluster.ctl" Type="VI" URL="../Controls/StateCluster.ctl"/>
 	</Item>
+	<Item Name="INI Configuration" Type="Folder">
+		<Item Name="DCAF INI.lvlib" Type="Library" URL="../INI Configuration/DCAF INI.lvlib"/>
+	</Item>
 	<Item Name="subVI" Type="Folder">
 		<Item Name="dialog" Type="Folder">
 			<Item Name="dialog edit search paths.vi" Type="VI" URL="../subVI/dialog edit search paths.vi"/>
