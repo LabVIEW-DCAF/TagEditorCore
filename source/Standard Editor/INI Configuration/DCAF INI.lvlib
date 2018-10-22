@@ -6,4 +6,21 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Accessors" Type="Folder">
+		<Item Name="Templates" Type="Folder">
+			<Item Name="READ TOKEN.vit" Type="VI" URL="../READ TOKEN.vit"/>
+			<Item Name="WRITE TOKEN.vit" Type="VI" URL="../WRITE TOKEN.vit"/>
+		</Item>
+		<Item Name="Read CurrentPCFG.vi" Type="VI" URL="../Read CurrentPCFG.vi"/>
+		<Item Name="Write CurrentPCFG.vi" Type="VI" URL="../Write CurrentPCFG.vi"/>
+	</Item>
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="enum_DCAF INI FGV Action.ctl" Type="VI" URL="../enum_DCAF INI FGV Action.ctl"/>
+		<Item Name="fgv_DCAF INI Refnum.vi" Type="VI" URL="../fgv_DCAF INI Refnum.vi"/>
+		<Item Name="Get INI Refnum.vi" Type="VI" URL="../Get INI Refnum.vi"/>
+		<Item Name="Set INI Refnum.vi" Type="VI" URL="../Set INI Refnum.vi"/>
+	</Item>
+	<Item Name="Close DCAF INI.vi" Type="VI" URL="../Close DCAF INI.vi"/>
+	<Item Name="Initialize DCAF INI.vi" Type="VI" URL="../Initialize DCAF INI.vi"/>
 </Library>
